@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
+<title>Demo | Business English</title>
+<style>
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    body > * > * {
+        height: 100%;
+    }
+    body {
+        margin: 0;
+        background-color: white;
+    }
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: black;
+        }
+    }
+</style>
 <body>
-
 <script src="https://ccmjs.github.io/ccm/ccm.js"></script>
 <script>
     ccm.start("components/ccm.app_collection.js", {
@@ -61,6 +79,36 @@
                         "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "presentsimple_vs_presentprogressive_cloze"]]
                     },
                 ]
+            },
+            {
+                "title": "Telephoning",
+                "entries": [
+                    {
+                        "title": "Tenses Quick Quiz",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": ["ccm.start", "components/ccm.quick_decide.js", ["ccm.get", "./demo_resources/resources.js", "tenses_quick_quiz"]]
+                    },
+                    {
+                        "title": "Past Simple vs Continuous",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "pastsimple_vs_continuous"]]
+                    },
+                    {
+                        "title": "Quick Decision Quiz",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": ["ccm.start", "components/ccm.quick_decide.js", ["ccm.get", "./demo_resources/resources.js", "quick_decision_quiz"]]
+                    },
+                    {
+                        "title": "Present Perfect Fill In",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "present_perfect_fill_in"]]
+                    },
+                    {
+                        "title": "Conversation",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "conversation"]]
+                    },
+                ]
             }
         ],
 
@@ -68,36 +116,3 @@
     }, document.body);
 </script>
 
-
-
-
-
-
-
-<!--<!DOCTYPE html>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="Tea Kless <tea.kless@web.de> 2023">
-<meta name="author" content="André Kless <andre.kless@web.de> 2022">
-<meta name="license" content="The MIT License (MIT)">
-<title>Demo | App-Sammlung</title>
-<style>
-    html, body {
-        width: 100%;
-        height: 100%;
-    }
-    body > * > * {
-        height: 100%;
-    }
-    body {
-        margin: 0;
-        background-color: white;
-    }
-    @media (prefers-color-scheme: dark) {
-        body {
-            background-color: black;
-        }
-    }
-</style>
-<script src="https://ccmjs.github.io/tkless-components/app_collection/versions/ccm.app_collection-3.0.0.min.js"></script>
-<ccm-app_collection-3-0-0 src='["ccm.load","https://ccmjs.github.io/tkless-components/app_collection/resources/resources.min.mjs#demo"]'></ccm-app_collection-3-0-0>-->
