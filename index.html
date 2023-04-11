@@ -2,9 +2,6 @@
 <meta charset="UTF-8">
 <body>
 
-<div id="appcollection">
-</div>
-
 <script src="https://ccmjs.github.io/ccm/ccm.js"></script>
 <script>
     ccm.start("components/ccm.app_collection.js", {
@@ -16,17 +13,59 @@
                     {
                         "title": "Present Simple",
                         "icon": "icons/cloze_icon.svg",
-                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.1.js", ["ccm.get", "./demo_resources/resources.js", "presentsimple"]]
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.1.js", ["ccm.get", "./demo_resources/resources.js", "present_simple"]]
                     },
                     {
                         "title": "Present Progressive",
                         "icon": "icons/cloze_icon.svg",
-                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.1.js", ["ccm.get", "./demo_resources/resources.js", "presentprogressive"]]
-                    }
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.1.js", ["ccm.get", "./demo_resources/resources.js", "present_progressive"]]
+                    },
+                    {
+                        "title": "Present Simple vs Present Progressive",
+                        "icon": "icons/quiz_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.quiz-4.0.3.js", ["ccm.get", "./demo_resources/resources.js", "presentsimple_vs_presentprogressive_quiz"]]
+                    },
+                    {
+                        "title": "Mixed Exercise",
+                        "icon": "icons/quiz_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.quiz-4.0.3.js", ["ccm.get", "./demo_resources/resources.js", "mixed_exercise"]]
+                    },
+                    {
+                        "title": "Listening and Writing",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "listening_and_writing"]]
+                    },
+                    {
+                        "title": "Pronounciation in Introductions",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "pronounciation_in_introductions"]]
+                    },
+                ],
+            },
+            {
+                "title": "Describing What you Do",
+                "entries": [
+                    {
+                        "title": "What do you do?",
+                        "icon": "icons/quiz_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.quiz-4.0.3.js", ["ccm.get", "./demo_resources/resources.js", "what_do_you_do"]]
+                    },
+                    {
+                        "title": "What are you doing?",
+                        "icon": "icons/quiz_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.quiz-4.0.3.js", ["ccm.get", "./demo_resources/resources.js", "what_are_you_doing"]]
+                    },
+                    {
+                        "title": "Present Simple vs Present Progressive",
+                        "icon": "icons/cloze_icon.svg",
+                        "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.get", "./demo_resources/resources.js", "presentsimple_vs_presentprogressive_cloze"]]
+                    },
                 ]
             }
         ],
-    }, document.querySelector("#appcollection"));
+
+
+    }, document.body);
 </script>
 
 
