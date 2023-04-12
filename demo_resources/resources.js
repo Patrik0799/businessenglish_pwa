@@ -3309,5 +3309,4219 @@ ccm.files[ 'resources.js' ] = {
         "text": {
             "inner": "<p><span style=\"color: rgb(0, 0, 0);\">Remember that the goal of any presentation is to communicate a message. The nature of the message may be technical, economic, scientific, motivational, or otherwise – but of key importance is always the communication between a speaker and listener(s).&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Therefore, communicating well is the key to a successful presentation and making mistakes in grammar is not an unforgivable problem. Remember that most often the audience is made up of people who are hoping that you succeed. They want to be recipients of, or even participants in, a successful presentation. This is true of native English and non-native English speakers alike.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">To communicate your ideas successfully a few constructions and tenses are needed. Below is a list of the tenses and the parts of the presentation they most often occur in:</span></p><p><strong style=\"color: rgb(0, 0, 0);\"><u>Introduction:</u></strong><span style=\"color: rgb(0, 0, 0);\"> Most often uses the present simple for stating facts about yourself and what you do. Additionally, the going to or will future is used to present an outline of your agenda for the presentation (Today, I am going to talk about&nbsp; or Today, we will hear about).</span></p><p><strong style=\"color: rgb(0, 0, 0);\"><u>Body:</u></strong><span style=\"color: rgb(0, 0, 0);\"> The tenses used in the body of a presentation vary according to the subject being presented. To give an update about past situations use the past tense: the simple past (we sold), past progressive (we were selling), the present perfect (we have sold), or present perfect continuous (we have been selling).&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">To discuss upcoming plans use the going to future (We’re going to introduce a new product), for arrangements use the present continuous/v+ing form (We’re moving to a new office in June), for certain actions in the future use will or the simple present tense (with timetables “The plane leaves at 10am” and schedules “The AGM is always on 1 June”).</span></p><p><span style=\"color: rgb(0, 0, 0);\">To discuss things which are hypothetical or deal with probability use conditionals (“if”-sentences).</span></p><p><span style=\"color: rgb(0, 0, 0);\">To give directions to the audience you should use the imperative (infinitive) form: “Note the changes in the graph”.&nbsp;</span></p><p><strong style=\"color: rgb(0, 0, 0);\"><u>Summary/Conclusion:</u></strong><span style=\"color: rgb(0, 0, 0);\"> The tenses used in the conclusion vary. To recap what has been discussed, use the present perfect tense. To discuss what is planned for the future use the will, v+ ing, or going to future. To remind people of the key message from the meeting use the imperative tense: “Remember – successful communication is key.”</span></p><h4><br></h4><h4><strong><span class=\"ql-cursor\">﻿﻿</span>Click on the link below and read chapter 10 pages 103-114 for more information about tenses and sample sentences used in these parts. After reading answer the questions below.</strong></h4><p><a href=\"https://link.springer.com/book/10.1007/978-3-8349-9237-6\" target=\"_blank\">https://link.springer.com/book/10.1007/978-3-8349-9237-6</a></p><ol><li>Contractions (e.g. isn’t) sound more *informal* in a presentation, while long forms (e.g. is not) can be used for *formal presentations*.</li><li>A polite way to express a desire during your presentation is by using the phrase: *I'd like*.</li><li>Signposting/sequencing your talk involves using the future tenses. In outlining the order of your talk use *I will* (to be more formal), and *I'll* (to be less formal).</li><li>To make the organization of your presentation sound more flexible you can use the *present continuous* tense (e.g. I’m planning to…).</li><li>Although the word is somewhat outdated, to give a more formal presentation replace the word “will” with *shall*.</li><li>Describing your company usually includes presenting its history – talk about historical events in the *past simple* tense, recent developments in the *present perfect* tense, and the current status in the *simple present* tense.</li><li>Use the *past simple* tense to describe activities that finished in the past.&nbsp;</li><li>Use the *simple present* or *present continuous* to describe activities that you are currently do.</li><li>Activities that began in the past and are still ongoing are described in the *present perfect* tense.&nbsp;</li><li>Either the *future simple* or *future continuous* can be used, but not the present continuous, to refer to future parts of your presentation (“I will present” or “I'll be presenting”. <em>NOT “</em>I am presenting”).</li><li>The use of the modals *should* or *would* &nbsp;help your talk seem talk less strong or you more humble as you speak.&nbsp;</li><li>The use of the modals *may*, *might*, *could* make a subject sound less certain.</li></ol><p>For further reading and phrases for presenting on a wide variety of subjects continue reading in the link: chapters 18, 19, 20 pages 209-235.</p>"
         }
+    },
+
+    "small_talk_questions": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681310087301X0768600702017721"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">Conversation before and during the course of a meeting is extremely important. Particularly because most English-speaking countries place great value on this and conduct small talk anywhere, e.g. in the elevator, in a queque, waiting for an appointment, during a break in a meeting. The important part of small talk is to be able to make it a series of quick exchanges, rather than going into detail at the beginning of the conversation. However, being able to come up with standard questions and answer is an important way to make a good first impression.</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Complete the following small talk questions with the best form of the given verb.</strong></p><ol><li>What *are* you *working* (work) on now?</li><li>How *is* your new position *going* (go)?</li><li>*Have* you ever *been* (be) to one of these meetings before?</li><li>How *did* your presentation *go* (go) last week?</li><li>Which section of the meeting *are* you *presenting* (present) in?</li><li>What *have* you *been* (be) up to since I last saw you?</li><li>Are you *going* (go) to the conference next week?</li><li>How are things *going* (go) with your new boss?</li><li>Would you like *to join* (join) me for lunch?</li><li>Excuse me, *is* anyone *sitting* (sit) in the seat next to you?</li></ol>"
+        }
+    },
+
+    "agreeing_and_disagreeing": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681310137334X4732720665965593",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Agreeing and Disagreeing <p>Agreeing and disagreeing is a key part of participating in a meeting. Agreeing with someone is easily done but disagreeing is more difficult. Disagreeing in English is done in a more indirect way (at least at first) by using “softening” phrases, such as:  I’m afraid, Sorry but, I don’t really, I just, I don’t quite.</p> <p>Additionally, it is customary to give a reason why you disagree.  Therefore, “I don’t agree with your sales figures” becomes “Sorry, but I just can’t agree with your sales figures. July’s figures seem low”.</p> <p>Instructions: Choose the sentence that fulfills the instruction.</p>",
+                "input": "radio",
+                "description": "Agreeing strongly",
+                "answers": [
+                    {
+                        "text": "I accept",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I agree completely",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Agreeing partially",
+                "answers": [
+                    {
+                        "text": "I couldn’t agree more",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I tend to agree",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Disagreeing diplomatically",
+                "answers": [
+                    {
+                        "text": "I take your point, but",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I’m sorry but what you’re saying is not acceptable",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Disagreeing strongly",
+                "answers": [
+                    {
+                        "text": "We would find this difficult to accept",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "With respect, the delivery terms are too low",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Agreeing tentatively",
+                "answers": [
+                    {
+                        "text": "I am inclined to agree with you",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "We see eye to eye",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Disagreeing partially",
+                "answers": [
+                    {
+                        "text": "I’m with you to a point, but",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I’m not convinced",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Disagreeing fully",
+                "answers": [
+                    {
+                        "text": "I really don’t agree with you",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I don’t really agree with you",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the sentence that fulfills the instruction.",
+                "input": "radio",
+                "description": "Agreeing fully",
+                "answers": [
+                    {
+                        "text": "I couldn’t agree with you more",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I hardly could agree",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": true,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "Previous",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "conditionals": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681310260794X2993802787031561"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">Conditional clauses are statements used to convey the likelihood of an event and convey nuances. There are several types that convey their meaning by how they are formed:</span><strong style=\"color: rgb(0, 0, 0);\">&nbsp;</strong></p><p><strong style=\"color: rgb(0, 0, 0);\">Conditional 0: </strong><span style=\"color: rgb(0, 0, 0);\">facts or events that are always or generally true</span></p><p><span style=\"color: rgb(0, 0, 0);\">Form: If +subject + verb in simple present, subject + verb in simple present.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Example: If business is going well, we are happy.&nbsp;&nbsp;</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Conditional I</strong><span style=\"color: rgb(0, 0, 0);\">: likely events&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Form: If +subject + verb in simple present, subject + will + action.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Example: If I study hard, I will pass the test.&nbsp;&nbsp;</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Conditional II:</strong><span style=\"color: rgb(0, 0, 0);\"> unlikely events&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Form: If +subject + verb in simple past, subject + would + action.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Example: If I studied hard, I would pass the test.&nbsp;&nbsp;</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Conditional III</strong><span style=\"color: rgb(0, 0, 0);\">: past events no longer possible</span></p><p><span style=\"color: rgb(0, 0, 0);\">Form: If +subject + verb in past perfect, subject + would + action in present perfect.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Example: If I had studied hard, I would have passed the test.&nbsp;&nbsp;</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Fill in the blanks with the right form of the conditional phrases.</strong></p><ol><li>If the sales are good, I *get* (get) a bonus. (conditional 0)</li><li>If the sales are good, I *will get* (get) a bonus. (conditional I)</li><li>If the sales were good, I *would get* (get) a bonus. (conditional II)</li><li>If the sales had been good, I *would have gotten* (get) a bonus. (conditional III)</li><li>If anyone calls, say I *am* (be) in a meeting.</li><li>If we increased our prices, we *would get* (get) more money.</li><li>If you *speak* (speak) louder, then I *can* (can) hear you.</li><li>If we don’t reach an agreement, they *will cancel* (cancel) the contract.</li><li>If we *had answered* (answer) the complaint sooner, we would not have lost the customer.&nbsp;</li><li>If we all agree with this decision, then we *will end* (end) this meeting.</li><li>If I agreed with you, what *would you give* (you give) me in return?</li><li>We *could have saved* (save) the deal, if we had known about this earlier.</li><li>If you had applied for the job, I *would have given* (give) it to you.&nbsp;</li><li>If we did a customer survey, we *would have* (have) more answers.</li></ol>"
+        }
+    },
+
+    "countable_and_uncountable_nouns": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681310438132X24392359332261204"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">In English some nouns are “countable” while others are “uncountable”.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Countable nouns are those that have both a singular and plural form. These include people, objects, and measurements, e.g. 5 students, 12 books, and 150 kilometers.&nbsp; Uncountable nouns are materials, substances, ideas, activities,  feelings, or things that cannot be counted, e.g. water, progress, air, or money. In order to count these nouns, they must be divided into units, e.g. water is measured in liters, progress in terms of goals, and money in euros or other monetary units. Therefore, uncountable nouns require a singular verb, e.g. progress on the project is quite slow.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">When referring to countable and uncountable nouns </span><em style=\"color: rgb(0, 0, 0);\">determiners</em><span style=\"color: rgb(0, 0, 0);\"> are used.&nbsp; Countable nouns can be referred to using: a, the, some, many, a lot, few or a few. Uncountable nouns are referred to with: some, much, little, a little, or a lot.</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Fill in the blank with the one word in the brackets that is correct.&nbsp;</strong></p><ol><li>The coffee machine is making *a* (a/the) strange noise.</li><li>We have had too *many* (many/much) products returned.</li><li>We have done *a little* (a few/a little) advertising.</li><li>This course has been *much* (many/much) work.</li><li>We need *the* (a/the) customer’s telephone number.</li><li>The new machine is *much* (many/much) faster.</li><li>*Some* (Some/any) countries in Africa have plentiful supplies of precious metals.</li><li>There is not *much* (much/few) space in my office.</li><li>We have to finish *the* (the/a) Q3 sales report this afternoon.</li><li>We have done *much* (much/a few) research about market availability.&nbsp;</li><li>I just got *an* (an/the) email from someone I do not know.&nbsp;</li><li>Fortunately, I just got *the* (an/the) email I have been waiting for.</li><li>Sorry, but we need *some* (a/some) more time to finish this.</li><li>Our company does not have *many* (much/many) employees.</li><li>The customer gave me *a few* (a few/a little) tips.&nbsp;</li><li>We only have *a few* (a few/a little) candidates left so we had better find someone for the position.</li><li>I gave the customer *a little* (a few/a little) advice.&nbsp;</li><li>There is *a lot* (many/a lot) of information on their website.</li><li>&nbsp;Did they ask *many* (much/many) ask questions after your presentation?</li><li>The company is in *much* (much/many) financial trouble.</li><li>There are *many* (much/many) problems that need to be solved.</li><li>There are *a few* (a little/a few) new energy providers.</li><li>We only have *a little* (a little/not many) time left, so we had better hurry.</li><li>Japan does not have *many* (much/many) natural resources.</li><li>Our product quality is excellent. We have not had *many* (many/ much) complaints about it.&nbsp;</li></ol>"
+        }
+    },
+
+    "writing_dates_exercise": {
+        "onfinish": {
+            "alert": "Saved!",
+            "login": true,
+            "store": true
+        },
+        "data": {
+            "login": true,
+            "store": [
+                "ccm.store",
+                {
+                    "name": "ws_result_data",
+                    "url": "https://ccm2.inf.h-brs.de"
+                }
+            ],
+            "user": true,
+            "key": "1681310768970X48396677405282396"
+        },
+        "user": [
+            "ccm.instance",
+            "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
+            {
+                "realm": "guest",
+                "title": "Guest Mode: Please enter any username"
+            }
+        ],
+        "questions": [
+            {
+                "text": "What is the correct format?",
+                "answers": [
+                    {
+                        "text": "Nov 2018-2019",
+                        "correct": false
+                    },
+                    {
+                        "text": "Nov 2018-Apr 2019",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for a current job?",
+                "answers": [
+                    {
+                        "text": "From 2018-2019",
+                        "correct": false
+                    },
+                    {
+                        "text": "2010-Present",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format?",
+                "answers": [
+                    {
+                        "text": "2010-2019",
+                        "correct": true
+                    },
+                    {
+                        "text": "2010/now",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for past employment?",
+                "answers": [
+                    {
+                        "text": "From 2012 to 2013",
+                        "correct": false
+                    },
+                    {
+                        "text": "2012-2013",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for current employment?",
+                "answers": [
+                    {
+                        "text": "Since 2015 to date",
+                        "correct": false
+                    },
+                    {
+                        "text": "2015-present",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for current employment?",
+                "answers": [
+                    {
+                        "text": "2011 to current day",
+                        "correct": false
+                    },
+                    {
+                        "text": "2011-present",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for 3-month employment?",
+                "answers": [
+                    {
+                        "text": "2015-2016",
+                        "correct": false
+                    },
+                    {
+                        "text": "Nov 2015-Jan 2016",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for graduation?",
+                "answers": [
+                    {
+                        "text": "17th July, 2023",
+                        "correct": false
+                    },
+                    {
+                        "text": "2023",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the correct format for date of birth?",
+                "answers": [
+                    {
+                        "text": "23 Nov 2010",
+                        "correct": true
+                    },
+                    {
+                        "text": "23rd of Nov 2010",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "What is the preferred format of dates in the US?",
+                "answers": [
+                    {
+                        "text": "day month, year",
+                        "correct": false
+                    },
+                    {
+                        "text": "month day, year",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "What is the preferred format of dates in UK?",
+                "answers": [
+                    {
+                        "text": "day month, year",
+                        "correct": true
+                    },
+                    {
+                        "text": "month day, year",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "What is the most easily understood format for dates?",
+                "answers": [
+                    {
+                        "text": "28 Jan 2018",
+                        "correct": true
+                    },
+                    {
+                        "text": "2018 Jan 28",
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "feedback": true,
+        "wait": 500,
+        "limit": 5000,
+        "interval": 1,
+        "html": {
+            "main": {
+                "id": "main",
+                "inner": [
+                    {
+                        "id": "timer",
+                        "inner": [
+                            {
+                                "tag": "a",
+                                "id": "min",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "sec",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "mil",
+                                "inner": "000"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question"
+                    },
+                    {
+                        "id": "answers"
+                    }
+                ]
+            },
+            "answer": {
+                "tag": "button",
+                "id": "answer-%nr%",
+                "class": "answer",
+                "onclick": "%onclick%",
+                "inner": "%answer%"
+            }
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quick_decide/resources/default.css"
+        ]
+    },
+
+    "personal_details": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681311649987X0782086657813943",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "“CV” or “RESUME” should appear at the top of your paper.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Your name and personal details should appear at the top of your document.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Personal details should be a large and prominent section.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Your name should be in larger print than the rest of your document.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Using a nickname in your personal details is acceptable.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Age, gender, race, marital status, nationality must be included in personal details. ",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Details should include name, address, all emails, all phone numbers. ",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Details should include name, address, current email, reliable phone number(s).",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Work emails or preferred over personal email addresses. ",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Surname means family name. ",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Given name means family name.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Signing a cover letter with Mr or Ms can avoid confusion about gender.",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Instructions: Select whether a statement is true or false.",
+                "input": "radio",
+                "description": "Providing a personal website or LinkedIn address is beneficial. ",
+                "answers": [
+                    {
+                        "text": true,
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": false,
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "Previous",
+            "submit": "Submit",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "education_section": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681311741394X9688238291903235"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><strong style=\"color: rgb(0, 0, 0);\">Fill in the correct word from the brackets.</strong></p><ol><li>Presenting your education on your CV or resume properly is important. During studies or directly after graduation the Education section is placed *before* (before/after) the Experience section.</li><li>After studies have been completed or you have been working for a while, the Education section is placed *after* (before/after) the Experience section.&nbsp;</li><li>The Education section of a CV or a resume, lists degrees according to a reverse chronological order with the *most recent* (oldest/most recent) degree listed first.</li><li>It is *unnecessary* (necessary/unnecessary) to list all schools attended once you have advanced to the level beyond that school.</li><li>In listing your university/college include: degree, name of institution, location, *year* (complete date/year) of graduation, special studies such as major or thesis, honors.&nbsp;</li><li>In listing your university or college degree you *may* (may/may not) add a link to special items, such as: institution’s website, link to thesis…</li><li>Special activities, awards, internships, exchange programs *should* (should/should not) be included in the educational section.</li><li>Grade point average and honors (cum laude, etc.) *may* (may/must) be included.&nbsp;</li><li>If you have not yet graduated, you *may* (may/may not) list your current education with an intended date of graduation.</li><li>If you attended courses for a degree but did not complete it you *may* (may/may not) list the coursework done.&nbsp;</li><li>If attending foreign programs, it is *advisable* (advisable/unadvisable) to provide a brief equivalent of a term in brackets, e.g., current grade 1,4 (equivalent to an “A”).</li></ol>"
+        }
+    },
+
+    "verbs_and_prepositions": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681311810098X5003242669490071",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "In English a verb and preposition are combined to convey specific meaning. However, verbs can be followed by different prepositions, an object then a preposition, or sometimes by no preposition.  <p>The rules and reasons for which preposition is needed and when may not be clear. Therefore, it is best to learn the verb + preposition combinations as you encounter them. Reading is a good way to learn these  – as the combination can be seen and the meaning understood. Listening also helps to learn verb + preposition combinations, but it is best to repeat aloud the combination you hear and then practice it until it is part of your skills.</p> <p>Instructions: Click on the preposition needed to complete the sentence.</p>",
+                "input": "radio",
+                "description": "If you want something, just ask _______________ it.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "for",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "We have to complain _______________ the delay in starting the meeting.",
+                "answers": [
+                    {
+                        "text": "about",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "Something strange just happened _______________ me.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "with",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I need to apologize _______________ the customer for the incorrect invoice.",
+                "answers": [
+                    {
+                        "text": "with",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "to",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "Research has proven that stress leads _______________  life threatening illnesses.",
+                "answers": [
+                    {
+                        "text": "for",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "to",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "You must submit your expense receipts; I insist _______________ it.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "on",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I sympathize _______________ your problem, but I am not able to help you.",
+                "answers": [
+                    {
+                        "text": "with",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I will be on vacation for the next two weeks, please take care _______________ any emergencies in my absence.",
+                "answers": [
+                    {
+                        "text": "for",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "of",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "After three hours of discussion, we were still not able to decide_______________ a solution.",
+                "answers": [
+                    {
+                        "text": "about",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "on",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "What position are you applying _______________?",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "for",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "Sorry, I didn’t know_______________  your trouble with the service representative.",
+                "answers": [
+                    {
+                        "text": "of",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "about",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I took care_______________  250 customer complaints every day.",
+                "answers": [
+                    {
+                        "text": "for",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "of",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "Team members have to cooperate _______________  each other.",
+                "answers": [
+                    {
+                        "text": "in",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "with",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "What does your decision depend _______________?",
+                "answers": [
+                    {
+                        "text": "on",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I really cannot agree_______________  your decision.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "with",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I think that we should complain _______________  the Professor about the exam.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "about",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I am writing _______________ a problem that I had with your product.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "about",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I was responsible _______________ preparing the company’s financial reports.",
+                "answers": [
+                    {
+                        "text": "for",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "with",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "We invested € 20million _______________ improving our IT equipment.",
+                "answers": [
+                    {
+                        "text": "on",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "in",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I was responsible _______________ coordinating several teams. ",
+                "answers": [
+                    {
+                        "text": "about",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "for",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I headed the team that translated our company reports _______________ a variety of languages.",
+                "answers": [
+                    {
+                        "text": "in",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "into",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "Fortunately, I was able to specialize _______________ providing a niche product.",
+                "answers": [
+                    {
+                        "text": "in",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "on",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I competed professionally _______________  other salespeople in my region.",
+                "answers": [
+                    {
+                        "text": "against",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "to",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "We cannot blame the customer _______________ the problem.",
+                "answers": [
+                    {
+                        "text": "with",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "for",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I reported directly _______________ the Board of Directors.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "at",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "My responsibilities included finding answers _______________ the customers’ questions.",
+                "answers": [
+                    {
+                        "text": "to",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "for",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the preposition needed to complete the sentence.",
+                "input": "radio",
+                "description": "I headed _______________ a project focused on community outreach.",
+                "answers": [
+                    {
+                        "text": "up",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "on",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "experience_and_skill_section": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681311946334X9991391341993723",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Presenting your work experience well is essential. It must be accurate, correctly written, but also be interesting enough to capture the reader’s eye. Here’s a few tips to do this successfully.  <p>1. Use a separate section for each work experience.</p> <p>2. Use key words that appear in the reader’s job ad/description, company website, or key words for the sector you are applying to.</p> <p>3. Use action-oriented words, such as: created, established, headed, organized, oversaw, sparked, etc. instead of passive terms, such as: was tasked with, was able to complete, made, etc.</p> <p>4. Avoid using the personal pronoun “I” when it appears before a verb, e.g. “Devised a new method of data management.” “Sparked customer interest” “Managed a budget of €2m”</p> <p>5. Skills can be listed in a separate section, which is similarly arranged to the Experience section. This means that it lists the types of skills in separate groups, uses key action-oriented words, gives dates and details, and avoids the use of pronouns when possible.</p> <p> </p> <p>Instructions: Choose the better of the given options</p>",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I managed a department of seventeen people",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Managed a department of seventeen people",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Created key client advertising campaign",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I oversaw the creating of client ad campaigns",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "We established an online shop",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Established an online shop",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Was tasked with answering customers’ emails",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Managed customer correspondence",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Originated advertising campaign that sparked a 50% rise in sales",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I ran an advertising campaign that increased customer sales",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I was responsible for a budget of approximately 1m euros",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Managed a budget of over 1m euros",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "We did research into the area of AI and aging.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Conducted research establishing new link between AI and delayed aging process.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I played soccer for 10 years",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Competed in semi-professional soccer 2000-2010",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Languages: German-native   English-advanced working proficiency (CAE Cambridge Certificate 2010)",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "English – 10 years  German-native  French – beginner",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Currently completing certification in Google AdWords",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Google AdWords certification (pending)\t\t2019  ",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I will be receiving my Phd in August 2019",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Phd, University Bonn Rhein Sieg \t\t\t2019",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Choose the better option",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Conducting market research ",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I am currently helping to conduct market research",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "Previous",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "adjectives_and_prepositions": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681312042321X061179369233872016"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">In English adjectives sometimes have certain prepositions following them. This is done to convey specific meaning.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Like verb + prepositions, the rules and reasons for which preposition follows an adjective can be puzzling. For example, when actions are toward another person, the preposition “to” follows the adjective, e.g. “nice to meet you”. When an adjective + preposition is followed by a verb, the -ing form of the verb is used, e.g. “Are you serious about transferring to a different office?” Therefore, it is best to learn these combinations as you encounter them. Reading is a good way to learn these as is listening and repeating aloud the combination you hear and then practicing it until it is part of your skills.</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Fill in the blank with the correct word in brackets</strong></p><ol><li>As a Human Resources manager, I was very good *at* (at/with) handling conflicts.</li><li>I am responsible *for* (to/for) all company transportation and logistics activities.</li><li>I am proud *of* (about/of) my ability to balance my work and private life.&nbsp;</li><li>As a customer service representative, I was used *to* (with/to) hearing complaints.</li><li>I am not afraid *of* (of/for) problems, I see them as merely challenges.</li><li>Personally, I am skilled *at* (with/at) coaching new employees.</li><li>Our results were different *from* (to/from) those of others in our sector.</li><li>Our company is famous *for* (for/with) its cutting edge technology.</li><li>This information is relevant *to* (about/to) understanding my employment history.</li><li>She is very enthusiastic *about* (with/about) finishing projects ahead of deadline and under budget.</li><li>The company is very involved *in* (with/in) finding viable sustainable energy solutions.</li><li>My boss would say that he is very satisfied *with* (with/about) my work.&nbsp;</li><li>Colleagues are rarely disappointed *by* (at/by) my performance.</li><li>Having thought *about* (about/after) your offer, I will gladly accept.</li><li>If I am angry *about* (about/with) something, it never lasts long.</li><li>Networking is very useful *for* (for/to) finding new jobs.</li><li>My strong point is that I am always up *for* (with/for) facing new challenges.</li><li>As a well-known team player, I am very popular *with* (to/with) colleagues.</li><li>Our new online shop has been very helpful *in* (at/in) obtaining customer metrics.</li><li>I have always been fascinated *by* (by/about) your company’s history.</li><li>Actually, you will find that I am someone who is full *of* (with/of) energy in the morning.</li><li>This candidate is rich *in* (in/with) experience, but not in credentials.</li><li>We should be serious *about* (about/to) hiring this candidate.</li><li>The many languages this candidate speaks can be useful *for* (for/in) greeting foreign customers.</li><li>I am very curious *to* (in/to) know about the benefits you offer.</li></ol>"
+        }
+    },
+
+    "questions_in_interviews": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681312204623X3386710155801156"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><strong style=\"color: rgb(0, 0, 0);\">Section VIII INTERVIEWING – QUESTIONS</strong></p><p><span style=\"color: rgb(0, 0, 0);\">There are several types of questions used in English, which might also be used in an interview.&nbsp;</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Yes or No</strong><span style=\"color: rgb(0, 0, 0);\"> – used to elicit positive or negative answers: “Are you here for the interview?” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: Yes or No.</u></p><p><strong style=\"color: rgb(0, 0, 0);\">Closed Questions</strong><span style=\"color: rgb(0, 0, 0);\"> – used to elicit very specific information: “What is your name?” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: information.</u></p><p><strong style=\"color: rgb(0, 0, 0);\">Open Ended Questions</strong><span style=\"color: rgb(0, 0, 0);\"> – used to encourage informative answers and discussion: “Tell me about yourself.” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: details</u><span style=\"color: rgb(0, 0, 0);\"> (sample answer: First, I will you tell me about myself professionally and then personally).</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Question Tags </strong><span style=\"color: rgb(0, 0, 0);\">-used to</span><strong style=\"color: rgb(0, 0, 0);\"> </strong><span style=\"color: rgb(0, 0, 0);\">suggest an answer or often to begin a conversation: “It is a bit noisy in here, isn’t it?” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: Yes, it is.</u><span style=\"color: rgb(0, 0, 0);\"> (Note: to disagree with this type of question start with “Actually,…”)</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Reply Questions- </strong><span style=\"color: rgb(0, 0, 0);\">A short question used as a reply to what has been said to signal interest or encourage the speaker to continue: “I am from Toronto.” “</span><em style=\"color: rgb(0, 0, 0);\">Toronto</em><span style=\"color: rgb(0, 0, 0);\">?” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: Yes… and more information</u></p><p><strong style=\"color: rgb(0, 0, 0);\">Indirect Questions</strong><span style=\"color: rgb(0, 0, 0);\"> – A more polite and indirect way of asking: “Could I ask you why you are looking for a new job?” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: reply to the indirect part</u><span style=\"color: rgb(0, 0, 0);\"> “could I ask” with yes and then provide information. (sample answer: “Of course, I am looking because…)</span></p><p><strong style=\"color: rgb(0, 0, 0);\">With Prepositions</strong><span style=\"color: rgb(0, 0, 0);\"> – A less formal type of question where a preposition occurs at the end of the sentence. “What other companies are you applying to?” </span></p><p><u style=\"color: rgb(0, 0, 0);\">Answer: information</u></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Identify the type of question and the correct type of response to it.&nbsp;</strong></p><p><strong style=\"color: rgb(0, 0, 0);\">Note: Use the answers from the box to complete the response section below.&nbsp; </strong></p><p><br></p><p>1. Q: Are you here for the engineering position?&nbsp;</p><p>Type:* yes or no*</p><p>Response: *yes or no*</p><p>\t2. Q: May I ask your name?</p><p>Type: *indirect closed question*</p><p>Response: *name*&nbsp;</p><p>\t3. Q: Mr. Johnson is expecting you, isn’t he?&nbsp;</p><p>Type: *question tag*</p><p>Response: *yes or no*</p><p>\t4. Q: Tell me more about yourself.</p><p>Type: *open ended question*</p><p>Response: *information*</p><p>\t5. Q: May I ask you what attracted you to this company?</p><p>Type: *open ended question*</p><p>Response: *reason*</p><p>\t6. Q: Why do you feel that we should hire you?</p><p>Type: *open ended question*</p><p>Response: *reason*</p><p>\t7. Q: Why are you leaving your current position?</p><p>Type: *open ended question*&nbsp;</p><p>Response: *reason*</p><p>\t8. Q: Can you tell me about a time when you overcame a challenge in your position?</p><p>Type: *indirect question*</p><p>Response: *example*</p><p>\t9. Q: What would your boss say about you?</p><p>Type: *closed question*</p><p>Response: *example*</p><p>\t10. Q: What three adjectives would you use to describe yourself?</p><p>Type: *closed question*</p><p>Response: *example*</p><p>\t11. Q: Do you have any questions for me?</p><p>Type: *yes or no*</p><p>Response: *questions*</p>"
+        }
+    },
+
+    "present_tenses_in_interviews": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681312305058X09438643464573904"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Instructions: Fill in the blank with correct form of the word in brackets.</strong></h4><p><strong style=\"color: rgb(0, 0, 0);\">Introducing yourself, giving your details </strong><span style=\"color: rgb(0, 0, 0);\">and saying when you are available is done in the simple present, e.g. I am from Germany.</span></p><p>1. I *have* (have) a Bachelor’s degree.&nbsp;</p><p>2. Actually, I *come* (come) from Germany.</p><p>3. My current company *produces* (produce) IT equipment.&nbsp;</p><p>4. My employer *knows* (know) that I am interviewing here.&nbsp;</p><p>5. I *am* (be) very interested in this position.</p><p><strong style=\"color: rgb(0, 0, 0);\">Speaking about future events</strong><span style=\"color: rgb(0, 0, 0);\"> that are certain, such as timetables or schedules e.g. Our appointment is at 17:00.&nbsp;</span></p><p>6. The interview *is* (be) set for 23 July.</p><p>7. The train *arrives* (arrive) at 16:45.</p><p>8. Initial interviews *last* (last) one hour.</p><p>9. My train *leaves* (leave) in 20 minutes.</p><p>10. Let’s *meet* (meet) each other on Tuesday, 24 July at 17:00.&nbsp;</p><p><strong style=\"color: rgb(0, 0, 0);\">Talk about an event in progress / uncompleted</strong><span style=\"color: rgb(0, 0, 0);\"> is done in the present continuous</span></p><p><span style=\"color: rgb(0, 0, 0);\">e.g. I am currently living in student housing.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">11. I *am studying* (study) macro-economics.</span></p><p><span style=\"color: rgb(0, 0, 0);\">12. We *are looking* (look) for someone who can travel extensively.</span></p><p><span style=\"color: rgb(0, 0, 0);\">13. Actually, we *are interviewing* (interview) 3 other candidates for this position.</span></p><p><span style=\"color: rgb(0, 0, 0);\">14. I speak German, English, French and I *am learning* (learn) Spanish.</span></p><p><span style=\"color: rgb(0, 0, 0);\">15. I *am participating* (participate) in a work-study program. </span></p><p><br></p><p><br></p>"
+        }
+    },
+
+    "past_tenses_in_interviews": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681312433184X9905091408742746"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Fill in the blank with correct form of the word in brackets.</strong></h4><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Talking about past experiences or events</strong><span style=\"color: rgb(0, 0, 0);\"> is done in the simple past.</span></p><p><span style=\"color: rgb(0, 0, 0);\">e.g. I went to school in Munich.&nbsp;</span></p><p>1. I *completed* (complete) my degree last year.&nbsp;</p><p>2. From 2010-2016, I *did*(do) an internship in a bank.</p><p>3. I *majored* (major) in Chemistry.&nbsp;</p><p>4. I *began* (begin) as an intern then *received* (receive) a full-time position after 1 year.&nbsp;</p><p>5. Actually, I *left* (leave) the position for personal reasons.</p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Talk about things that started in the past, continue to now</strong><span style=\"color: rgb(0, 0, 0);\">, or finished recently and effect the present by using the present perfect, e.g. I have just heard from the employer.&nbsp;&nbsp;</span></p><p>6. I *have* just *sent* (sent) in my application.&nbsp;</p><p>7. I *have interviewed* (interview) at three companies so far.&nbsp;</p><p>8. Happily, I *have* already *received* (receive) two job offers.</p><p>9. *Have* you ever *worked* (work) with this program before?</p><p>10. I *have worked* (work) in online marketing ever since leaving the university.</p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Talk about things you are doing now</strong><span style=\"color: rgb(0, 0, 0);\"> that started sometime in the past by using the present perfect continuous, e.g. I have been interviewing for three months.&nbsp;</span></p><p>11. I *have been having* (have) a stressful time.&nbsp;&nbsp;</p><p>12. We *have been looking* (look) for someone with just your experience.</p><p>13. I *have been writing* (write) a travel blog for the past 3 years.</p><p>14. She *has been working* (work) on this report all week.</p><p>15. *Have* you *been waiting* (wait) long?</p>"
+        }
+    },
+
+    "future_tenses_in_interviews": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681312508567X7860604276329193"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Fill in the blank with correct form of the word in brackets.</strong></h4><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">To talk about future facts</strong><span style=\"color: rgb(0, 0, 0);\">, things that are 100% certain, or to make certain predictions use the will future, e.g. We will notify you about our decision. Used the qualified will form (I think, he says) to talk about things that are probable but not 100% certain, e.g. I think that I will be done in an hour.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">1. </span>They say that they *will contact* (contact) me.&nbsp;</p><p>2. He *will want* (want) to contact your references.</p><p>3. They *will* probably *ask* (ask) when you can start.</p><p>4. I think we *will* most likely *be* (be) finished this afternoon.</p><p>5. In July, I *will receive* (receive) my degree.</p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">To make an offer or make a spontaneous decision</strong><span style=\"color: rgb(0, 0, 0);\">, use the shortened “__ 'll “ form of will, e.g. I’ll do that for you. Note: I’ll, you’ll, we’ll, etc. are said in the shortened form (el) and not the longer I will, you will, we will, etc. form. The shortened form is often used in spoken English.</span></p><p><span style=\"color: rgb(0, 0, 0);\">6. Thank you for your offer, I think *I'll* (I will) accept it!</span></p><p><span style=\"color: rgb(0, 0, 0);\">7. *I'll* (I will) meet you when I am done.</span></p><p><span style=\"color: rgb(0, 0, 0);\">8.  Here, *I'll* (I will) help you with that.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">9. *We'll* (we will) call you as soon as we have made a decision.</span></p><p><span style=\"color: rgb(0, 0, 0);\">10. *She'll* (she will) help you with whatever you need.</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">To discuss arrangements</strong><span style=\"color: rgb(0, 0, 0);\"> that have been made or are ongoing the future continuous is used, e.g. I am meeting with the VP on Monday.&nbsp;&nbsp;</span></p><p>11. I *am travelling/'m travelling/am traveling/'m traveling* (travel) over the next two weeks.&nbsp;</p><p>12. We *are asking/'re asking* (ask) three candidates to return for a second round of interviews.</p><p>13. We *are testing/'re testing* (test) the prototype next month.&nbsp;</p><p>14. I *am finishing/'m finishing* (finish) my degree in two weeks.</p><p>15. I *am meeting/'m meeting* (meet) with her at 10:00am.</p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Discuss plans</strong><span style=\"color: rgb(0, 0, 0);\">, or things someone wants to do using the going to future, e.g. I am going to write them an email if I don’t hear from them soon. This form is also used to make a sure prediction about something based on evidence that can be seen at the time of speaking, e.g. I see dark clouds, it’s going to rain.&nbsp;</span></p><p>16. I *am going to leave/'m going to leave* (leave) early today.</p><p>17. It’s late. I *am going to finish/'m going to finish* (finish) this tomorrow.</p><p>18. They seem interested. I think they *are going to offer/'re going to offer* (offer) me the position.</p><p>19. If traffic doesn’t pick up we *are going to be late/'re going to be late* (late) for the meeting.</p><p>20. After this I *am going to take/'m going to take* (take) a break.</p>"
+        }
+    },
+
+    "mixed_tenses_in_interviews": {
+        "onfinish": {
+            "alert": "Saved!",
+            "login": true,
+            "store": true
+        },
+        "data": {
+            "login": true,
+            "store": [
+                "ccm.store",
+                {
+                    "name": "ws_result_data",
+                    "url": "https://ccm2.inf.h-brs.de"
+                }
+            ],
+            "user": true,
+            "key": "1681312667834X8922700844681346"
+        },
+        "user": [
+            "ccm.instance",
+            "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
+            {
+                "realm": "guest",
+                "title": "Guest Mode: Please enter any username"
+            }
+        ],
+        "questions": [
+            {
+                "text": "Click on the sentence that is used for the given purpose. future fact",
+                "answers": [
+                    {
+                        "text": "I'm going to go to the library later.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I will be in Paris on the 5th",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. belief of opinion",
+                "answers": [
+                    {
+                        "text": "I think it will probably rain soon.",
+                        "correct": true
+                    },
+                    {
+                        "text": "It's going to rain soon",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. prediction based on the current evidence",
+                "answers": [
+                    {
+                        "text": "It's late. They are not going to call.",
+                        "correct": true
+                    },
+                    {
+                        "text": "It's late. They will not call.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. instant decision",
+                "answers": [
+                    {
+                        "text": "I think I'm going to submit my application.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I think I'll submit my application.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. arrangement",
+                "answers": [
+                    {
+                        "text": "They are meeting at 5pm.",
+                        "correct": true
+                    },
+                    {
+                        "text": "They are going to meet at 5pm.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. plan",
+                "answers": [
+                    {
+                        "text": "I am not going to mention anything about the problem.",
+                        "correct": true
+                    },
+                    {
+                        "text": "I will not mention anything about the problem.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. facts, details",
+                "answers": [
+                    {
+                        "text": "I work at Microsoft.",
+                        "correct": true
+                    },
+                    {
+                        "text": "I am working at Microsoft.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. timetables and appointments",
+                "answers": [
+                    {
+                        "text": "The meeting is at 5:00",
+                        "correct": true
+                    },
+                    {
+                        "text": "The meeting will be at 5:00",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. event in progress",
+                "answers": [
+                    {
+                        "text": "I am attending evening classes.",
+                        "correct": true
+                    },
+                    {
+                        "text": "I attend evening classes.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. past events effecting the row",
+                "answers": [
+                    {
+                        "text": "I finished the report.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I have finished the report.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. past processes continuing in the present",
+                "answers": [
+                    {
+                        "text": "I have been waiting for a while now.",
+                        "correct": true
+                    },
+                    {
+                        "text": "I have waited a while now.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. arrangement",
+                "answers": [
+                    {
+                        "text": "We're going to graduate in June.",
+                        "correct": false
+                    },
+                    {
+                        "text": "We're graduating in June.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. event in progress",
+                "answers": [
+                    {
+                        "text": "I visiting a client.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I am visiting a client.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. past event effecting the now",
+                "answers": [
+                    {
+                        "text": "I haven't received your email yet.",
+                        "correct": true
+                    },
+                    {
+                        "text": "I did not receive your email yet.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. appointments and schedules",
+                "answers": [
+                    {
+                        "text": "The class is meeting on Mondays at 11:00.",
+                        "correct": false
+                    },
+                    {
+                        "text": "The class meets on Mondays at 11:00.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that is used for the given purpose. details",
+                "answers": [
+                    {
+                        "text": "I am coming from Croatia.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I come from Croatia.",
+                        "correct": true
+                    }
+                ]
+            }
+        ],
+        "feedback": true,
+        "wait": 500,
+        "limit": 10000,
+        "interval": 1,
+        "html": {
+            "main": {
+                "id": "main",
+                "inner": [
+                    {
+                        "id": "timer",
+                        "inner": [
+                            {
+                                "tag": "a",
+                                "id": "min",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "sec",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "mil",
+                                "inner": "000"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question"
+                    },
+                    {
+                        "id": "answers"
+                    }
+                ]
+            },
+            "answer": {
+                "tag": "button",
+                "id": "answer-%nr%",
+                "class": "answer",
+                "onclick": "%onclick%",
+                "inner": "%answer%"
+            }
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quick_decide/resources/default.css"
+        ]
+    },
+
+    "personal_profile": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681315015192X5454385532577541"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">A personal profile is a short, but impactful document used to present yourself. This can be an introductory part of a resume, a marketing document used as a quick but impressive overview, or as one element of an online application.&nbsp; Regardless of the use, a profile needs to be well-written, concise, and impressive.</span></p><h4><span style=\"color: rgb(0, 0, 0);\">Fill in the blanks with the correct tense of the indicated verb to complete the sentences.</span></h4><p class=\"ql-align-center\"><strong style=\"color: rgb(0, 0, 0);\"><em>Johann Schmidt</em></strong></p><p><span style=\"color: rgb(0, 0, 0);\">Johann *is* (be) the founder and CEO of the “TreeFresh” company. This is an online sustainable business that *plants* (plant) 10 trees for every 10 orders *received* (receive). Since its founding in 2010, the company *has grown* (grow) into a global business.&nbsp; Johann *has* also *been featured* (feature) in Forbes and Fortune magazines and *named* (name) “top entrepreneur under 30” in 2017. He is a frequent guest speaker at Fortune 500 companies and *has written* (write) two top-selling books on entrepreneurship.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Johann *holds* (hold) a BS degree in Business and a Masters in Marketing from Hochschule Bonn Rhein Sieg (Sankt Augustin Germany). He *is* (be) currently a lecturer at the University.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Johann *was born* (born) in Wiesbaden, Germany and *grew* (grow) up in Bonn. When not busy travelling, Johann *enjoys* (enjoy) skiing, sailing, playing jazz piano, and can often *be found* (find) walking his dog, Barney.</span></p>"
+        }
+    },
+
+    "relative_clauses": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681315132941X3943100632725727"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">Relative clauses are short phrases that are used to talk about people and things. They start with relative pronouns: who, whom, that, or which – otherwise – with relative adverbs: where, when, or why. There are two types defining and non-defining clauses. Defining relative clauses provide information that is essential to the sentence. Non-defining relative clauses add additional information to the main sentence and are surrounded by commas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Defining: The person who is speaking is my English professor.&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0);\">Non-defining: The mobile phone, which I bought yesterday, is 2 years old.&nbsp;</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Fill in the blank with the correct word in brackets.</strong><span style=\"color: rgb(102, 102, 102);\"> </span></p><ol><li>I know the man *who* (who, which) is watching us.</li><li>This is a question *that* (that, what) I have been asking myself for years.</li><li>I look forward to meeting the person *who* (who, what) gets this job next.</li><li>Honestly, I didn’t know the step *that* (that, what) I should take next.</li><li>Do you know the date *when* (when, which) we have to hand in the report?</li><li>This is the place *where* (what, where) we are supposed to meet.</li><li>I am certain this is the time and date *that* (that, what) we scheduled.</li><li>The train *that* (that, who) travels to Amsterdam leaves from Gate 3.</li><li>Excuse me, do you know *who* (who, what) to ask about my ID badge?</li><li>The colleagues *that* (that, what) I contacted were very helpful</li><li>The report says *that* (what, that) the IT industry is the fastest growing business sector.</li><li>Do you know to *whom* (whom, who) this book belongs?</li><li>The travel agency we use, *which* (that, which) is inhouse, books everything for us.</li><li>These are the points *that* (that, what) we must focus on in the seminar.</li><li>This is the position *that* (that, what) I applied for.</li><li>Berlin, *which* (which, that) is Germany’s largest city, has a population of over 3 million inhabitants.</li><li>This is the colleague *who* (whom, who) helped while I was on holiday.</li><li>There are times *when* (that, when) everyone feels unsure.</li><li>The customer *who/that* (that, who) we visited yesterday just placed an order.</li><li>The lecture *that* (that, what) she gave was very good. </li></ol>"
+        }
+    },
+
+    "elevator_pitch_quiz": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681315269340X7455448666272961",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "An elevator pitch is a short presentation of yourself or your idea to a listener. It is only 30 seconds to a few minutes, since it may only be as long as an elevator ride or a chat at a job fair. It presents the ways that you or your idea meets the listener’s needs. This type of pitch is a simple but memorable way of convincing the listener -  used instead of a direct sell approach. The important parts of an elevator pitch are: mentioning your name, presenting your unique ways of meeting the listener’s needs, and ending with an ask or a call to action.",
+                "input": "radio",
+                "description": "Click on the sentence that can be used in an elevator pitch.",
+                "answers": [
+                    {
+                        "text": "Hi, I’m George. Let me tell you about myself.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I hear your company is in need of engineers. Well, I am George Adams and I can help you…",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "You need to hire me.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I can meet your needs.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I have a bachelor’s in business, 7 years of experience, plus I speak 5 languages.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "My team and I created an innovative approach to management systems…",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "If you ever need a qualified professional, I am the one for you.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I have some great ideas that can help you…",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "Hi, I’m Adrian and I really want to work for you.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "My name is Adrian Wall. It’s nice to meet you.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "May I give you my business card so we can connect…",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Please hire me.",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I would like to do an internship for you. Maybe I could contact you...",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I know all about your company and would love to work for you.",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the sentence that can be used in an elevator pitch.",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "I am an IT analyst who optimizes companies’ IT systems, so they are more effective.",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I work as an IT analyst at Bloomberg. I have worked there for 15 years. ",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "reported_speech_exercise": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681315353465X12926870702719517"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><strong style=\"color: rgb(0, 0, 0);\">Fill in the blank with the opposite type of reported speech, i.e., write indirect reported speech when direct is given -or- write direct quotes when indirect is given.&nbsp;</strong></p><p><span style=\"color: rgb(0, 0, 0);\">Note: Use capitalization and punctuation as appropriate. Avoid using contractions/short forms.&nbsp;</span></p><p>1. David declares, “I always walk to work.”</p><p><span style=\"color: rgb(0, 0, 0);\">*David declares that he always walks to work.*</span></p><p><br></p><p>2. She asked me, “Where have you been?”</p><p><span style=\"color: rgb(0, 0, 0);\">*She asked me where I had been.*</span></p><p><br></p><p>3. “You should revise your expense report,” he advised me.</p><p><span style=\"color: rgb(0, 0, 0);\">*He advised me to revise my expense report.*</span></p><p><br></p><p>4. He explained, “I cannot start the position until January.”</p><p><span style=\"color: rgb(0, 0, 0);\">*He explained that he could not start the position until January.*</span></p><p><br></p><p>5. She said, “You are right, that is not a good idea.”</p><p><span style=\"color: rgb(0, 0, 0);\">*She said that I was right, that it was not a good idea.*</span></p><p><br></p><p>6. She inquired, “When will you be back?”</p><p><span style=\"color: rgb(0, 0, 0);\">*She inquired when I would be back.*</span></p><p><br></p><p>7. They asked, “What is the problem?”</p><p><span style=\"color: rgb(0, 0, 0);\">*They asked what the problem was.*</span></p><p><br></p><p>8. She argued, “Paul is the best candidate.”</p><p><span style=\"color: rgb(0, 0, 0);\">*She argued that Paul is the best candidate./She argued that Paul was the best candidate.*</span></p><p><br></p><p>9. She informed us, “The board is meeting to review the case.”</p><p><span style=\"color: rgb(0, 0, 0);\">*She informed us that the board was meeting to review the case.*</span></p><p><br></p><p>10. He said, “I will be flying to Barcelona on the 10th.</p><p><span style=\"color: rgb(0, 0, 0);\">*He said that he would be flying to Barcelona on the 10th./He said that he will be flying to Barcelona on the 10th.*</span></p><p><br></p><p>11. You said that you had been talking on the telephone when you had been interrupted.&nbsp;</p><p><span style=\"color: rgb(0, 0, 0);\">*I said, \"I had been talking on the telephone when I was interrupted.\"*</span></p><p><span style=\"color: rgb(0, 0, 0);\">*I said, \"I was talking on the telephone when I was interrupted.\"*</span></p><p><br></p><p>12. They said that they had finished the work before she had arrived.</p><p><span style=\"color: rgb(0, 0, 0);\">*They said, \"We had finished the work before she arrived.\"*</span></p><p><br></p><p>13. The customer said that they would email me the next day about the sales conference.</p><p><span style=\"color: rgb(0, 0, 0);\">*The customer said, \"I will email you tomorrow about the sales conference.\"*</span></p><p><br></p><p>14. The manager informed us that in their company, their technology is very advanced.</p><p><span style=\"color: rgb(0, 0, 0);\">*The manager informed us, \"In our company our technology is very advanced.\"*</span></p><p><br></p><p>15. The IT technician said that he did not think that that computer could be repaired.&nbsp;</p><p><span style=\"color: rgb(0, 0, 0);\">*The IT technician said, \"I do not think that this computer can be repaired.\"*</span></p><p><br></p><p>16. The student asked if there would be a written final exam.</p><p><span style=\"color: rgb(0, 0, 0);\">*The student asked, \"Will there be a written final exam?\"*</span></p><p><br></p><p>17. The customer asked if we could renegotiate the contract.</p><p><span style=\"color: rgb(0, 0, 0);\">*The customer asked, \"Can we renegotiate the contract?\"*</span></p><p><br></p><p>18. The boss asked me if I was hoping for a salary increase.</p><p><span style=\"color: rgb(0, 0, 0);\">*The boss asked me, \"Are you hoping for a salary increase?\"*</span></p><p><br></p><p>19.&nbsp;The customers complained that they had been waiting a long time for their refunds.</p><p><span style=\"color: rgb(0, 0, 0);\">*The customers complained, \"We have been waiting a long time for our refunds.\"*</span></p><p><br></p><p>20. She explained that the course had been cancelled after she had paid for it.&nbsp;</p><p><span style=\"color: rgb(0, 0, 0);\">*She explained, \"The course was cancelled after I paid for it.\"*</span></p>"
+        }
+    },
+
+    "following_up": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681315459869X12496321282482281"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<p><span style=\"color: rgb(0, 0, 0);\">Writing some type of follow-up correspondence to people you meet at a job fair is essential. This will express gratitude, show initiative, and strengthen the connections in your network of companies and professionals. </span></p><h4>Fill in the correct word from the box in the blanks below. Pay attention to the correct grammatical form. </h4><p><span style=\"color: rgb(0, 0, 0);\">Hello Mr/Ms ____,</span></p><p><span style=\"color: rgb(0, 0, 0);\">I really *</span><strong style=\"color: rgb(0, 176, 80);\">enjoyed* *talking* </strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;with you yesterday at the XXX job fair and found our *</span><strong style=\"color: rgb(0, 176, 80);\">discussion*</strong><span style=\"color: rgb(0, 0, 0);\"> on XXX topic to be very *</span><strong style=\"color: rgb(0, 176, 80);\">enlightening*</strong><span style=\"color: rgb(0, 0, 0);\">.</span></p><p><span style=\"color: rgb(0, 0, 0);\">The *</span><strong style=\"color: rgb(0, 176, 80);\">insights*</strong><span style=\"color: rgb(0, 176, 80);\"> </span><span style=\"color: rgb(0, 0, 0);\">you gave me about your company were *</span><strong style=\"color: rgb(0, 176, 80);\">appreciated*</strong><span style=\"color: rgb(0, 0, 0);\">. In fact, I have *</span><strong style=\"color: rgb(0, 176, 80);\">officially* *applied*</strong><span style=\"color: rgb(0, 176, 80);\"> </span><span style=\"color: rgb(0, 0, 0);\">for the position, as you *</span><strong style=\"color: rgb(0, 176, 80);\">recommended*</strong><span style=\"color: rgb(0, 0, 0);\">. Furthermore, I have *</span><strong style=\"color: rgb(0, 176, 80);\">attached* </strong><span style=\"color: rgb(0, 0, 0);\">a copy of my resume to this email, for your reference.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Again, I appreciate your time and advice. I look forward to *</span><strong style=\"color: rgb(0, 176, 80);\">hearing*</strong><span style=\"color: rgb(0, 0, 0);\"> from you soon.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">Kind regards</span></p>"
+        }
+    },
+
+    "a_introductions": {
+        "onfinish": {
+            "alert": "Saved!",
+            "login": true,
+            "store": true
+        },
+        "data": {
+            "login": true,
+            "store": [
+                "ccm.store",
+                {
+                    "name": "ws_result_data",
+                    "url": "https://ccm2.inf.h-brs.de"
+                }
+            ],
+            "user": true,
+            "key": "1681315741085X0952100627206589"
+        },
+        "user": [
+            "ccm.instance",
+            "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
+            {
+                "realm": "guest",
+                "title": "Guest Mode: Please enter any username"
+            }
+        ],
+        "questions": [
+            {
+                "text": "Choose the appropriate response for the statement given. How do you do?",
+                "answers": [
+                    {
+                        "text": "I'm Alexander",
+                        "correct": false
+                    },
+                    {
+                        "text": "I am completing an exam.",
+                        "correct": false
+                    },
+                    {
+                        "text": "How do YOU do?",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. What is your name?",
+                "answers": [
+                    {
+                        "text": "I'm Alexander",
+                        "correct": true
+                    },
+                    {
+                        "text": "I am fine, thanks.",
+                        "correct": false
+                    },
+                    {
+                        "text": "It's nice to meet you, too",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. It's nice to meet you.",
+                "answers": [
+                    {
+                        "text": "Great to meet ya!",
+                        "correct": false
+                    },
+                    {
+                        "text": "It's nice to meet you, too.",
+                        "correct": true
+                    },
+                    {
+                        "text": "Yes, it is.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. May I introduce you to Michael?",
+                "answers": [
+                    {
+                        "text": "No, I we haven't met.",
+                        "correct": false
+                    },
+                    {
+                        "text": "No, of course.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Of course, it's nice to meet you Michael.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. Could you please tell me your name?",
+                "answers": [
+                    {
+                        "text": "I am called Sophia.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Sure, my name's Sophia.",
+                        "correct": true
+                    },
+                    {
+                        "text": "Which one?",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. I don't think we've met.",
+                "answers": [
+                    {
+                        "text": "No, we haven't. I'm Alicia.",
+                        "correct": true
+                    },
+                    {
+                        "text": "Yes, my name's Sophia.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I'm Michael.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. Aren't you Valentina?",
+                "answers": [
+                    {
+                        "text": "Yes, I are Valentina.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Yes, but everyone is calling me Tina.",
+                        "correct": false
+                    },
+                    {
+                        "text": "I am, but I prefer to be called Tina.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. Are you Austrian?",
+                "answers": [
+                    {
+                        "text": "No, I am coming from Croatia.",
+                        "correct": false
+                    },
+                    {
+                        "text": "No, actually I'm come from France.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Actually, I come from Germany.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. It's Julianne, isn't it?",
+                "answers": [
+                    {
+                        "text": "No, it is.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Yes, that's right.",
+                        "correct": true
+                    },
+                    {
+                        "text": "Yes. It's Julia.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Choose the appropriate response for the statement given. Have you met Professor John Smith before?",
+                "answers": [
+                    {
+                        "text": "Yes, I haven't. I'm Alicia.",
+                        "correct": false
+                    },
+                    {
+                        "text": "No. Nice to meet you John.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Pleasure to meet you Professor. I'm Alicia.",
+                        "correct": true
+                    }
+                ]
+            }
+        ],
+        "feedback": true,
+        "wait": 500,
+        "limit": 8000,
+        "interval": 1,
+        "html": {
+            "main": {
+                "id": "main",
+                "inner": [
+                    {
+                        "id": "timer",
+                        "inner": [
+                            {
+                                "tag": "a",
+                                "id": "min",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "sec",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "mil",
+                                "inner": "000"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question"
+                    },
+                    {
+                        "id": "answers"
+                    }
+                ]
+            },
+            "answer": {
+                "tag": "button",
+                "id": "answer-%nr%",
+                "class": "answer",
+                "onclick": "%onclick%",
+                "inner": "%answer%"
+            }
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quick_decide/resources/default.css"
+        ]
+    },
+
+    "describing_what_you_do": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681316703761X8383340600681899"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Fill in the appropriate tense of the word given.</strong></h4><ol><li>What *do* (do) you do for work?</li><li>What line of business *are* (be) you in?</li><li>How long *have you been working/have you worked* (work) in Sales?&nbsp;</li><li>How long *will you stay/are you staying* (stay) in Berlin this week?</li><li>What else *do you wish* (wish) to accomplish while you are here?</li><li>Who else *are you visiting/are you going to visit/will you visit* (you visit) this week?</li><li>Please tell me what you *are doing* (do) here.</li><li>Currently, I *am working* (work) on an audit of the company’s finances.</li><li>Normally, I work in Budapest, but this week I *am stationed* (station) in Berlin.</li><li>&nbsp;I *am specializing/have specialized/am specialized* (specialize) in the use of R Programming for statistical analytics.</li></ol>"
+        }
+    },
+
+    "telephoning": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": true,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681316786394X041011874841944795"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Use the correct form of the given word to complete the sentence.</strong></h4><ol><li>I *am calling/'m calling* (call) to talk to Katharina.</li><li>She *'s/is* (be) in a meeting right now.&nbsp;</li><li>Can I *take* (take) a message?</li><li>No, thanks. I *'ll/will* (be) call her back.</li><li>Do you know when she *'ll be available/will be available* (available)?</li><li>The meeting *is expected* (expect) to end at 16:00.</li><li>However, it usually *lasts* (last) until at least 17:00.</li><li>Maybe I *'ll try/will try/should try/could try* (try) again at 17:30.</li><li>*Could/May* I tell her who *'s calling/is calling* (call)?</li><li class=\"ql-align-justify\">Sure, *it's/this is* (is) her brother.</li></ol>"
+        }
+    },
+
+    "emailing": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681316847989X3327487803567102",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "To address a female of unknown status",
+                "answers": [
+                    {
+                        "text": "Ms",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Mrs",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "To address a letter where the name of recipient is unknown",
+                "answers": [
+                    {
+                        "text": "Dear company employee",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "To whom it may concern ",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "_______________ you have further questions, please contact me. ",
+                "answers": [
+                    {
+                        "text": "Shall",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Should",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "_______________ the 14th at 18:00 suit you?",
+                "answers": [
+                    {
+                        "text": "ought",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "would",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "If you have questions__________ please feel free to contact me directly (fill in the correct punctuation).",
+                "answers": [
+                    {
+                        "text": "period",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "comma",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Please bring the following items to the interview__________ CV, personal identification, work permit…",
+                "answers": [
+                    {
+                        "text": "dash",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "colon ",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "_______________ rewrite the report. (choose the softening phrase)",
+                "answers": [
+                    {
+                        "text": "If I were you, I would",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Honestly, ",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "You’re completing this by deadline",
+                "answers": [
+                    {
+                        "text": "would be appreciated.",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "is a must.",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Yours sincerely is a closing used with…",
+                "answers": [
+                    {
+                        "text": "formal letters ",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "colleagues",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": " Best wishes is a closing used with…",
+                "answers": [
+                    {
+                        "text": "those whose given name you know",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "those whose name you don’t know",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "report_writing": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681316923381X24740521476163413",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "They will not finish the report by the end of this week. (choose the correct passive version)",
+                "answers": [
+                    {
+                        "text": "The report will not be finished by the end of this week. ",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "The report by them will not have been finished by the end of this week",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "My boss was asking me all kinds of difficult questions. (choose the correct passive version)",
+                "answers": [
+                    {
+                        "text": "All kinds of difficult questions were being asked of me by my boss.",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "All kinds of difficult questions were asked me by my boss.",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "What are the characteristics of informal English",
+                "answers": [
+                    {
+                        "text": "Full sentences, long forms, indirect structure.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Phrases, short forms, direct structure.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the more formal sentence:",
+                "answers": [
+                    {
+                        "text": "The survey shows that there’s some real problems in production.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "The survey indicates that there are some significant problems in the production area. ",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the more informal sentence:",
+                "answers": [
+                    {
+                        "text": "Records show you’re a month overdue. ",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "According to records your account is presently 30 days overdue.",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the correct linking word “The report is finished, _______________ we would like to make some changes to it.”",
+                "answers": [
+                    {
+                        "text": "however",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "therefore",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the correct linking word “ ______________the students and the teaching staff need to consider the consequences of their actions.”",
+                "answers": [
+                    {
+                        "text": "both",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "contrastingly",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the correct linking word “_______________ frequent interruptions, the speaker was able to deliver and excellent presentation.”",
+                "answers": [
+                    {
+                        "text": "in spite",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "despite",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the sentence used in the introduction of a report",
+                "answers": [
+                    {
+                        "text": "The purpose of this report is to present sustainable alternatives to common business practices.",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Then we conducted a survey to investigate the sustainability of current business practices.",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct alternative.",
+                "input": "radio",
+                "description": "Choose the sentence used in the summary of a report",
+                "answers": [
+                    {
+                        "text": "Finally, we investigated the environmental impact of the commuter traffic at the university.",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "In summary, introducing the proposed plan would reduce the environmental impact of the commuter traffic at the university by 35%.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "presentations": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681316983416X8572093364067639",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "Which phrase could be used during the introduction to a presentation",
+                "answers": [
+                    {
+                        "text": "Now, let’s turn our attention to …",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Please hold your questions until I am finished.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "Which phrase could be used during the introduction to a presentation",
+                "answers": [
+                    {
+                        "text": "For those of you who don’t know me…",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Next, I would like to ask you to…",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "Which phrase could be used to “signpost” during a presentation",
+                "answers": [
+                    {
+                        "text": "In turning our attention to… ",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "Actually, ",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "Which phrase could be used to return to a topic mentioned earlier.",
+                "answers": [
+                    {
+                        "text": "If I could return to the point I mentioned earlier…",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "If I could just get back your attention to…",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "Which phrase is better used to end a presentation",
+                "answers": [
+                    {
+                        "text": "In summary, the “take away” from my presentation is this…",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "That’s the end of my speech…",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "Which is the best way to avoid answering a question during a presentation…",
+                "answers": [
+                    {
+                        "text": "If I could just finish. ",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "I will be pleased to entertain questions after my presentation.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "This figure _______________ (show) the increase in IT majors over the past 10 years. ",
+                "answers": [
+                    {
+                        "text": "shows",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "is showing",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "As can be _______________(see) in the graph, the cost of not having an education is greater than the costs incurred in obtaining one.",
+                "answers": [
+                    {
+                        "text": "saw",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "seen ",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "During the past 10 years the cost of living _______________(rise) significantly.",
+                "answers": [
+                    {
+                        "text": "has risen",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "rose",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "input": "radio",
+                "description": "In 2005 our profits _______________ _______________.",
+                "answers": [
+                    {
+                        "text": "increase significant",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "increased significantly",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
+    },
+
+    "meetings": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": false,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681317041270X06431796804731471"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Complete the sentences with the appropriate form of the given word.</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;If needed, more than one word can be used per blank.</span></h4><ol><li>Are you *attending* (attend) the conference today?</li><li>How *is* your new job *going* (go)?</li><li>When *are* you *presenting* (present)?</li><li class=\"ql-align-justify\">How *have* you *been* (be) since I last saw you?</li><li class=\"ql-align-justify\">*Is* anyone *sitting* (sit) in that seat?</li><li>I&nbsp; *am inclined* (incline) to agree with you.</li><li class=\"ql-align-justify\">I’m sorry, but I *don't/can't/cannot/do not* (not) agree with you.</li><li>If we reach an agreement, they *will sign* (sign) the contract.</li><li>If you *don't/do not* (not) speak louder, then the people in the back won’t hear you.</li><li class=\"ql-align-justify\">If I had done a summer semester, I *would have finished* (finish) my degree already.</li></ol>"
+        }
+    },
+
+    "cv_resumes": {
+        "onfinish": {
+            "alert": "Saved!",
+            "login": true,
+            "store": true
+        },
+        "data": {
+            "login": true,
+            "store": [
+                "ccm.store",
+                {
+                    "name": "ws_result_data",
+                    "url": "https://ccm2.inf.h-brs.de"
+                }
+            ],
+            "user": true,
+            "key": "1681317214581X43714094938468384"
+        },
+        "user": [
+            "ccm.instance",
+            "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
+            {
+                "realm": "guest",
+                "title": "Guest Mode: Please enter any username"
+            }
+        ],
+        "questions": [
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Your name and personal details should appear at the top of your document.",
+                        "correct": true
+                    },
+                    {
+                        "text": "The word CV or resume should appear at the top of you document.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Education is listed before experience.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Education is listed before experience until you have graduated and been employed.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "To node a position which began in 2000 and continuing \\\"2000-present\\\" is used.",
+                        "correct": true
+                    },
+                    {
+                        "text": "To node a position which began in 2000 and is continuing \\\"2000 on\\\" is used.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Dates on a CV are listed on chronological order.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Dates on a CV are listed in reverse order.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Your experience should be described in full sentences using passive verbs.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Your experience should be described in short sentences or phrases using actionverbs.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Age, gender, race, marital status, nationality must be included in personal details.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Details should include name, adress, current email, reliable phone number(s).",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Providing a personal website or LinkedIn adress is beneficial.",
+                        "correct": true
+                    },
+                    {
+                        "text": "Providing a personal website or LinkedIn adress in not advised.",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "I wrote a travel blog.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Created and maintained bi-monthly travel blog with 15,000 followers.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Spandorf Aces tennis team, 2000-2010.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Competitive tennis. 2000-2010 NRW champion men's singles 2004, 2005.",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "text": "Click on the correct answer.",
+                "answers": [
+                    {
+                        "text": "Bachelor of Business Administration, anticipated graduation date June 2020.",
+                        "correct": false
+                    },
+                    {
+                        "text": "Bachelor of Business Administration, June 2020.",
+                        "correct": true
+                    }
+                ]
+            }
+        ],
+        "feedback": true,
+        "wait": 500,
+        "limit": 10000,
+        "interval": 1,
+        "html": {
+            "main": {
+                "id": "main",
+                "inner": [
+                    {
+                        "id": "timer",
+                        "inner": [
+                            {
+                                "tag": "a",
+                                "id": "min",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "sec",
+                                "inner": "00"
+                            },
+                            {
+                                "tag": "a",
+                                "id": "mil",
+                                "inner": "000"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question"
+                    },
+                    {
+                        "id": "answers"
+                    }
+                ]
+            },
+            "answer": {
+                "tag": "button",
+                "id": "answer-%nr%",
+                "class": "answer",
+                "onclick": "%onclick%",
+                "inner": "%answer%"
+            }
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quick_decide/resources/default.css"
+        ]
+    },
+
+    "interviews": {
+        "cancel_button": "",
+        "captions": {
+            "retry": "Retry",
+            "submit": "Check",
+            "start": "Start",
+            "finish": "Restart"
+        },
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/pbworks.css"
+        ],
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
+        ],
+        "logger": "",
+        "oncancel": "",
+        "onchange": "",
+        "onfeedback": "",
+        "oninput": "",
+        "onstart": "",
+        "onvalidation": "",
+        "show_results": "",
+        "blank": true,
+        "keywords": false,
+        "feedback": true,
+        "retry": false,
+        "solutions": false,
+        "progress_bar": true,
+        "time": "",
+        "mark": "*",
+        "data": {
+            "store": [
+                "ccm.store"
+            ],
+            "login": true,
+            "user": true,
+            "key": "1681317964876X034624488741019865"
+        },
+        "user": null,
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "text": {
+            "inner": "<h4><strong style=\"color: rgb(0, 0, 0);\">Complete the sentences with the appropriate answer.</strong></h4><ol><li>Respond to the question tag, “It’s almost over isn’t it?” with *Yes/yes/yes, it is/Yes, it is*.</li><li>Respond to the indirect question, “Do you mind if I ask your name?” with *no/No/No, I don't mind*.</li><li>Closed and yes/no questions are used to obtain *specific/concrete* information.</li><li>I *am* (be) very interested in this position.</li><li>I *am studying* (study) marketing.</li><li>The interview *is* (be) scheduled for 15:30.</li><li>I *am* currently *attending* (attend) university.</li><li>My degree studies *will be finished* (finish) next spring.</li><li>I *completed* (complete) an internship in 2012.</li><li>From 2016-2018, I *was employed* (employed) by Amazon.</li></ol>"
+        }
+    },
+
+    "job_fair": {
+        "css": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/weblysleek.css",
+            {
+                "context": "head",
+                "url": "https://ccmjs.github.io/akless-components/libs/weblysleekui/font.css"
+            }
+        ],
+        "data": {
+            "key": "1681318031617X37029191861328603",
+            "store": [
+                "ccm.store"
+            ]
+        },
+        "onfinish": {
+            "restart": true,
+            "confirm": "",
+            "clear": false,
+            "alert": ""
+        },
+        "questions": [
+            {
+                "text": "Job fair attendees",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "are required to make an appointment before attending",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "may require registration but do not require prior appointments.",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Many people consider job fairs to be",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "more stressful than individual interviews",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "less stressful than individual interviews",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "A professional profile ",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "can be part of a resume or used as a separate marketing tool",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "is always found at the top of a resume",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "A professional profile is always",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "well written and detailed",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "concise and impactful",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "A professional profile",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "may be used in an online application",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "may not be used in an online application",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "An elevator pitch aims to",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "present how the speaker can meet the listener’s needs",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "convince the listener of the speaker’s qualification",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "An elevator pitch lasts",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "30 seconds – 2 minutes",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "30 seconds – 5 minutes",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "An elevator pitch ends with ",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "a handshake",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "an “ask” for a business card, an email, an appointment…",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Follow-up correspondence should be aimed at",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "recruiters from the job fair",
+                        "correct": false,
+                        "comment": ""
+                    },
+                    {
+                        "text": "recruiters and fellow networkers from the job fair",
+                        "correct": true,
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "text": "Follow-up correspondence should express",
+                "input": "radio",
+                "description": "",
+                "answers": [
+                    {
+                        "text": "gratitude, interest and initiative",
+                        "correct": true,
+                        "comment": ""
+                    },
+                    {
+                        "text": "satisfaction and thanks. ",
+                        "correct": false,
+                        "comment": ""
+                    }
+                ]
+            }
+        ],
+        "start_button": false,
+        "feedback": true,
+        "progress_bar": true,
+        "navigation": false,
+        "skippable": false,
+        "anytime_finish": false,
+        "time": "",
+        "shuffle": false,
+        "random": false,
+        "escape": false,
+        "user": null,
+        "placeholder": {
+            "prev": "",
+            "submit": "Check",
+            "next": "Next",
+            "finish": "Restart"
+        },
+        "helper": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
+        ],
+        "html": [
+            "ccm.load",
+            "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
+        ]
     }
 }
