@@ -32,7 +32,8 @@
     ccm: 'https://ccmjs.github.io/ccm/versions/ccm-27.4.2.min.js',
     config: {
 //    "color": "limegreen",
-      "css": [ "ccm.load", "https://ccmjs.github.io/tkless-components/app_collection/resources/styles-3.0.0.min.css" ],
+      /*"css": [ "ccm.load", "https://ccmjs.github.io/tkless-components/app_collection/resources/styles-3.0.0.min.css" ],*/
+      "css": [ "ccm.load", "../styles/app_collection.css" ],
 //    "dark": "auto",
       "footer": [],
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-8.4.2.min.mjs" ],
