@@ -1229,7 +1229,7 @@ export const pronounciation_in_introductions = {
         "clear": false,
         "alert": ""
     },
-    "text": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> One of the difficulties facing non-native speakers of English is its intonation pattern. English is a content language, which means that the more meaningful words in a sentence are emphasized while the less meaning words are not.&nbsp; </span> </p><p><span>This pattern of intonation and stress may contrast with a non-native speaker’s natural pattern of speech and needs to be a practiced. The following link provides a thorough discussion of the topic.</span></p><p><strong>Click on the link below. Listen to the video. Then answer the questions.</strong></p><p><a href=\"https://www.youtube.com/watch?v=oWP9Riq-ZBg\">Link</a></p></div><div class=\"entry-description-fill\"> <p><span>Now answer the questions about phrases introducing yourself:</span></p><h4><span>1. The speaker mentions 4 sentences you can use to give your name. List the two complete sentences and the short (contracted) forms of these:</span></h4> <p><span>a) Full sentence: </span>*I am/My name is*<span style=\"color: rgb(83, 129, 53);\"> </span><span>(NAME)&nbsp;</span></p><p><span>b) Sentence with contraction: </span>*I'm/My name's*<span> (NAME)</span></p><p><span>c) Full sentence: </span>*My name is/I am*<span> (NAME)</span></p><p><span>d) Sentence with contraction: </span>*My name's/I'm*<span> (NAME)</span></p><h4><span>2. What word does the speaker say you should use to make saying your name more fluently? </span>*I'm*</h4> <h4><span>3. What word can you use to say your hometown or your work?</span></h4> <p><span>I'm </span>*from*<span> (place). I'm </span>*from*<span> (work).</span></p><h4><span>4. What three sentences do you say in response to the sentence “Nice to meet you.”?</span></h4> <p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p><p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p><p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p></div></div>"
+    "text": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> One of the difficulties facing non-native speakers of English is its intonation pattern. English is a content language, which means that the more meaningful words in a sentence are emphasized while the less meaning words are not.&nbsp; </span> </p><p><span>This pattern of intonation and stress may contrast with a non-native speaker’s natural pattern of speech and needs to be a practiced. The following link provides a thorough discussion of the topic.</span></p><p><strong>Click on the link below. Listen to the video. Then answer the questions.</strong></p><p><a class=\"entry-link\" href=\"https://www.youtube.com/watch?v=oWP9Riq-ZBg\">Link</a></p></div><div class=\"entry-description-fill\"> <p><span>Now answer the questions about phrases introducing yourself:</span></p><h4><span>1. The speaker mentions 4 sentences you can use to give your name. List the two complete sentences and the short (contracted) forms of these:</span></h4> <p><span>a) Full sentence: </span>*I am/My name is*<span style=\"color: rgb(83, 129, 53);\"> </span><span>(NAME)&nbsp;</span></p><p><span>b) Sentence with contraction: </span>*I'm/My name's*<span> (NAME)</span></p><p><span>c) Full sentence: </span>*My name is/I am*<span> (NAME)</span></p><p><span>d) Sentence with contraction: </span>*My name's/I'm*<span> (NAME)</span></p><h4><span>2. What word does the speaker say you should use to make saying your name more fluently? </span>*I'm*</h4> <h4><span>3. What word can you use to say your hometown or your work?</span></h4> <p><span>I'm </span>*from*<span> (place). I'm </span>*from*<span> (work).</span></p><h4><span>4. What three sentences do you say in response to the sentence “Nice to meet you.”?</span></h4> <p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p><p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p><p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p></div></div>"
 };
 export const additional_materials = {
     "inner" : `
@@ -1242,52 +1242,72 @@ export const additional_materials = {
                              These introductions are very short (up to 30 seconds) and include your name and occupation. However, they should also include a topic of special interest or any
                              hook/USP you may have given the situation. This introduction may include both the present simple and present progressive.</span></p>
                     <p><span><strong>Assinment</strong> Read this article for tips on effective 30 second introductions then write a 30 second/60 - word introduction of yourself</span></p>
-                    <a href="https://www.businessinsider.com/the-best-way-to-introduce-yourself-2015-10?IR=T">Link</a>
+                    <a class="entry-link" href="https://www.businessinsider.com/the-best-way-to-introduce-yourself-2015-10?IR=T">Link</a>
                 </div>
             </div>
     `
 };
 export const what_do_you_do_part_one = {
     "inner" : `
-        <h1><strong>What Do You Do? What Are You Doing?</strong></h1>
-        <p><strong>Describing your job and your current actions with the Present Perfect and Present Progressive</strong></p>
-        <p><strong>What Do You Do?</strong></p>
-        <p><span>This question is formed in the present simple. It therefore asks about permanent <strong>facts, habits, or repeated behaviour</strong>
-                 It does not refer to what is temporary or happening in the moment. It almost always follows the question, "What's your name?" and asks about your occupation/work.
-                 The answer might be "I am a student/teacher/accountant, etc." When asked "What do you do on Tuesdays?" "What do you do after work?" it is asking about the habit.
-                 An answer to this question might be "I swim/play tennis/work late, etc."</span></p>
-        <p><span><strong>Reading Assignment: </strong> How will you answer the question "What do you do?" Click on the following link to read the article about why it is important to have your answers prepared.</span></p>
-        <a href="https://www.richardjanes.com/blog-what-do-you-do/">https://www.richardjanes.com/blog-what-do-you-do/</a>
+            <div class="entry-content">
+                <p class="entry-title"><strong class="title-strong">What Do You Do? What Are You Doing?</strong></p>
+                <div class="entry-description">
+                    <p><strong>Describing your job and your current actions with the Present Perfect and Present Progressive</strong></p>
+                    <p><strong>What Do You Do?</strong></p>
+                    <p><span>This question is formed in the present simple. It therefore asks about permanent <strong>facts, habits, or repeated behaviour</strong>
+                             It does not refer to what is temporary or happening in the moment. It almost always follows the question, "What's your name?" and asks about your occupation/work.
+                             The answer might be "I am a student/teacher/accountant, etc." When asked "What do you do on Tuesdays?" "What do you do after work?" it is asking about the habit.
+                             An answer to this question might be "I swim/play tennis/work late, etc."</span></p>
+                    <p><span><strong>Reading Assignment: </strong> How will you answer the question "What do you do?" Click on the following link to read the article about why it is important to have your answers prepared.</span></p>
+                    <a class="entry-link" href="https://www.richardjanes.com/blog-what-do-you-do/">Link</a>
+                </div>
+
+            </div>
+        
     `
 };
 export const what_do_you_do_part_two = {
     "inner" : `
-        <h1><strong>What Do You Do? What Are You Doing?</strong></h1>
-        <p><strong>Describing your job and your current actions with the Present Perfect and Present Progressive</strong></p>
-        <p><strong>What Are You Doing?</strong></p>
-        <p><span>This question is formed using the present progressive. Therefore, it is asking about an <strong>ongoing action (one happening at the time of speaking) or a project in process/unfinished</strong>
-                 . When asked "What are you doing?" the answer might be "I am writing a book." "Getting my degree" "I am filling in for a colleague who is on vacation."</span></p>    `
+            <div class="entry-content">
+                <p class="entry-title"><strong class="title-strong">What Do You Do? What Are You Doing?</strong></p>
+                <div class="entry-description">
+                    <p><strong>Describing your job and your current actions with the Present Perfect and Present Progressive</strong></p>
+                    <p><strong>What Are You Doing?</strong></p>
+                    <p><span>This question is formed using the present progressive. Therefore, it is asking about an <strong>ongoing action (one happening at the time of speaking) or a project in process/unfinished</strong>
+                             . When asked "What are you doing?" the answer might be "I am writing a book." "Getting my degree" "I am filling in for a colleague who is on vacation."</span></p>
+                </div>
+          
+            </div>
+  `
 };
 export const link_to_additional_materials = {
     "inner" : `
-        <p><strong>Describing what do you do for work</strong></p>
-        <p><strong>Recognizind the importance of your work and being able to present it in a positive way is a crucial skill in your career. Click on the link to read the article:</strong></p>
-        <a href="https://money.usnews.com/money/blogs/outside-voices-careers/articles/2017-11-30/how-to-speak-proudly-about-your-work">https://money.usnews.com/money/blogs/outside-voices-careers/articles/2017-11-30/how-to-speak-proudly-about-your-work</a>
-        <p><span>After reading the article, take the time to prepare your answer to the questions in regard to your own position: <ol><li>Why is what I do important?</li><li>What would happen if I did not do it?</li><li>What have been your most significant occupational successes to date?</li><li>What have been your most significant recent occupational successes?</li></ol></span></p>
+            <div class="entry-content">
+                <div class="entry-description">
+                    <p><strong>Describing what do you do for work</strong></p>
+                    <p><strong>Recognizind the importance of your work and being able to present it in a positive way is a crucial skill in your career. Click on the link to read the article:</strong></p>
+                    <a class="entry-link" href="https://money.usnews.com/money/blogs/outside-voices-careers/articles/2017-11-30/how-to-speak-proudly-about-your-work">Link</a>
+                    <p><span>After reading the article, take the time to prepare your answer to the questions in regard to your own position: <ol><li>Why is what I do important?</li><li>What would happen if I did not do it?</li><li>What have been your most significant occupational successes to date?</li><li>What have been your most significant recent occupational successes?</li></ol></span></p>                
+                </div>
+            </div>
             `
 };
 export const excercise_with_additional_materials = {
     "inner" : `
-        <p><strong>Section II – Describing What You Do - writing assignment</strong></p>
-        <p><span>You have learned, in this section, how to introduce yourself and what you do using the present simple and present progressive.  In business you will need to introduce yourself in a variety of situations that require different types of introductions: </span></p>
-        <p><strong>Spontaneous introductions</strong> – as you learned in the previous section, these introductions are very short (up to 30 seconds) and include your name, occupation, and a “hook” related to the situation.</p>
-        <p><strong>Short professional introductions</strong> – These introductions are a bit longer, approximately 60 seconds, and often occur in situations where you are briefly in the spotlight, for example at meetings. In these situations, you are expected to: greet the others, give your name, your company, position, and a topic of special interest or information to the group.</p>
-        <p><stong>Assignment 1: </stong>Read this article for tips on effective short introductions and write a 60-second introduction of yourself: <a href="https://www.linkedin.com/pulse/8-simple-steps-great-60-second-self-introduction-speech-jim-stramler/">https://www.linkedin.com/pulse/8-simple-steps-great-60-second-self-introduction-speech-jim-stramler/</a></p>
-        <p><strong>Interview introductions </strong> – Introductions made during interviews are very formal and should be well planned. These introductions last a few minutes (2-3) and can tell an interviewer a lot about the speaker. Ideally, this type of introduction has two parts a professional and a personal. However, it is not aimed at delivering a synopsis of your resume (which the interviewer has probably read and also has in front of them). An outstanding answer will take personal strengths and relate those to the needs of the company and the specifics of the job. This type of introduction requires a lot of preparation but highlights the interviewee’s preparedness, personality and professionalism.</p>
-        <p><strong>Assignment 2: </strong>Read this article with an explanation of effective short introductions and then write a 3-minute introduction of yourself for an interview.</p>
-        <p><a href="https://hbr.org/2019/08/how-to-respond-to-so-tell-me-about-yourself-in-a-job-interview">https://hbr.org/2019/08/how-to-respond-to-so-tell-me-about-yourself-in-a-job-interview</a></p>
-        <p><strong>Formal professional introductions </strong>- These introductions are longer and more in depth. They often occur in situations where you are the center of attention for example at special meetings or presentations. In these situations, you are expected to: begin with a greeting, give your name, your company, position, an overview of your background, some example of your expertise and its connection to the special interest for which the group has been convened. These introductions can be 3-5 minutes but vary given the situation.</p>
-        <p><strong>Assignment 3: </strong>Write a 3-5 minute formal introduction of yourself as if you were a speaker at a business conference.</p>
+            <div class="entry-content">
+                <p class="entry-title"><strong class="title-strong">Section II – Describing What You Do - writing assignment</strong></p>
+                <div class="entry-description">
+                    <p><span>You have learned, in this section, how to introduce yourself and what you do using the present simple and present progressive.  In business you will need to introduce yourself in a variety of situations that require different types of introductions: </span></p>
+                    <p><strong>Spontaneous introductions</strong> – as you learned in the previous section, these introductions are very short (up to 30 seconds) and include your name, occupation, and a “hook” related to the situation.</p>
+                    <p><strong>Short professional introductions</strong> – These introductions are a bit longer, approximately 60 seconds, and often occur in situations where you are briefly in the spotlight, for example at meetings. In these situations, you are expected to: greet the others, give your name, your company, position, and a topic of special interest or information to the group.</p>
+                    <p><stong>Assignment 1: </stong>Read this article for tips on effective short introductions and write a 60-second introduction of yourself: <a class="entry-link" href="https://www.linkedin.com/pulse/8-simple-steps-great-60-second-self-introduction-speech-jim-stramler/">Link</a></p>
+                    <p><strong>Interview introductions </strong> – Introductions made during interviews are very formal and should be well planned. These introductions last a few minutes (2-3) and can tell an interviewer a lot about the speaker. Ideally, this type of introduction has two parts a professional and a personal. However, it is not aimed at delivering a synopsis of your resume (which the interviewer has probably read and also has in front of them). An outstanding answer will take personal strengths and relate those to the needs of the company and the specifics of the job. This type of introduction requires a lot of preparation but highlights the interviewee’s preparedness, personality and professionalism.</p>
+                    <p><strong>Assignment 2: </strong>Read this article with an explanation of effective short introductions and then write a 3-minute introduction of yourself for an interview.</p>
+                    <p><a class="entry-link" href="https://hbr.org/2019/08/how-to-respond-to-so-tell-me-about-yourself-in-a-job-interview">Link</a></p>
+                    <p><strong>Formal professional introductions </strong>- These introductions are longer and more in depth. They often occur in situations where you are the center of attention for example at special meetings or presentations. In these situations, you are expected to: begin with a greeting, give your name, your company, position, an overview of your background, some example of your expertise and its connection to the special interest for which the group has been convened. These introductions can be 3-5 minutes but vary given the situation.</p>
+                    <p><strong>Assignment 3: </strong>Write a 3-5 minute formal introduction of yourself as if you were a speaker at a business conference.</p>
+                </div>
+            </div>
         `
 };
 export const overview = {
@@ -1554,7 +1574,7 @@ export const presentsimple_vs_presentprogressive_cloze = {
         "alert": ""
     },
     "text": {
-        "inner": "<h4><strong>Fill in the blank with the present simple or present progressive.</strong></h4><ol><li>At the moment, I *am talking* (talk) to a client.</li><li>I *am working* (work) at our head office this week.</li><li>I usually *go* (go) to the gym after school.</li><li>I *am studying* (study) for my Master’s degree.</li><li>Actually, I *finish/am finishing* (finish) my studies soon.</li><li>Currently, I *am looking* (look) for a job.</li><li>I *direct* (direct) the other employees.</li><li>I often do not *know* (know) my work schedule.</li><li>I *live/am living* (live) off campus.</li><li>I *go* (go) to the conference every year.</li></ol>"
+        "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <p><strong>Fill in the blank with the present simple or present progressive.</strong></p><ol> <li>At the moment, I *am talking* (talk) to a client.</li><li>I *am working* (work) at our head office this week.</li><li>I usually *go* (go) to the gym after school.</li><li>I *am studying* (study) for my Master’s degree.</li><li>Actually, I *finish/am finishing* (finish) my studies soon.</li><li>Currently, I *am looking* (look) for a job.</li><li>I *direct* (direct) the other employees.</li><li>I often do not *know* (know) my work schedule.</li><li>I *live/am living* (live) off campus.</li><li>I *go* (go) to the conference every year.</li></ol> </div></div>"
     }
 };
 export const tenses_quick_quiz = {

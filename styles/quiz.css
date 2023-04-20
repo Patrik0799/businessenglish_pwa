@@ -12,9 +12,19 @@
 }*/
 
 #main {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0.5em 2em;
+  border-radius: 7px;
+  background-color: #333333;
+}
+
+.title {
+  margin-top: 1em;
+  padding: 0.5em 0.5em;
+  border-radius: 7px;
+  background-color: #00559b;
 }
 
 .title > div {
@@ -34,12 +44,12 @@
 }
 
 .description {
-  padding-top: 0.8em;
-  font-size: small;
+  padding: 2em 0em;
 }
 
 .answers {
-  padding-top: 0.5em;
+  text-align: center;
+  padding-bottom: 1em;
 }
 
 .answer {
@@ -47,7 +57,7 @@
 }
 
 .right {
-  background-color: blue;
+  background-color: green;
 }
 
 .wrong {
@@ -148,5 +158,6 @@ input[type=checkbox]:enabled, input[type=radio]:enabled, button:enabled {
 }
 
 #buttons > div:not(:last-child) {
-  padding-right: 0.5em;
+  padding-right: 3em;
 }
+
