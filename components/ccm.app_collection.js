@@ -32,12 +32,11 @@
     ccm: 'https://ccmjs.github.io/ccm/versions/ccm-27.4.2.min.js',
     config: {
 //    "color": "limegreen",
-      /*"css": [ "ccm.load", "https://ccmjs.github.io/tkless-components/app_collection/resources/styles-3.0.0.min.css" ],*/
-      "css": [ "ccm.load", "../styles/app_collection.css" ],
+      "css": [ "ccm.load", "./styles/app_collection.css" ],
 //    "dark": "auto",
       "footer": [],
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-8.4.2.min.mjs" ],
-      "html": [ "ccm.load", "https://ccmjs.github.io/tkless-components/app_collection/resources/templates-3.0.0.min.mjs" ],
+      "html": [ "ccm.load", "./templates/templates.mjs" ],
 //    "icon": [ "ccm.load", "https://ccmjs.github.io/tkless-components/app_collection/resources/app.svg" ],
 //    "lang": [ "ccm.start", "https://ccmjs.github.io/akless-components/lang/versions/ccm.lang-1.1.0.min.js" ],
 //    "logger": [ "ccm.instance", "https://ccmjs.github.io/akless-components/log/versions/ccm.log-5.0.1.min.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/log/resources/configs.min.js", "greedy" ] ],
@@ -135,7 +134,7 @@
       const render = async ( i, j ) => {
         let element = this.element.querySelector( 'main' );
         $.setContent( element, $.loading() );
-        this.html.render( this.html.headline( this.title, i && ( this[ j ? 'sections' : 'footer' ][ i - 1 ].title ), j && this.sections[ i - 1 ].entries[ j - 1 ].title ), this.element.querySelector( '#headline' ) );
+        /*this.html.render( this.html.headline( this.title, i && ( this[ j ? 'sections' : 'footer' ][ i - 1 ].title ), j && this.sections[ i - 1 ].entries[ j - 1 ].title ), this.element.querySelector( '#headline' ) );*/
 
         // render home
         if ( !i ) {

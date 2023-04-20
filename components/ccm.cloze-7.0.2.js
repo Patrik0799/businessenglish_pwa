@@ -39,7 +39,7 @@
         "retry": "Retry",
         "finish": "Finish"
       },
-      "css": [ "ccm.load", "https://ccmjs.github.io/akless-components/cloze/resources/default.css" ],
+      "css": [ "ccm.load", "./styles/cloze.css" ],
   //  "data": { "store": [ "ccm.store" ] },
       "feedback": true,
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-5.1.0.mjs" ],
