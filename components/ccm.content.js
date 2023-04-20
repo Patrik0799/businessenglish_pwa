@@ -20,7 +20,7 @@
     config: {
       "blank": [ "ccm.component", "https://ccmjs.github.io/akless-components/blank/ccm.blank.js" ],
       "components": [],                // contains the components that are reused in the predefined content
-      /*"css": [ "ccm.load", "https://ccmjs.github.io/akless-components/content/resources/styles.min.css" ],*/
+      "css": [ "ccm.load", "./styles/content.css" ],
       "dark": "auto",
       "dependencies": [],              // contains the dependencies on the apps reused in the predefined content
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-8.0.0.min.mjs" ],

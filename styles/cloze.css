@@ -3,11 +3,40 @@
  * @author André Kless <andre.kless@web.de> 2017, 2019-2020, 2023
  * @license The MIT License (MIT)
  */
+.entry-content-nokeywords {
+  padding: 0em 2em;
+}
+
+.entry-title {
+  text-align: center;
+}
+
+.title-strong {
+  padding: 0.5em 0.5em;
+  border-radius: 7px;
+  background-color: #00559b;
+}
+
+.entry-description {
+  padding: 0.5em 2em;
+  border-radius: 7px;
+  background-color: #333333;
+}
+
+.entry-description-fill {
+  padding: 0.5em 2em;
+}
+
+.entry-link {
+  color: #00559b;
+}
 
 button {
-  background-color: #e7e7e7;
-  color: black;
+  margin-left: 3em;
+  background-color: #00559b;
+  color: white;
   border: none;
+  border-radius: 7px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -67,6 +96,7 @@ button:disabled {
 }
 
 .gap input {
+  background-color: #333333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
   margin: 2px;
