@@ -1,2 +1,0 @@
-ccm.files[ 'resources.js' ] = {
-}

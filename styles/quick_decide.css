@@ -1,0 +1,81 @@
+/**
+ * @overview default layout of ccm component for quick decision
+ * @author André Kless <andre.kless@web.de> 2018-2019
+ * @license The MIT License (MIT)
+ */
+
+#element {
+  height: 100%;
+}
+
+#main {
+  background-color: #333333;
+  border-radius: 7px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 1em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#timer {
+  font: small-caps lighter 43px/150% Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#sec:before {
+  content: ':';
+}
+
+#mil:before {
+  content: ':';
+}
+
+#question {
+  font-size: xx-large;
+  padding: 0.5em 0;
+}
+
+#answers {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer {
+  background-color:#00559b;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.answer:not(.disabled) {
+  cursor: pointer;
+}
+
+.answer:empty {
+  padding: 1em 0;
+}
+
+.answer.disabled {
+  background-color: black;
+}
+
+.answer.disabled:not(.right):not(.wrong) {
+  opacity: 0.5;
+}
+
+.answer.right,
+.answer.correct {
+  background-color: limegreen;
+}
+
+.answer.wrong {
+  background-color: red;
+}

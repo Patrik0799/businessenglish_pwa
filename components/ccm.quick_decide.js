@@ -52,7 +52,7 @@
           "inner": "%answer%"
         }
       },
-      "css": [ "ccm.load", "https://ccmjs.github.io/akless-components/quick_decide/resources/default.css" ],
+      "css": [ "ccm.load", "./styles/quick_decide.css" ],
       "questions": [ { "text": "First Question", "answers": [ "Answer A", "Answer B" ] } ],
       "interval": 1,
       "wait": 0
