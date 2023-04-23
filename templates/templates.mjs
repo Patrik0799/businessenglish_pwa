@@ -12,23 +12,31 @@ export { render };
  * @param {Function} onClick - when an entry is clicked
  * @returns {TemplateResult} main HTML template
  */
+/*<div class="entry" @click=${ () => onClick() }>
+<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+    </svg>
+</div>*/ /*the svg div*/
+
+/*<div>${ unsafeHTML(entry.title) }</div>*/ /*title from the footer*/
 export function main( app, onClick ) {
   return html`
     <header>
-      <div id="headline">${ headline( app.title || '' ) }</div>
-      <div></div>
-      <div class="entry" @click=${ () => onClick() }>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
-          </svg>
+      <div class="header-app-name">
+          <img src="./icons/b.png" alt="B">
+          <img class="e" src="./icons/e.png" alt="E">
+          <div id="headline">${ headline( app.title || '' ) }</div>
+          <div class="home-button" @click=${ () => onClick() }>
+              <img class="business-english-icon" src="./icons/home_button.png" alt="home-button">
+          </div>
       </div>
+      <img class="business-english-icon" src="./icons/business_english.png" alt="business-english-icon">
     </header>
     <main></main>
-    <footer ?data-hidden=${ !app.footer.length }>
+    <footer class="sticky_footer" ?data-hidden=${ !app.footer.length }>
       ${ app.footer.map( ( entry, i ) => html`
-        <div class="entry" @click=${ () => onClick( i + 1 ) }>
+        <div class="footer-entry" @click=${ () => onClick( i + 1 ) }>
           <img src="${ entry.icon || app.icon || '' }" ?data-hidden=${ !entry.icon && !app.icon }>
-          <div>${ unsafeHTML(entry.title) }</div>
         </div>
       ` ) }
     </footer>

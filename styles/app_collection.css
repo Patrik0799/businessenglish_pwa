@@ -19,11 +19,33 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+.e {
+  width: 24px;
+  height: 24px;
+  margin-right: 4em;
+}
+.business-english-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 2em;
+}
+.header-app-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button :hover{
+  width: 35px;
+  height: 35px;
+  background-color: #333333;
+  border-radius: 7px;
+}
 header {
   z-index: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   background: #282828;
   width: 100%;
@@ -55,6 +77,7 @@ main .title {
   font-size: large;
   font-weight: normal;
   padding: 1.2em 0.8em; /*0.5em 0.8em*/
+  border-top: 1px solid white;
   /*border-radius: 8px;*/
 }
 
@@ -103,11 +126,26 @@ main img {
   aspect-ratio: 3/2;
   object-fit: contain;
 }
-
-footer .entry {
+.sticky_footer {
+  background: #282828;
+  border-top: 1px solid #00559b;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+.sticky_footer :hover {
+  cursor: pointer;
+  background-color: var( --hover-bg );
+}
+.sticky_footer .footer-entry {
   flex-grow: 1;
   text-align: center;
-  padding: 0.5em;
+  padding: 1em;
+}
+
+.footer-entry :hover{
+  font-size: medium;
 }
 
 footer img {
@@ -128,6 +166,8 @@ a.entry {
 .entry:hover {
   background-color: var( --hover-bg );
   color: var( --hover-color );
+  border-left: 13px solid #00559b;
+  border-radius: 7px;
 }
 
 [data-invisible] {

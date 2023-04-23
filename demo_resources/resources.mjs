@@ -1,5 +1,5 @@
 export const app_collection_config = {
-        "title": "Business English",
+        "title": "",
         "sections": [
         {
             "title": "Introductions",
@@ -513,106 +513,37 @@ export const app_collection_config = {
             ]
         }
     ],
-       /* "footer": [
+        "footer": [
             {
-                "title": `<b>Present Simple</b><small>easy</small>`,
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
+                "title": `<p>Chat</p>`,
+                "icon": "icons/chat.png",
+                "ignore": [ "ccm.start", "components/ccm.content.js", ["ccm.load", "./demo_resources/resources.mjs#dummy"]]
             },
             {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
+                "title": `<p>Stats</p>`,
+                "icon": "icons/stats.png",
+                "ignore": [ "ccm.start", "components/ccm.content.js", ["ccm.load", "./demo_resources/resources.mjs#dummy"]]
             },
             {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
+                "title": `<p>Info</p>`,
+                "icon": "icons/info.png",
+                "ignore": [ "ccm.start", "components/ccm.content.js", ["ccm.load", "./demo_resources/resources.mjs#dummy"]]
             },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-            {
-                "title": "Present Simple",
-                "icon": "icons/fill_in.png",
-                "ignore": [ "ccm.start", "components/ccm.cloze-7.0.2.js", ["ccm.load", "./demo_resources/resources.mjs#present_simple"]]
-            },
-        ]*/
+        ]
 
 
 };
+export const dummy = {
+    "inner" : `
+        <div class="entry-content">
+            <p class="entry-title"><strong class="title-strong">Work in progress...</strong></p>
+            <div class="entry-description">
+                <p><span>Working on chat, stats and info section...</span></p>
+            </div>
+        </div>
+    `
+};
+
 export const introduction = {
     "inner" : `
         <div class="entry-content">
