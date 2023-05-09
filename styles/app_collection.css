@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 #element {
   --bg: white; /*white*/
   --color: black; /*black*/
@@ -14,11 +14,12 @@
   /*border: 1px solid var( --border );*/
   background-color: #282828; /*white*/
   color: white;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: /*system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,*/ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
   line-height: normal;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
 .e {
   width: 24px;
   height: 24px;
@@ -28,12 +29,14 @@
   width: 35px;
   height: 35px;
   margin-right: 2em;
+  margin-left: 2em;
 }
-.header-app-name {
+.header-app-name, .login-section {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .home-button :hover{
   width: 35px;
   height: 35px;
@@ -76,9 +79,10 @@ main .title {
   color: var( --section-color );
   font-size: large;
   font-weight: normal;
-  padding: 1.2em 0.8em; /*0.5em 0.8em*/
+  padding: 0.5em 0.8em; /*0.5em 0.8em*/
   border-top: 1px solid white;
   /*border-radius: 8px;*/
+  text-align: center;
 }
 
 main .entry {
@@ -88,6 +92,7 @@ main .entry {
 /*  border-radius: 8px;*/
   padding: 0.5em 1.5em; /*0.5em 0.8em*/
 }
+
 small {
   font-weight: lighter;
   margin-left: 0.5em;
@@ -248,3 +253,17 @@ a.entry {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/*experiment*/
+
+/*.entries-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}*/
+
+
+
+
+
+

@@ -30,7 +30,11 @@ export function main( app, onClick ) {
               <img class="business-english-icon" src="./icons/home_button.png" alt="home-button">
           </div>
       </div>
-      <img class="business-english-icon" src="./icons/business_english.png" alt="business-english-icon">
+      <div class="login-section">
+        <div id="nav">
+            </div>
+            <img class="business-english-icon" src="./icons/business_english.png" alt="business-english-icon">
+     </div>
     </header>
     <main></main>
     <footer class="sticky_footer" ?data-hidden=${ !app.footer.length }>
@@ -58,8 +62,10 @@ export function home( app, onClick ) {
   return html`
     ${ app.sections.map( ( section, i ) => html`
       <div class="section">
-        <div class="title">${ section.title }</div>
-        <div>
+        <div class="title">
+            <p><strong>${ unsafeHTML(section.title) }</strong></p>
+        </div>
+        <div class="entries-div">
           ${ section.entries.map( ( entry, j ) => app.routing ? html`
             <a class="entry" href="?ccm-${ app.routing.app }=home-${ i + 1 }-${ j + 1 }" @click=${ event => { event.preventDefault(); onClick( i + 1, j + 1 ); } }>
               <img src="${ entry.icon || app.icon || '' }" ?data-invisible=${ !entry.icon && !app.icon }>

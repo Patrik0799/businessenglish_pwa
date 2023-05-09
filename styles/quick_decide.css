@@ -21,7 +21,7 @@
 }
 
 #timer {
-  font: small-caps lighter 43px/150% Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font: small-caps lighter 30px/100% Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 #sec:before {
@@ -33,7 +33,7 @@
 }
 
 #question {
-  font-size: xx-large;
+  font-size: x-large;
   padding: 0.5em 0;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .answer {
-  width: 33%;
+  width: 20%;
   background-color:#00559b;
   border-radius: 7px;
   border: none;

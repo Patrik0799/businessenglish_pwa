@@ -40,9 +40,16 @@ button {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
+  transition: background-color 0.4s;
   display: inline-block;
-  font-size: 16px;
+/*  font-size: 16px;*/
   cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #228BE6;
+  border-color: #00559b;
 }
 
 button:disabled {
@@ -113,8 +120,8 @@ button:disabled {
 
 .gap input:focus {
   outline: none;
-  box-shadow: 0 0 0.5em 0 #7fb8ff;
-  border-color: #7fb8ff;
+  box-shadow: 0 0 0.5em 0 #00559b;
+  border-color: #00559b;
 }
 
 .gap.correct input {

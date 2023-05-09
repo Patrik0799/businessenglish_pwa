@@ -1,8 +1,9 @@
 export const app_collection_config = {
+        user: [ "ccm.start", "components/ccm.user.js" ],
         "title": "",
         "sections": [
         {
-            "title": "Introductions",
+            "title": `<p>Introductions</p>`,
             "entries": [
                 {
                     "title": `<p>Introduction to BE</p>`,
@@ -47,7 +48,7 @@ export const app_collection_config = {
             ],
         },
         {
-            "title": "Describing What you Do",
+            "title": `<p>Describing What you Do</p>`,
             "entries": [
                 {
                     "title": `<p>What do you do? Part 1 <small class="medium">Medium</small></p>`,
@@ -87,7 +88,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Telephoning",
+            "title": `<p>Telephoning</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -127,7 +128,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Emailing",
+            "title": `<p>Emailing</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -172,7 +173,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Report Writing",
+            "title": `<p>Report Writing</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -218,7 +219,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Presentation",
+            "title": `<p>Presentation</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -258,7 +259,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Meetings",
+            "title": `<p>Meetings</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -293,7 +294,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "CV/Resume",
+            "title": `<p>CV/Resume</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -348,7 +349,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Interviewing",
+            "title": `<p>Interviewing</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -388,7 +389,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Job Fair",
+            "title": `<p>Job Fair</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -443,7 +444,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Final Exam",
+            "title": `<p>Final Exam</p>`,
             "entries": [
                 {
                     "title": `<p>Overview</p>`,
@@ -503,7 +504,7 @@ export const app_collection_config = {
             ]
         },
         {
-            "title": "Final Project",
+            "title": `<p>Final Project</p>`,
             "entries": [
                 {
                     "title": `<p>Final Assignment</p>`,
@@ -517,17 +518,17 @@ export const app_collection_config = {
             {
                 "title": `<p>Chat</p>`,
                 "icon": "icons/chat.png",
-                "ignore": [ "ccm.start", "components/ccm.content.js", ["ccm.load", "./demo_resources/resources.mjs#dummy"]]
+                "ignore": [ "ccm.start", "components/ccm.chat.js", ["ccm.load", "./demo_resources/resources.mjs#chat_config"]]
             },
             {
                 "title": `<p>Stats</p>`,
                 "icon": "icons/stats.png",
-                "ignore": [ "ccm.start", "components/ccm.content.js", ["ccm.load", "./demo_resources/resources.mjs#dummy"]]
+                "ignore": [ "ccm.start", "components/ccm.result.js", ["ccm.load", "./demo_resources/resources.mjs#result"]]
             },
             {
-                "title": `<p>Info</p>`,
+                "title": `<p>Rate me!</p>`,
                 "icon": "icons/info.png",
-                "ignore": [ "ccm.start", "components/ccm.content.js", ["ccm.load", "./demo_resources/resources.mjs#dummy"]]
+                "ignore": [ "ccm.start", "components/ccm.live_poll.js", ["ccm.load", "./demo_resources/resources.mjs#live_poll"]]
             },
         ]
 
@@ -543,7 +544,30 @@ export const dummy = {
         </div>
     `
 };
-
+export const live_poll = {
+    user: [ "ccm.instance", "./components/ccm.user.js" ],
+    data: {
+        "store": [ "ccm.store", {name: "pzelen2s_rating", url: "wss://ccm2.inf.h-brs.de"}],
+        "key": "ratings"
+    },
+}
+export const result = {
+    store: [ "ccm.store" , {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}],
+}
+export const chat_config = {
+    data: {
+        store: [ "ccm.store", {name: "pzelen2s_chat", url: 'wss://ccm2.inf.h-brs.de'}],
+        key: "general_chat",
+        permissions: {
+            "access": {
+                "get": "all",
+                "set": "creator",
+                "del": "creator"
+            }
+        }
+    },
+    user: [ "ccm.instance", "components/ccm.user.js" ]
+};
 export const introduction = {
     "inner" : `
         <div class="entry-content">
@@ -567,10 +591,6 @@ export const present_simple = {
             "start": "Start",
             "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-5.1.0.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -593,18 +613,19 @@ export const present_simple = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
-        ],
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}],
             "login": true,
             "user": true,
-            "key": "1588892835142X7802285741412942"
+            "key": "present_simple"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ] ,
         "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "text": "<div class=\"entry-content\"> <p class=\"entry-title\"><strong class=\"title-strong\">Section I - Introductions and the Present Simple</strong></p><div class=\"entry-description\"> <p> <span> Being able to introduce yourself well is a key skill in business. In fact, how you introduce yourself will influence how others think of and interact with you. To introduce yourself in English you use the present tenses. These tenses are the present simple and the present progressive. </span> </p><p><strong>Most often the present simple (also called simple present) is used to introduce yourself and to talk about what you do</strong><em style=\"color: #000;\">.</em></p><p> <em><span class=\"ql-cursor\"></span></em><span>This is because the present simple is used to talk about permanent states and facts, such as what your name is, where you live or where are from, plus what you do for work, e.g.,</span> <em>My name is John. I am a systems analyst. I live in Sankt Augustin, Germany</em><span>The present simple is also used to talk about thoughts, feelings, habits, e.g.,</span> <em>I am happy to meet you in person. I feel a little tired. I drink coffee. We speak English and German at the office.</em> </p></div><div class=\"entry-description-fill\"> <h4><strong>Fill in the blank with the correct form of the words from the box above.</strong></h4> <ol> <li><span>My name *is* Judith.</span></li><li><span>I *am* called Judy.</span></li><li><span>I *work* for Ford.</span></li><li><span>I *live* in Germany.</span></li><li><span>We *work* toher.</span></li><li><span>The company *produces*</span><span></span><span>computers.</span></li><li><span>The firm *is* in London.</span></li><li><span>I *like* my work.</span></li><li><span>I *go* to work by train.</span></li><li><span>She *drinks* tea, not coffee.</span></li><li><span>I *speak*</span><span></span><span>English well.</span></li><li><span>He *does* accounting.</span></li></ol> </div></div>"
 };

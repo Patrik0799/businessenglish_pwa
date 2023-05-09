@@ -42,7 +42,7 @@
       "css": [ "ccm.load", "./styles/cloze.css" ],
   //  "data": { "store": [ "ccm.store" ] },
       "feedback": true,
-      "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-5.1.0.mjs" ],
+      "helper": [ "ccm.load", "./components/helper-5.1.0.mjs" ],
       "html": [ "ccm.load", "https://ccmjs.github.io/akless-components/cloze/resources/templates.html" ],
       "keywords": true,
   //  "logger": [ "ccm.instance", "https://ccmjs.github.io/akless-components/log/versions/ccm.log-5.0.0.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/log/resources/configs.js", "greedy" ] ],

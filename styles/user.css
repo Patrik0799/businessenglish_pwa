@@ -1,0 +1,97 @@
+/**
+ * @overview default layout of ccmjs-based web component for user authentication
+ * @author Tea Kless <tea.kless@web.de.de> 2018
+ * @author André Kless <andre.kless@web.de.de> 2018-2019
+ * @license The MIT License (MIT)
+ */
+
+#element {
+  display: flex;
+  justify-content: center;
+  font-family: /*system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,*/ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+}
+
+#logged_in,
+#logged_out {
+  display: flex;
+  align-items: center;
+/*  margin: 0 4em 0 0;*/
+}
+#user {
+  padding: 5px 15px;
+  border-radius: 7px;
+  background-color: #333333;
+}
+
+#button {
+  margin-left: 0.8em;
+  background-color: #00559b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.4s;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #228BE6;
+  border-color: #00559b;
+}
+
+/*.glyphicon {
+  margin-right: 0.4em;
+}*/
+#login-form{
+  margin-top: 100px;
+  padding: 10px 20px;
+  background-color: #333333;
+  width: 30em;
+  border-radius: 7px;
+}
+#login-form #loginbox {
+  color: white;
+}
+#login-form .panel-body {
+  padding-top: 30px
+}
+
+#login-form .input-group {
+  margin-bottom: 25px;
+}
+
+#login-username {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 7px;
+}
+
+#btn-abort {
+  float: right;
+  background-color: orangered;
+  border-radius: 7px;
+  padding: 5px 15px;
+}
+#btn-login {
+  background-color: #00559b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 17px;
+  font-size: 15px;
+
+}
+.well-sm {
+  padding: 3px !important;
+}
+
+.panel-title {
+  padding: 0.5em 0.5em;
+  border-radius: 7px;
+  background-color: #00559b;
+  font-weight: bold;
+}
