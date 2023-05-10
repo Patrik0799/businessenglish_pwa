@@ -1,0 +1,168 @@
+/**
+ * @overview default layout of ccm component for live poll
+ * @author André Kless <andre.kless@web.de.de> 2019-2020
+ * @license The MIT License (MIT)
+ */
+
+#element {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  display: flex;
+}
+
+#main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5em;
+}
+#text {
+  padding: 0.5em 0.5em;
+  border-radius: 7px;
+  background-color: #00559b;
+}
+#main > div {
+  padding: 0.5em 0;
+}
+
+button {
+  margin-left: 3em;
+  background-color: #00559b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.4s;
+  display: inline-block;
+  /*  font-size: 16px;*/
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #228BE6;
+  border-color: #00559b;
+}
+
+*[contenteditable] {
+  border: 1px dotted transparent;
+  min-width: 4em;
+}
+
+*[contenteditable=true]:hover:not(:focus) {
+  border: 1px dotted lightgray;
+}
+
+#main #reload {
+  margin: 0 0.5em;
+  font-size: x-large;
+  align-self: flex-end;
+  cursor: pointer;
+  padding-bottom: 0;
+  color: gray;
+}
+
+#main #reload:hover {
+  color: black;
+}
+
+#main #question {
+  display: flex;
+  align-items: center;
+}
+
+#main #question > #text {
+  padding: 0.5em;
+  font-size: x-large;
+  cursor: text;
+}
+
+#main #question > #text:empty:before {
+  content: 'Type Question here...';
+  color: lightgrey;
+}
+
+#main #question #lock {
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#main #question #lock:hover {
+  font-size: xx-large;
+}
+
+#main #answers .answer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#main #answers .answer.selected {
+  background-color: lightskyblue;
+}
+
+#main #answers .answer .status {
+  display: none;
+  color: limegreen;
+  font-size: larger;
+}
+
+#main #answers .answer.selected .status {
+  display: block;
+}
+
+#main.active #answers .answer:not(.selected):hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#main #answers .answer > div {
+  padding: 0.5em;
+}
+
+#main #answers .answer .letter {
+  font-weight: bolder;
+  font-size: larger;
+  width: 1em;
+  text-align: center;
+}
+
+#main #answers .answer:first-child .text:empty:before {
+  content: 'Type Answer here...';
+  color: lightgray;
+}
+
+#main #answers .answer .text:empty + .icon {
+  color: lightgray;
+}
+
+#main.active #members {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: x-small;
+}
+
+#main.active #members .member {
+  padding: 0.1em;
+}
+
+#main.active #members .member:not(:last-child):after {
+  content: ', '
+}
+
+#main.active #members {
+  color: darkblue;
+}
+
+#main.active #members .member.done {
+  background-color: lime;
+}

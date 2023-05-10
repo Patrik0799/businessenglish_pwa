@@ -31,14 +31,14 @@
   //  "choosed_comp": "component_name",
   //  "choosed_user": "user_key",
       "css": [ "ccm.load", [
+        "./styles/result.css",
         "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
-        "https://ccmjs.github.io/akless-components/result/resources/default.css"
       ] ],
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs" ],
-      "html": [ "ccm.load", "https://ccmjs.github.io/akless-components/result/resources/templates.html" ],
+      "html": [ "ccm.load", "./templates/templates_result.html" ],
       "moment": [ "ccm.load", "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" ],
   //  "logger": [ "ccm.instance", "https://ccmjs.github.io/akless-components/log/versions/ccm.log-4.0.2.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/log/resources/configs.js", "greedy" ] ]
-      "menu": [ "ccm.component", "https://ccmjs.github.io/akless-components/menu/versions/ccm.menu-2.4.4.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/menu/resources/configs.js", "bootstrap" ] ],
+      "menu": [ "ccm.component", "./components/ccm.menu-2.4.4.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/menu/resources/configs.js"/*, "bootstrap"*/ ] ],
       "placeholder": {
         "user": "User",
         "comp": "Component",
@@ -54,7 +54,7 @@
   //  "selected": 2,
       "sections": [ "Show Results", "Ranking", "Correctness", "Timing", "Sections" ],
       "store": [ "ccm.store"],
-      "table": [ "ccm.component", "https://ccmjs.github.io/tkless-components/table/versions/ccm.table-4.1.0.js" ],
+      "table": [ "ccm.component", "./components/ccm.table-4.1.0.js" ],
   //  "user": [ "ccm.instance", "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.3.1.js" ]
 
     },
@@ -208,7 +208,7 @@
                */
               const results = await filterResults();
 
-              // no relevant results? => nothings to display
+              // no relevant results? => nothing to display
               if ( !results.length )
                 return $.setContent( elem.content, self.placeholder.message );
 

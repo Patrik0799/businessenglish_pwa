@@ -1,0 +1,91 @@
+/**
+ * @overview default layout of ccm component for visualisation of result data
+ * @author André Kless <andre.kless@web.de> 2019
+ * @license The MIT License (MIT)
+ */
+#main {
+  font-family: /*system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,*/ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  padding: 1em;
+}
+
+#user {
+  float: right;
+}
+
+#content {
+  padding: 1em 0;
+}
+
+#filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1em 0;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5em;
+}
+
+.filter > * {
+  padding: 0 0.5em;
+}
+
+.filter label:after {
+  content: ':'
+}
+
+.filter .form-control {
+  background-color: #333333;
+  color: white;
+  border: none;
+}
+
+.filter .form-control .selected {
+  background-color: black;
+}
+
+label {
+  margin: 0 !important;
+}
+
+button {
+  font-family: sans-serif;
+  background-color: #228BE6;
+}
+
+select {
+  cursor: pointer;
+}
+
+#details {
+  padding: 0.5em;
+}
+
+#back {
+  padding: 0.5em;
+}
+
+.table {
+  width: 100%;
+}
+
+tr {
+  background-color: #00559b;
+  text-align: left;
+}
+
+td {
+  background-color: #333333;
+  padding: 15px 7px;
+  border-radius: 7px;
+}
+
+th {
+  padding: 5px 7px;
+}
+
+
+

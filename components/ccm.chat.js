@@ -46,7 +46,7 @@
     config: {
       "button": "Send",
       "css": [ "ccm.load",
-        "https://ccmjs.github.io/akless-components/chat/resources/snack.css",
+        "./styles/chat.css",
         { "context": "head", "url": "https://ccmjs.github.io/akless-components/resources/fonts/WeblySleekUI/font.css" }
       ],
       "data": {
@@ -78,7 +78,7 @@
         }
       } ],
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-7.4.0.mjs" ],
-      "html": [ "ccm.load", "https://ccmjs.github.io/akless-components/chat/resources/templates_v3.html" ],
+      "html": [ "ccm.load", "./templates/templates_chat.html" ],
 //    "lang": [ "ccm.instance", "https://ccmjs.github.io/akless-components/lang/versions/ccm.lang-1.1.0.js" ],
 //    "logger": [ "ccm.instance", "https://ccmjs.github.io/akless-components/log/versions/ccm.log-5.0.0.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/log/resources/configs.js", "greedy" ] ],
 //    "map": user => user.name === 'john' ? 'Teacher' : 'Student' + user.nr,

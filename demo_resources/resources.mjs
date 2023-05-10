@@ -521,12 +521,12 @@ export const app_collection_config = {
                 "ignore": [ "ccm.start", "components/ccm.chat.js", ["ccm.load", "./demo_resources/resources.mjs#chat_config"]]
             },
             {
-                "title": `<p>Stats</p>`,
+                "title": `<p>Results</p>`,
                 "icon": "icons/stats.png",
                 "ignore": [ "ccm.start", "components/ccm.result.js", ["ccm.load", "./demo_resources/resources.mjs#result"]]
             },
             {
-                "title": `<p>Rate me!</p>`,
+                "title": `<p>Rate the App</p>`,
                 "icon": "icons/info.png",
                 "ignore": [ "ccm.start", "components/ccm.live_poll.js", ["ccm.load", "./demo_resources/resources.mjs#live_poll"]]
             },

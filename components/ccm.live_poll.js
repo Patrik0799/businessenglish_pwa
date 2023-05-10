@@ -27,7 +27,7 @@
 //    "admin": "leader",
       "chart": [ "ccm.component", "https://ccmjs.github.io/akless-components/highchart/versions/ccm.highchart-3.0.2.js" ],
       "converter": [ "ccm.load", { "url": "https://ccmjs.github.io/akless-components/modules/json2json.mjs", "type": "module", "import": "poll_to_highchart" } ],
-      "css": [ "ccm.load", "https://ccmjs.github.io/akless-components/live_poll/resources/styles.css" ],
+      "css": [ "ccm.load", "./styles/live_poll.css" ],
       "data": {
         "store": [ "ccm.store" ],
         "key": "test"
