@@ -614,7 +614,8 @@ export const present_simple = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}],
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
             "login": true,
             "user": true,
             "key": "present_simple"
@@ -623,11 +624,11 @@ export const present_simple = {
         "onfinish": {
         "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": "Saved!"
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
-    "text": "<div class=\"entry-content\"> <p class=\"entry-title\"><strong class=\"title-strong\">Section I - Introductions and the Present Simple</strong></p><div class=\"entry-description\"> <p> <span> Being able to introduce yourself well is a key skill in business. In fact, how you introduce yourself will influence how others think of and interact with you. To introduce yourself in English you use the present tenses. These tenses are the present simple and the present progressive. </span> </p><p><strong>Most often the present simple (also called simple present) is used to introduce yourself and to talk about what you do</strong><em style=\"color: #000;\">.</em></p><p> <em><span class=\"ql-cursor\"></span></em><span>This is because the present simple is used to talk about permanent states and facts, such as what your name is, where you live or where are from, plus what you do for work, e.g.,</span> <em>My name is John. I am a systems analyst. I live in Sankt Augustin, Germany</em><span>The present simple is also used to talk about thoughts, feelings, habits, e.g.,</span> <em>I am happy to meet you in person. I feel a little tired. I drink coffee. We speak English and German at the office.</em> </p></div><div class=\"entry-description-fill\"> <h4><strong>Fill in the blank with the correct form of the words from the box above.</strong></h4> <ol> <li><span>My name *is* Judith.</span></li><li><span>I *am* called Judy.</span></li><li><span>I *work* for Ford.</span></li><li><span>I *live* in Germany.</span></li><li><span>We *work* toher.</span></li><li><span>The company *produces*</span><span></span><span>computers.</span></li><li><span>The firm *is* in London.</span></li><li><span>I *like* my work.</span></li><li><span>I *go* to work by train.</span></li><li><span>She *drinks* tea, not coffee.</span></li><li><span>I *speak*</span><span></span><span>English well.</span></li><li><span>He *does* accounting.</span></li></ol> </div></div>"
+    "text": "<div class=\"entry-content\"> <p class=\"entry-title\"><strong class=\"title-strong\">Section I - Introductions and the Present Simple</strong></p><div class=\"entry-description\"> <p> <span> Being able to introduce yourself well is a key skill in business. In fact, how you introduce yourself will influence how others think of and interact with you. To introduce yourself in English you use the present tenses. These tenses are the present simple and the present progressive. </span> </p><p><strong>Most often the present simple (also called simple present) is used to introduce yourself and to talk about what you do</strong><em style=\"color: #000;\">.</em></p><p> <em><span class=\"ql-cursor\"></span></em><span>This is because the present simple is used to talk about permanent states and facts, such as what your name is, where you live or where are from, plus what you do for work, e.g.,</span> <em>My name is John. I am a systems analyst. I live in Sankt Augustin, Germany</em><span>The present simple is also used to talk about thoughts, feelings, habits, e.g.,</span> <em>I am happy to meet you in person. I feel a little tired. I drink coffee. We speak English and German at the office.</em> </p></div><div class=\"entry-description-fill\"> <h4><strong>Fill in the blank with the correct form of the words from the box above.</strong></h4> <ol> <li><span>My name *is* Judith.</span></li><li><span>I *am* called Judy.</span></li><li><span>I *work* for Ford.</span></li><li><span>I *live* in Germany.</span></li><li><span>We *work* together.</span></li><li><span>The company *produces*</span><span></span><span>computers.</span></li><li><span>The firm *is* in London.</span></li><li><span>I *like* my work.</span></li><li><span>I *go* to work by train.</span></li><li><span>She *drinks* tea, not coffee.</span></li><li><span>I *speak*</span><span></span><span>English well.</span></li><li><span>He *does* accounting.</span></li></ol> </div></div>"
 };
 export const present_progressive = {
     "cancel_button": "",
@@ -637,10 +638,6 @@ export const present_progressive = {
         "start": "Start",
         "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-5.1.0.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -663,33 +660,38 @@ export const present_progressive = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1588893711178X049642192995768"
+        "key": "present_progressive"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
-        "restart": true,
+        "store": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": "<div class=\"entry-content\"> <p class=\"entry-title\"><strong class=\"title-strong\">Section II - Introductions using Present Progressive to talk about things in progress</strong></p><div class=\"entry-description\"> <p> <span> The present progressive (also called present continuous) is used to talk about: what you are doing at the moment, something happening at the time of speaking (even elsewhere), or about something that is a temporary situation </span> <em>.</em></p><p><span>This is because the progressive or continuous form always signals actions that are part of a process. This process can be short or long and can even have pauses in between, but it is not finished.&nbsp;</span></p><p> <span>The present progressive always uses a form of the verb “be” plus the main verb with an -ing ending. For example, </span><em>“I am working at the company’s headquarters this week.”</em> <span> Notice, this situation is a temporary process lasting just one week. In fact, the present continuous often has “signal words,” such as: this week, today, right now, for the time, and other similar phrases. </span></p></div><div class=\"entry-description-fill\"> <h4><strong>Fill in the correct form of the word in brackets.</strong></h4><ol> <li>We *are* *attending* (attend)<span style=\"color: rgb(83, 129, 53);\"> </span>the conference until Friday.</li><li>We *are* *staying* (stay)<span style=\"color: rgb(83, 129, 53);\"> </span>at the Hilton hotel this week.</li><li>She *is* *filling-in/filling in* (fill-in)<span style=\"color: rgb(83, 129, 53);\"> </span>while I am away.</li><li>We *are*<span style=\"color: rgb(83, 129, 53);\"> </span>*talking*<span style=\"color: rgb(83, 129, 53);\"> </span>(talk)<span style=\"color: rgb(83, 129, 53);\"> </span>about warehouse management.</li><li>Sorry, I *am*<span style=\"color: rgb(83, 129, 53);\"> </span>*having*<span style=\"color: rgb(83, 129, 53);\"> </span>(have)<span style=\"color: rgb(83, 129, 53);\"> </span>problems hearing you.</li><li>I *am*<span style=\"color: rgb(83, 129, 53);\"> </span>*working* (work)<span style=\"color: rgb(83, 129, 53);\"> </span>on the outsourcing project, right now.</li><li>We *are*<span style=\"color: rgb(83, 129, 53);\"> </span>*going*<span style=\"color: rgb(83, 129, 53);\"> </span>(go)<span style=\"color: rgb(83, 129, 53);\"> </span>to a restaurant. Do you want to join us?</li><li>Sorry, I *am*<span style=\"color: rgb(83, 129, 53);\"> </span>*having*<span style=\"color: rgb(83, 129, 53);\"> </span>(have)<span style=\"color: rgb(83, 129, 53);\"> </span>problems understanding you.</li><li>What *are* you *doing*<span style=\"color: rgb(83, 129, 53);\"> </span>(do) in Hamburg?</li><li><span>Actually, I *am*</span><span style=\"color: rgb(83, 129, 53);\"> </span>*consulting*<span style=\"color: rgb(83, 129, 53);\"> </span>(consult) <span>with a client in town. </span></li></ol> </div></div>"
 };
 export const presentsimple_vs_presentprogressive_quiz = {
     "data": {
-        "key": "1681215297669X6893195721504344",
         "store": [
-            "ccm.store"
-        ]
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "presentsimple_vs_presentprogressive_quiz",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "questions": [
         {
@@ -873,17 +875,13 @@ export const presentsimple_vs_presentprogressive_quiz = {
     "shuffle": true,
     "random": true,
     "escape": false,
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "placeholder": {
         "prev": "Previous",
         "submit": "Check",
         "next": "Next",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -891,16 +889,20 @@ export const presentsimple_vs_presentprogressive_quiz = {
 };
 export const mixed_exercise = {
     "data": {
-        "key": "1681215950653X42808332701415175",
         "store": [
-            "ccm.store"
-        ]
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "mixed_exercise",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "questions": [
         {
@@ -1067,17 +1069,13 @@ export const mixed_exercise = {
     "shuffle": true,
     "random": true,
     "escape": false,
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "placeholder": {
         "prev": "Previous",
         "submit": "Check",
         "next": "Next",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.1.0.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -1089,12 +1087,8 @@ export const listening_and_writing = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -1117,18 +1111,20 @@ export const listening_and_writing = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681216472171X09933438609331424"
+        "key": "listening_and_writing"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><strong>Click on the link. Listen to the audio recording and complete the phrases in the categories below.&nbsp;&nbsp;</strong></p><p> <a class=\"entry-link\" href=\"http://downloads.bbc.co.uk/worldservice/learningenglish/howto/how_to_071226_introductions_formal.mp3\"> Link </a></p><p> <span> When introducing yourself or someone else in a formal context there are standard phrases that are used in English. Listen to the audio from the British Broadcasting Company (BBC) learningenglish.com about introductions. Remember, you may have to listen to it more than once to catch all the information. As you listen, type in the phrases that you hear in the appropriate sections below. </span></p></div><div class=\"entry-description-fill\"> <p><strong>OMIT any names you hear and type in the word NAME. Example: if you hear “Hello, I am called Jackie” type in “Hello, I am called NAME”</strong></p><p><span>Phrases for:</span></p><p><strong>INTRODUCING YOURSELF</strong></p><ol> <li><span>*I just wanted to introduce myself/I'd like to introduce myself/I'm NAME/I don't think we've actually met formally yet/My name's NAME*</span></li><li><span>*I just wanted to introduce myself/I'd like to introduce myself/I'm NAME/I don't think we've actually met formally yet/My name's NAME*</span></li><li><span>*I just wanted to introduce myself/I'd like to introduce myself/I’m NAME/I don’t think we’ve actually met formally yet/My name’s NAME*</span></li><li><span>*I just wanted to introduce myself/I'd like to introduce myself/I'm NAME/I don't think we've actually met formally yet/My name's NAME*</span></li><li><span>*I just wanted to introduce myself/I'd like to introduce myself/I'm NAME/I don't think we've actually met formally yet/My name's NAME*</span></li></ol><p><strong>RESPONDING TO AN INTRODUCTION</strong></p><ol> <li><span>*Nice to meet you/Pleased to meet you/I don't believe we've met before/Very nice to meet you/It's a pleasure to meet you*</span></li><li><span>*Nice to meet you/Pleased to meet you/I don't believe we've met before/Very nice to meet you/It's a pleasure to meet you*</span></li><li><span>*Nice to meet you/Pleased to meet you/I don't believe we've met before/Very nice to meet you/It's a pleasure to meet you*</span></li><li><span>*Nice to meet you/Pleased to meet you/I don't believe we've met before/Very nice to meet you/It's a pleasure to meet you*</span></li><li><span>*Nice to meet you/Pleased to meet you/I don't believe we've met before/Very nice to meet you/It's a pleasure to meet you*</span></li></ol><p><strong>INTRODUCING SOMEONE ELSE</strong></p><ol> <li><span>*Have you met NAME/There's someone I'd like you to meet NAME/I'd like to introduce you to NAME*</span></li><li><span>*Have you met NAME/There's someone I'd like you to meet NAME/I'd like to introduce you to NAME*</span></li><li><span>*Have you met NAME/There's someone I'd like you to meet NAME/I'd like to introduce you to NAME*</span></li></ol> </div></div>"
@@ -1142,10 +1138,6 @@ export const pronounciation_in_introductions = {
         "start": "Start",
         "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-5.1.0.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -1168,18 +1160,20 @@ export const pronounciation_in_introductions = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1588894151815X44990510992090615"
+        "key": "pronounciation_in_introductions"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> One of the difficulties facing non-native speakers of English is its intonation pattern. English is a content language, which means that the more meaningful words in a sentence are emphasized while the less meaning words are not.&nbsp; </span> </p><p><span>This pattern of intonation and stress may contrast with a non-native speaker’s natural pattern of speech and needs to be a practiced. The following link provides a thorough discussion of the topic.</span></p><p><strong>Click on the link below. Listen to the video. Then answer the questions.</strong></p><p><a class=\"entry-link\" href=\"https://www.youtube.com/watch?v=oWP9Riq-ZBg\">Link</a></p></div><div class=\"entry-description-fill\"> <p><span>Now answer the questions about phrases introducing yourself:</span></p><h4><span>1. The speaker mentions 4 sentences you can use to give your name. List the two complete sentences and the short (contracted) forms of these:</span></h4> <p><span>a) Full sentence: </span>*I am/My name is*<span style=\"color: rgb(83, 129, 53);\"> </span><span>(NAME)&nbsp;</span></p><p><span>b) Sentence with contraction: </span>*I'm/My name's*<span> (NAME)</span></p><p><span>c) Full sentence: </span>*My name is/I am*<span> (NAME)</span></p><p><span>d) Sentence with contraction: </span>*My name's/I'm*<span> (NAME)</span></p><h4><span>2. What word does the speaker say you should use to make saying your name more fluently? </span>*I'm*</h4> <h4><span>3. What word can you use to say your hometown or your work?</span></h4> <p><span>I'm </span>*from*<span> (place). I'm </span>*from*<span> (work).</span></p><h4><span>4. What three sentences do you say in response to the sentence “Nice to meet you.”?</span></h4> <p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p><p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p><p>*Nice to meet you./Nice to meet you, too./Good to meet you./Nice to meet you/Nice to meet you, too/Good to meet you*</p></div></div>"
 };
@@ -1290,16 +1284,20 @@ export const overview = {
 };
 export const what_do_you_do = {
     "data": {
-        "key": "1681218759801X6388285107444562",
         "store": [
-            "ccm.store"
-        ]
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "what_do_you_do",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "questions": [
         {
@@ -1370,17 +1368,13 @@ export const what_do_you_do = {
     "shuffle": false,
     "random": false,
     "escape": false,
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "placeholder": {
         "prev": "Previous",
         "submit": "Check",
         "next": "Next",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -1388,16 +1382,20 @@ export const what_do_you_do = {
 };
 export const what_are_you_doing = {
     "data": {
-        "key": "1681219382382X10925335098786748",
         "store": [
-            "ccm.store"
-        ]
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "what_are_you_doing",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "questions": [
         {
@@ -1468,17 +1466,13 @@ export const what_are_you_doing = {
     "shuffle": false,
     "random": false,
     "escape": false,
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "placeholder": {
         "prev": "Previous",
         "submit": "Check",
         "next": "Next",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -1490,12 +1484,8 @@ export const presentsimple_vs_presentprogressive_cloze = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -1518,57 +1508,40 @@ export const presentsimple_vs_presentprogressive_cloze = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681219535381X12371317927706227"
+        "key": "presentsimple_vs_presentprogressive_cloze"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <p><strong>Fill in the blank with the present simple or present progressive.</strong></p><ol> <li>At the moment, I *am talking* (talk) to a client.</li><li>I *am working* (work) at our head office this week.</li><li>I usually *go* (go) to the gym after school.</li><li>I *am studying* (study) for my Master’s degree.</li><li>Actually, I *finish/am finishing* (finish) my studies soon.</li><li>Currently, I *am looking* (look) for a job.</li><li>I *direct* (direct) the other employees.</li><li>I often do not *know* (know) my work schedule.</li><li>I *live/am living* (live) off campus.</li><li>I *go* (go) to the conference every year.</li></ol> </div></div>"
     }
 };
 export const tenses_quick_quiz = {
-    "onfinish": {
-        "login": true,
-        "store": {
-            "settings": {
-                "name": "ws_quick_decide_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            },
-            "user": true,
-            "key": "1551954502082X7509304924237088"
-        },
-        "alert": "Saved!"
-    },
     "data": {
-        "login": true,
         "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
+        "login": true,
         "user": true,
-        "key": "1681226434823X36412779739622625"
+        "key": "tenses_quick_quiz",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "key": "guest",
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "questions": [
         {
             "text": "She graduated last June.",
@@ -1758,12 +1731,8 @@ export const pastsimple_vs_continuous = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -1786,49 +1755,40 @@ export const pastsimple_vs_continuous = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681227746315X7316570129245561"
+        "key": "pastsimple_vs_continuous"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Fill in the blanks below with the correct tense of the verb.</strong></h4><ol> <li>I *ate* (eat) delicious meals while I *was visiting* (visit) Rome.</li><li>While we *were negotiating* (negotiate) with them, they *decided* (decide) to drop the contract.</li><li>He *interrupted/was interrupting* (interrupt) the speaker while she *was giving* (give) her presentation.</li><li>I *was driving* (drive) when the phone *rang* (ring).</li><li>We *were waiting* (wait) for Karl when he *called* (call) to say he was in a traffic jam.</li><li>I finally *found* (find) the pdf I *was looking* (look) for.</li><li>The company’s profits *were falling/fell* (fall) and so it *had* (have) <span>to lay off employees.</span></li><li>When the professor *arrived* (arrive), we told him what *was happening* (happen).</li><li>The network *crashed* (crash) while I *was finishing* (finish) the report.</li><li>While I *was working* (work) in the library, the professor *contacted* (contact) me.</li></ol> </div></div>"
     }
 };
 export const quick_decision_quiz = {
-    "onfinish": {
-        "alert": "Saved!",
-        "login": true,
-        "store": true
-    },
     "data": {
-        "login": true,
         "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
+        "login": true,
         "user": true,
-        "key": "1681228320532X27940347694987655"
+        "key": "quick_decision_quiz",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "questions": [
         {
             "text": "Click on the correct sentence.",
@@ -2012,12 +1972,8 @@ export const present_perfect_fill_in = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -2040,18 +1996,20 @@ export const present_perfect_fill_in = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681229689598X29421548216840554"
+        "key": "present_perfect_fill_in"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Fill in the blanks below with the correct present perfect tense of the verb. Do not use short forms/contractions.</strong></h4> <ol> <li>I *have been calling* (call) him all morning, but the calI *has gone* (go) to voicemail every time.</li><li>I *have not spoken* (not speak) to the professor, I *have been dealing* (deal) with his teaching assistant all semester.</li><li>I *have been looking* (look) for my keys for the last hour, perhaps someone *has turned* (turned) them in at the security desk.</li><li>I hope that you *have not been waiting/have not waited* (not wait) long. No, I *have not been* (be).</li><li>How long *have you been studying* (you study) Spanish? I’m from Barcelona. I *have spoken* (speak) Spanish all my life.</li><li>We *have been waiting* (wait) here for over an hour and no one *has asked* (ask) us for our order.</li><li>I *have been dissatisfied* (dissatisfied) with my job for a while. Lately, I *have been thinking* (think) about looking for a new one.</li><li>She *has studied/has been studying* (study) English for 10 years, but she *has been making/has made* (made) major improvement recently.</li><li>*Have you seen* (you see) the news yet? No, what *has been happening/has happened* (happen)?</li><li>I *have been sick*&nbsp;(sick) this semester, so I *have been missing/have missed* (miss) a lot of the classes.</li></ol> </div></div>"
@@ -2063,12 +2021,8 @@ export const conversation = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -2091,18 +2045,20 @@ export const conversation = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681229905638X79582083407993"
+        "key": "conversation"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Fill in the blanks of the phone conversation with the correct past form of the verb in brackets. Use the simple past, past continuous, present perfect, or present perfect continuous.</strong></h4> <p> <strong>MICHAEL</strong> <span> : What a busy morning! I *have been* (be) here since 7 a.m. and I *have not replied* (not reply) to my emails yet. Plus, this afternoon I really must write a report. I can’t do it tomorrow because my boss *reminded* (remind) me about it 5 minutes ago. &nbsp;That’s the second time he *has told* (told) me this week. I just *returned* (return) from holidays on Monday. I *have worked* (worked) here for 7 years and I *have never had* (never have) this much work before. </span> </p><p> <strong>MICHELLE</strong> <span> : I am sorry to hear that. I *have had/have been having* (had) a busy morning, too. The phones *have rung/have been ringing* (ring) all morning. &nbsp;Say, I *have* just *had* (had) a brilliant idea! I usually go to the gym during my lunch hour, but I *left* (leave) my work out clothes at home. Why don’t we meet for lunch and then finish that report? </span> </p><p><strong>MICHAEL</strong><span>: Sounds great. I *was hoping* (hope) you would offer.</span></p></div></div>"
@@ -2155,31 +2111,20 @@ export const overview_of_salutations_and_closing = {
 `
 };
 export const opening_and_closing_quick_decision = {
-    "onfinish": {
-        "alert": "Saved!",
-        "login": true,
-        "store": true
-    },
     "data": {
-        "login": true,
         "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
+        "login": true,
         "user": true,
-        "key": "1681302441033X5735747602191523"
+        "key": "opening_and_closing_quick_decision",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "questions": [
         {
             "text": "General email to all of your clients",
@@ -2389,12 +2334,8 @@ export const punctuation = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -2417,18 +2358,20 @@ export const punctuation = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681303582541X47504403616203117"
+        "key": "punctuation"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"><p class=\"entry-title\"><strong class=\"title-strong\">Section IV – EMAILING Punctuation</strong></p><div class=\"entry-description\"> <p><span>Punctuation is an important part of an email. Improper punctuation can confuse a reader, convey a wrong message or a wrong impression.</span></p><p> <strong>Periods</strong> <span> : These may be used after titles, street numbers, abbreviations, etc. particularly in formal correspondence. However, there is also “open punctuation” where periods are not used after such items. This format is common in business emails and text messages. Periods also signal the end of a sentence. </span></p><p><strong>Commas</strong><span>: These are either used or omitted after both the salutation and closing. More formal correspondence uses commas. You may not use a comma for the salutation and not the closing or vice versa.</span></p><p><strong>Colon</strong><span>: Used to signal a series/list of three or more items follows or used to separate two independent clauses related in thought.&nbsp;</span></p><p><strong>Semi-colon:</strong><span> Used to separate two independent clauses related in thought (alternatively to a comma and a conjunction).</span></p><p> <strong>Hyphens (-)</strong> <span> : These are used to connect words that must be read together in order to be understood properly or to separate numbers. There are differences in the type of English being used, e.g. trademark, trade mark, and trade-mark are all acceptable. </span></p><p> <strong>Dashes (— or –):</strong> <span> The dash is used to signal the largest break in a sentence. There are several types of dashes used to do this. An em dash (—) is the longest dash and clearest break in a sentence — it is used to highlight a thought. An em dash (–) is most often used to signal a range, similar to the words “from to”.&nbsp; </span></p></div><div class=\"entry-description-fill\"> <p><strong>Fill in the correct NAME of the form of punctuation in the following email, i.e. use “comma, period, colon, dash, hyphen, etc.)</strong></p><p><span>Dear Jane Farmington *comma/no comma* (1)</span></p><p><span>Thank you for your email *period* (2) We are delighted to hear that you are interested in the Account Manager position.&nbsp;</span></p><p> <span> Your interview is scheduled on 24 July from 3 o’clock *hyphen* (3) 6 o’clock. Please bring the following items with you to the interview *colon* (4) personal identification *comma* (5) work permit *comma* (6) proof of studies *comma/no comma* (7) and CV/resume *period* (8) </span></p><p><span>Please note that we must retain a copy of these materials for our records *dash/em dash* (9) please bring a copy of each with you.</span></p><p> <span>If you have questions or need further information *comma* (10) please feel free to contact me directly via *colon* (11) </span><a href=\"about:blank\" target=\"_blank\">Hrmgr@wis</a> <span> *hyphen* (12) brs.de or telephone number (+49)2258 *hyphen* (13) 65748.</span></p><p><span>Sincerely *comma/no comma* (14)</span></p></div></div>"
@@ -2440,12 +2383,8 @@ export const capitalization = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -2468,18 +2407,20 @@ export const capitalization = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681303740431X20428125587480706"
+        "key": "capitalization"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><span>The capitalization rules in English may seem vague or unnatural to non-native speakers. However, knowing when to capitalize letters or not will greatly improve the impression your writing has on readers.</span></p><p><span>Here are some of the rules of capitalization:&nbsp;</span></p><ol> <li>The first word in a sentence is capitalized.</li><li>The pronoun “I” is always written with a capital letter.</li><li>The proper name of someone, someplace, or something is capitalized, e.g. people, days, months, holidays/festivals, cities, countries.&nbsp;</li><li>A name is capitalized even when it is used as an adjective: French Alps, German language, English class.</li><li>The names of business titles are capitalized when they are exact titles and not a description, e.g. “He is the CEO of our company”.&nbsp;</li><li>The first word after a greeting (e.g. Dear John) in a letter or email is capitalized.</li><li>Abbreviations are often capitalized, e.g. Q4, P/L, ASAP, GDP</li><li>The first letter in a direct quote is written in capitals.&nbsp;</li><li>Capitalize the first letter after a colon when it divides two separate and unrelated sentences or the word after the colon is a proper noun.</li><li>Capitalize the content words in a title but not the non-content words, e.g. on, a, the.&nbsp;</li></ol> </div><div class=\"entry-description-fill\"> <p><strong>Find the mistake in each sentence and write the word(s) correctly in the blank.&nbsp;</strong></p><p>1. Some canadians prefer to speak French.&nbsp;</p><p><span>Correction: *Canadians*&nbsp;</span></p><p>2. I would be able to meet you on wednesday, 24th October at 16:00.&nbsp;</p><p><span>Correction: *Wednesday*</span></p><p>3. We have to draw up the work schedule for the christmas holidays.&nbsp;</p><p><span>Correction: *Christmas*</span></p><p>4. She is the chief executive officer of the world’s largest company.&nbsp;</p><p><span>Correction: *Chief Executive Officer*</span></p><p>5. Unfortunately, I cannot eat indian food. I have a peanut allergy.</p><p><span>Correction: *Indian*</span></p><p>6. I just finished reading “Good To Great: Why Some Companies Make the Leap and Others Don’t” by Jim Collins”.</p><p><span>Correction: *to*</span></p><p>7. If you follow Me, I will show your where you can wait.&nbsp;&nbsp;</p><p><span>Correction: *me*</span></p><p>8. We decided that we would all meet for lunch on new year’s day.</p><p><span>Correction: *New Year’s Day*&nbsp;</span></p><p>9. My English and spanish courses will have both a mid-term and final exam.&nbsp;</p><p><span>Correction: *Spanish*</span></p><p>10. Please tell professor Howard that I will not be able to attend the meeting.&nbsp;</p><p><span>Correction: *Professor*</span></p><p>11. She said, “we are not able to sign the contract as it is.”&nbsp;</p><p><span>Correction: *We*</span></p><p>12. Did you read the article about Angela Merkel in the New York times this morning?&nbsp;</p><p><span>Correction: *Times*</span></p><p>13. I didn’t realize our boss has his phd.&nbsp;</p><p><span>Correction: *PhD*</span></p><p>14.&nbsp;I am writing to let You know that you have been selected to receive a position as a teaching assistant.&nbsp;</p><p><span>Correction: *you*</span></p><p>15. The phone came in three finishes: Steel, copper, gold.</p><p><span>&nbsp;Correction: *steel*</span></p><p>16. i am writing to let you know that we have interest in your newest product.&nbsp;</p><p><span>Correction: *I*</span></p><p>17. The vice president of Siemens spoke at the banquet.</p><p><span>Correction: *Vice President*</span></p><p>18. We are hopeful that we will reach our roi by May 2025.&nbsp;</p><p><span>Correction: *ROI*</span></p><p>19. We can meet on Monday, october 25th at 10am in my office.&nbsp;</p><p><span>Correction: *October*</span></p><p>20. Unfortunately, I did not have any british money with me.</p><p><span>Correction: *British*</span></p><p>21. Cologne is situated on the banks of the rhine river.&nbsp;</p><p><span>Correction: *Rhine*</span></p><p>22. I will graduate from the University in 2021 with an MBA.</p><p><span>Correction: *university*</span></p><p>23. We took a 10-day cruise around the Mediterranean sea.</p><p><span>Correction: *Sea*</span></p><p>24. We will be staying at the Biltmore hotel in Miami during the convention.</p><p><span>Correction: *Hotel*</span></p><p>25. The company’s headquarters are located about a mile east of the city on route 3.&nbsp;</p><p><span>Correction: *Route*</span></p><p>26. I am originally from bavaria, but I grew up in NRW.&nbsp;</p><p><span>&nbsp;Correction: *Bavaria*</span></p><p>27. We landed in Hamburg, got a rental car, and then drove Northwest to the North Sea.&nbsp;</p><p><span>Correction: *northwest*</span></p><p>28. Joshua had to make a decision: He could finish his degree or move and start the new job.&nbsp;</p><p><span>Correction: *he*</span></p></div></div>"
@@ -2487,16 +2428,20 @@ export const capitalization = {
 };
 export const modals = {
     "data": {
-        "key": "1681303858833X78767281009518",
         "store": [
-            "ccm.store"
-        ]
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "modals",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "questions": [
         {
@@ -2748,17 +2693,13 @@ export const modals = {
     "shuffle": false,
     "random": true,
     "escape": false,
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "placeholder": {
         "prev": "Previous",
         "submit": "Check",
         "next": "Next",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -2770,12 +2711,8 @@ export const softening_phrases = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -2798,18 +2735,20 @@ export const softening_phrases = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681304065909X10895755909042504"
+        "key": "softening_phrases"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> When in a hurry or under pressure to meet a deadline it is easy to use a shorter, more direct form of address. Sometimes, however this can lead to an email being misinterpreted as rude, bossy, angry, domineering, or subordinate.&nbsp; </span> </p><p> <span> The easiest way to avoid this is to add “please” or polite phrase before the request. Using a short/contracted form “I’d” rather than a more formal “ I would”. The passive form is more objective as it removes the subject from the sentence. </span> </p></div><div class=\"entry-description-fill\"> <p><strong>Use the phrases from the box above to make the sentences more polite. Remember to capitalize your answer properly. </strong></p><ol> <li>*It would be great if you could* call me asap.</li><li>*I think you might have to* rewrite the report.</li><li>*Just a reminder that* the report is due this afternoon.</li><li>*The best thing would be if* you could answer my question.&nbsp;</li><li>*I was just wonder wondering*, where is your introductory slide?</li><li>*Would it be possible to* tell me when you will be finished.</li><li>*Sorry, but* I am not convinced this is the best solution.</li><li>*I’m afraid that* you have to correct this.&nbsp;</li><li>*I’d rather that you* speak to me directly.</li><li>*I appreciate the fact that* you did overtime to finish this.</li></ol> </div></div>"
@@ -2842,31 +2781,20 @@ export const overview_report_writing = {
 `
 };
 export const sections_of_a_report = {
-    "onfinish": {
-        "alert": "Saved!",
-        "login": true,
-        "store": true
-    },
     "data": {
-        "login": true,
         "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
+        "login": true,
         "user": true,
-        "key": "1681304410450X4801552634987514"
+        "key": "sections_of_a_report",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "questions": [
         {
             "text": "The purpose of this report is to provide guidlines for our restructuring.",
@@ -3090,12 +3018,8 @@ export const formal_vs_informal_english = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3118,13 +3042,14 @@ export const formal_vs_informal_english = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681307527825X04003252914710309"
+        "key": "formal_vs_informal_english"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
         "login": true,
         "store": true,
@@ -3139,16 +3064,20 @@ export const formal_vs_informal_english = {
 };
 export const active_vs_passive_voice = {
     "data": {
-        "key": "1681307700880X9320552976311371",
         "store": [
-            "ccm.store"
-        ]
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "active_vs_passive_voice",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "questions": [
         {
@@ -3349,17 +3278,13 @@ export const active_vs_passive_voice = {
     "shuffle": false,
     "random": true,
     "escape": false,
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "placeholder": {
         "prev": "Previous",
         "submit": "Check",
         "next": "Next",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -3371,12 +3296,8 @@ export const linking_words = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3399,18 +3320,20 @@ export const linking_words = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681307814453X6096838133473892"
+        "key": "linking_words"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><span>Linking words are used to make writing more cohesive by connecting one thought to another.&nbsp;</span></p><p><span>Linking words can be used to: sequence, contrast, compare, add, exemplify, summarize</span></p></div><div class=\"entry-description-fill\"> <p><strong>Complete the following sentences with the given linking words.</strong></p><ol> <li>The first applicant answered the questions well, *however* the interviewer rated her poorly.&nbsp;</li><li>The student can speak German and Spanish. *Furthermore/Additionally* he can speak English fluently.&nbsp;</li><li>The second applicant had more experience than the first, *therefore* we chose her.</li><li>This report aims to evaluate the interview questions used at a job fair, *furthermore/additionally*, it recommends which questions are most effective.&nbsp;</li><li>*Both* the buyers and the sellers needed to fill out purchasing ledgers.&nbsp;&nbsp;</li><li>The company offered payment plans *similar to*&nbsp; those offered by others in their industry.&nbsp;</li><li>There are many new short courses being offered at the university, *like* industrial psychology, migration, and climate change.&nbsp;</li><li>Young *as well as* old consumers are not brand loyal.&nbsp;</li><li>*Despite* having little time to prepare, the speaker gave a good presentation.&nbsp;</li><li>We continued interviewing, *rather than* hiring an unqualified candidate.</li><li>*In contrast* to my younger colleagues, I prefer to work in silence.&nbsp;</li><li>I prefer to work in silence, *while* my younger colleagues prefer to listen to music as they work.</li></ol> </div></div>"
@@ -3443,12 +3366,8 @@ export const word_order = {
         "retry": "Retry",
         "submit": "Check",
         "start": "Start",
-        "finish": "Restart"
+        "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
     "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3471,18 +3390,20 @@ export const word_order = {
     "mark": "*",
     "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
         "login": true,
         "user": true,
-        "key": "1681307948284X220010828744851"
+        "key": "word_order"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
     "onfinish": {
+        "store": true,
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": ""
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong> Return the sentences to standard (subject + verb + object) order. Remember capitalization and punctuation in your answers.</strong></h4> <p>1. to this problem there is only one solution</p><p><span>*There is only one solution to this problem.*</span></p><p>2. rarely had we seen such a talented intern</p><p><span>*We had rarely seen such a talented intern.*</span></p><p>3. never sundays to we work on have</p><p><span>*We never have to work on Sundays.*</span></p><p>4. should you need further information please contact us</p><p><span>*Please contact us, should you need further information.*</span></p><p>5. danger were never in students any the</p><p><span>*The students were never in any danger.*</span></p><p>6. completely was i cold wet and</p><p><span>*I was completely cold and wet.*</span></p><p>7. use frequent augment often miles i to costs flyers&nbsp;</p><p><span>*I often use frequent flyer mile to augment costs.*</span></p><p>8. absence professor my need i talk about to the to my extended</p><p><span>*I need to talk to the professor about my extended absence.*</span></p><p>9. will my in January next assignment be in Barcelona&nbsp;</p><p><span>*My next assignment will be in Barcelona in January.*</span></p><p>10. what done he regret expressed no for he had</p><p><span>*He expressed no regret for what he had done.*</span></p><p>11. she meet the rearrange her priorities had to in order to deadline</p><p><span>*She had to rearrange her priorities in order to meet the deadline.*</span></p><p>12.&nbsp;setback were a&nbsp; serious the negotiations to fail would it be</p><p><span>*If the negotiations fail, it would be a major setback.*</span></p><p>13. when I home get after work i am tired</p><p><span>*I am tired when I get home after work.*</span></p><p>14. my a chances of promotion what are</p><p><span>*What are my chances of a promotion?*</span></p><p>15. possible she tell me will results examination as of the soon as</p><p><span>*She will tell me the results of the examination as soon as possible.*</span></p><p>16. is becoming a already the situation of concern matter</p><p><span>*The situation is already becoming a matter of concern.*</span></p><p>17. customer did quarter not have complaints during as many the third service</p><p><span>*Customer service did not have as many complaints during the third quarter.*</span></p><p>18. need conference we volunteers to help a few set up for the&nbsp;</p><p><span>*We need a few volunteers to help set up for the conference.*</span></p><p>19. you list of people have a will be who attending the do conference</p><p><span>*Do you have a list of people who will be attending the conference?*</span></p><p>20. stuck in meeting traffic was i and missed the morning this</p><p><span>*I was stuck in traffic and missed the meeting this morning.*</span></p><p>21. have i finished the already report</p><p><span>*I have already finished the report.*</span></p><p>22. 10 o’clock i in most productive after the am morning</p><p><span>*I am most productive after 10 o’clock in the morning.*</span></p><p>23. lunch i didn’t today eat even time have to</p><p><span>*I didn’t even have time to eat lunch today.*</span></p><p>24. you speaking who were to when i entered the office yesterday</p><p><span>*Who were you talking to when I entered the office yesterday?*</span></p><p>25. it’s year usual us to snow at have this time of for</p><p><span>*It’s unusual for us to have snow at this time of year.*</span></p></div></div>"
@@ -3521,31 +3442,20 @@ export const overview_presentation = {
 `
 };
 export const preview = {
-    "onfinish": {
-        "alert": "Saved!",
-            "login": true,
-            "store": true
-    },
     "data": {
-        "login": true,
-            "store": [
+        "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
-            "user": true,
-            "key": "1681308367614X5325940037690728"
+        "login": true,
+        "user": true,
+        "key": "preview",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "questions": [
         {
             "text": "Click on the phrase used in the introduction.",
@@ -3755,12 +3665,8 @@ export const body_of_the_presentation = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3783,18 +3689,20 @@ export const body_of_the_presentation = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681309304023X420950446635731"
+            "key": "body_of_the_presentation"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> The body of a presentation is the section that provides the main message. For the presentation to be interesting, effective and easy for the listener to follow it is best to use language that will help guide them through what you are saying. This is called “signposting”. Signposting language is the words and phrases that tell your listener both what you have said and what you are going to say. The best presenters use a variety signposting language throughout their presentation.&nbsp; </span> </p><p><span>Examples of signposting language used in all the different sections of a presentation can be found by clicking the link below:</span><strong>&nbsp;</strong></p><p> <a class=\"entry-link\" href=\"http://www.bbc.co.uk/worldservice/learningenglish/business/talkingbusiness/unit3presentations/expert.shtml\" target=\"_blank\" style=\"color: rgb(0, 0, 255);\">Link </a> </p></div><div class=\"entry-description-fill\"> <p><strong>Use the linking words in the box above to complete the body of a presentation.</strong></p><ol> <li>*Recently*, companies have been increasingly involved in scandals regarding their business practices.&nbsp;</li><li>Unacceptable business practices include, *for example*, unfair treatment of employees, illegal accounting practices, and damage to the environment,*in addition* to the effect&nbsp; their products have on society.</li><li>Over the past decades, *increasing* instances of “bad labor practices” *as well as* corporate scandals have been widely publicized.</li><li>*As a result*, the public has become increasingly critical of corporate practices and has higher expectations regarding corporate responsibility.&nbsp;</li><li>*Consequently*, an increasing number of firms are incorporating the concept of CSR into their operating plan and strategy.</li><li>*Additionally*, businesses are striving to maintain transparency in every aspect of their business dealings.</li><li>Ethical firms are ensuring that CSR policy not only exists in the board room, but, *moreover*, that it is evident in every part of the business.</li></ol> </div></div>"
@@ -3806,12 +3714,8 @@ export const adjectives_and_adverbs = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3834,18 +3738,20 @@ export const adjectives_and_adverbs = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681309439465X9950206732881839"
+            "key": "adjectives_and_adverbs"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> Being able to describe thoughts, actions, graphs, etc. accurately, interestingly, and convincingly is key to a successful presentation. The use of adjectives to describe nouns or the use of adverbs to qualify verbs is essential. For example, “the profits increased” is much less descriptive than “the third quarter profits increased dramatically”.&nbsp; </span> </p><p> <span> Note: Adjectives describe the nouns that follow them. Adverbs describe how something happens (i.e. verbs). Usually adverbs are formed by adding -ly to the end of an adjective. However, sometimes -y, - lly, -ally, or -ily are added. Some adjectives and adverbs have the same form, e.g. early, first, high, etc. Some verbs are called “state verbs” because they describe a state of being rather than action. State verbs are described by adjectives, e.g. the food smells good. </span> </p></div><div class=\"entry-description-fill\"> <p><strong>Use the proper form of the word in brackets to complete the sentence.</strong></p><ol> <li>You’ll have to work&nbsp; even *harder* (hard) if you want to meet the deadline.&nbsp;</li><li>Could you speak more *slowly* (slow) – I am trying to follow what you say.</li><li>Everyone on the sales team was pleased when the Q3 results were *better* (good) than the Q2 results.</li><li>The poster they created for the conference looks *fantastic* (fantastic).</li><li>The unemployment rate has *steadily* (steady) increased.</li><li>The customer just called and sounded *angry* (anger) about the problem.</li><li>The client just called and was *really* (real) upset about the problem.</li><li>She is new but she really does the job *well* (good).</li><li>Her CV states that she can speak German *fluently* (fluent).</li><li>He has done a really *good* (good) job. I think he should be promoted.</li><li>The sales are down. Customers are *hardly* (hard) ordering anything.</li><li>Recycling of plastic waste has *significantly* (significant) increased in Malaysia.</li><li>We had *barely* (bare) begun the meeting when the fire alarm went off.</li><li>There was a *gradual* (gradual) improvement in sales last month</li><li>Our customer reviews on social media have *gradually* (gradual) improved.</li><li>The deadline is approaching very *quickly* (quick). Can we meet on Tuesday?</li><li>He arrived *late* (late) at the airport and missed his connector flight.</li><li>The entire team has been working *hard* (hard).</li><li>The team is demotivated and have been *hardly* (hard) working.</li><li>The production site has been improved and is now running more *efficiently* (efficient).</li><li>Last year the economy recovered *slowly* (slow).</li><li>Gas prices have *dramatically* (dramatic) increased over the past few weeks.</li><li>*Considerable* (consider) work was required by the course.</li><li>The company is known for investing *heavily* (heavy) in research.</li><li>There was a *slight* (slight) increase in spending in the 4th Quarter.</li><li>There were a few difficulties *specifically* (specific) during the end of the semester.</li><li>Don’t worry. I know him *personally* (person) and can attest to his integrity.</li><li>We tried to reproduce the results *exactly* (exact).</li><li>*Relatively* (relative) few problems were encountered during the project’s execution.</li><li>The email was written completely *correctly* (correct).</li></ol> </div></div>"
@@ -3857,12 +3763,8 @@ export const review = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3885,18 +3787,20 @@ export const review = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681309539227X38381357736336863"
+            "key": "review"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> A variety of grammatical structures and vocabulary is used to describe visuals in a presentation. To address the audience’s attention to some part of the visual, the imperative form is used, e.g. “note”, “take a look” or “remember”. To describe facts that are presented in the visual the present tense is used, e.g. “this graph depicts”, “the figure highlights” or “our results are shown in the diagram”. (Note, that both the active and passive voices are used with the present tense here) To discuss visuals that reflect historical data use the past tense, e.g. “in 2017 there were 15 industrial accidents”, “the figure shows that 850 students were enrolled here in 2018”. </span> </p></div><div class=\"entry-description-fill\"> <p><strong>Use a form of the words in the box to fill in the blanks in the following presentation.</strong></p><p> <span> Presenter: This figure *demonstrates* the increase in sustainable energies used in Germany over the past 18 years. The x-axis *displays* the years 2000 - 2018. On the y-axis the energy produced *is shown* in gigawatts.&nbsp;&nbsp; </span> </p><p> <span> Looking at the figure, *give* notice to the fact that the amount of energy renewable sources *generate* is highly volatile. They can *provide* up to a high of 75% of Germany’s energy or a low of 30%. Solar power during the summer months in 2000 *contributed* 5%, while in 2010 it *accounted* for 20%. Currently, 30% *is contributed* by solar energy during the summer months. </span> </p></div></div>"
@@ -3908,12 +3812,8 @@ export const closing = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -3936,18 +3836,20 @@ export const closing = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681309714009X9519413846540545"
+            "key": "closing"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> Remember that the goal of any presentation is to communicate a message. The nature of the message may be technical, economic, scientific, motivational, or otherwise – but of key importance is always the communication between a speaker and listener(s).&nbsp; </span> </p><p> <span> Therefore, communicating well is the key to a successful presentation and making mistakes in grammar is not an unforgivable problem. Remember that most often the audience is made up of people who are hoping that you succeed. They want to be recipients of, or even participants in, a successful presentation. This is true of native English and non-native English speakers alike.&nbsp; </span> </p><p><span>To communicate your ideas successfully a few constructions and tenses are needed. Below is a list of the tenses and the parts of the presentation they most often occur in:</span></p><p> <strong><u>Introduction:</u></strong> <span> Most often uses the present simple for stating facts about yourself and what you do. Additionally, the going to or will future is used to present an outline of your agenda for the presentation (Today, I am going to talk about&nbsp; or Today, we will hear about). </span> </p><p> <strong><u>Body:</u></strong> <span> The tenses used in the body of a presentation vary according to the subject being presented. To give an update about past situations use the past tense: the simple past (we sold), past progressive (we were selling), the present perfect (we have sold), or present perfect continuous (we have been selling).&nbsp; </span> </p><p> <span> To discuss upcoming plans use the going to future (We’re going to introduce a new product), for arrangements use the present continuous/v+ing form (We’re moving to a new office in June), for certain actions in the future use will or the simple present tense (with timetables “The plane leaves at 10am” and schedules “The AGM is always on 1 June”). </span> </p><p><span>To discuss things which are hypothetical or deal with probability use conditionals (“if”-sentences).</span></p><p><span>To give directions to the audience you should use the imperative (infinitive) form: “Note the changes in the graph”.&nbsp;</span></p><p> <strong><u>Summary/Conclusion:</u></strong> <span> The tenses used in the conclusion vary. To recap what has been discussed, use the present perfect tense. To discuss what is planned for the future use the will, v+ ing, or going to future. To remind people of the key message from the meeting use the imperative tense: “Remember – successful communication is key.” </span> </p></div><div class=\"entry-description-fill\"> <h4> <strong><span class=\"ql-cursor\"> </span>Click on the link below and read chapter 10 pages 103-114 for more information about tenses and sample sentences used in these parts. After reading answer the questions below.</strong> </h4> <p><a class=\"entry-link\" href=\"https://link.springer.com/book/10.1007/978-3-8349-9237-6\">Link</a></p><ol> <li>Contractions (e.g. isn’t) sound more *informal* in a presentation, while long forms (e.g. is not) can be used for *formal presentations*.</li><li>A polite way to express a desire during your presentation is by using the phrase: *I'd like*.</li><li>Signposting/sequencing your talk involves using the future tenses. In outlining the order of your talk use *I will* (to be more formal), and *I'll* (to be less formal).</li><li>To make the organization of your presentation sound more flexible you can use the *present continuous* tense (e.g. I’m planning to…).</li><li>Although the word is somewhat outdated, to give a more formal presentation replace the word “will” with *shall*.</li><li> Describing your company usually includes presenting its history – talk about historical events in the *past simple* tense, recent developments in the *present perfect* tense, and the current status in the *simple present* tense. </li><li>Use the *past simple* tense to describe activities that finished in the past.&nbsp;</li><li>Use the *simple present* or *present continuous* to describe activities that you are currently do.</li><li>Activities that began in the past and are still ongoing are described in the *present perfect* tense.&nbsp;</li><li>Either the *future simple* or *future continuous* can be used, but not the present continuous, to refer to future parts of your presentation (“I will present” or “I'll be presenting”. <em>NOT “</em>I am presenting”).</li><li>The use of the modals *should* or *would* &nbsp;help your talk seem talk less strong or you more humble as you speak.&nbsp;</li><li>The use of the modals *may*, *might*, *could* make a subject sound less certain.</li></ol> <p>For further reading and phrases for presenting on a wide variety of subjects continue reading in the link: chapters 18, 19, 20 pages 209-235.</p></div></div>"
@@ -3983,12 +3885,8 @@ export const small_talk_questions = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -4011,35 +3909,41 @@ export const small_talk_questions = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681310087301X0768600702017721"
+            "key": "small_talk_questions"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> Conversation before and during the course of a meeting is extremely important. Particularly because most English-speaking countries place great value on this and conduct small talk anywhere, e.g. in the elevator, in a queque, waiting for an appointment, during a break in a meeting. The important part of small talk is to be able to make it a series of quick exchanges, rather than going into detail at the beginning of the conversation. However, being able to come up with standard questions and answer is an important way to make a good first impression. </span> </p></div><div class=\"entry-description-fill\"> <p><strong>Complete the following small talk questions with the best form of the given verb.</strong></p><ol> <li>What *are* you *working* (work) on now?</li><li>How *is* your new position *going* (go)?</li><li>*Have* you ever *been* (be) to one of these meetings before?</li><li>How *did* your presentation *go* (go) last week?</li><li>Which section of the meeting *are* you *presenting* (present) in?</li><li>What *have* you *been* (be) up to since I last saw you?</li><li>Are you *going* (go) to the conference next week?</li><li>How are things *going* (go) with your new boss?</li><li>Would you like *to join* (join) me for lunch?</li><li>Excuse me, *is* anyone *sitting* (sit) in the seat next to you?</li></ol> </div></div>"
     }
 };
 export const agreeing_and_disagreeing = {
-        "data": {
-        "key": "1681310137334X4732720665965593",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "agreeing_and_disagreeing",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -4189,17 +4093,13 @@ export const agreeing_and_disagreeing = {
         "shuffle": false,
         "random": true,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "Previous",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -4211,12 +4111,8 @@ export const conditionals = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -4239,18 +4135,20 @@ export const conditionals = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681310260794X2993802787031561"
+            "key": "conditionals"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><span>Conditional clauses are statements used to convey the likelihood of an event and convey nuances. There are several types that convey their meaning by how they are formed:</span><strong>&nbsp;</strong></p><p><strong>Conditional 0: </strong><span>facts or events that are always or generally true</span></p><p><span>Form: If +subject + verb in simple present, subject + verb in simple present.&nbsp;</span></p><p><span>Example: If business is going well, we are happy.&nbsp;&nbsp;</span></p><p><strong>Conditional I</strong><span>: likely events&nbsp;</span></p><p><span>Form: If +subject + verb in simple present, subject + will + action.&nbsp;</span></p><p><span>Example: If I study hard, I will pass the test.&nbsp;&nbsp;</span></p><p><strong>Conditional II:</strong><span> unlikely events&nbsp;</span></p><p><span>Form: If +subject + verb in simple past, subject + would + action.&nbsp;</span></p><p><span>Example: If I studied hard, I would pass the test.&nbsp;&nbsp;</span></p><p><strong>Conditional III</strong><span>: past events no longer possible</span></p><p><span>Form: If +subject + verb in past perfect, subject + would + action in present perfect.&nbsp;</span></p><p><span>Example: If I had studied hard, I would have passed the test.&nbsp;&nbsp;</span></p></div><div class=\"entry-description-fill\"> <p><strong>Fill in the blanks with the right form of the conditional phrases.</strong></p><ol> <li>If the sales are good, I *get* (get) a bonus. (conditional 0)</li><li>If the sales are good, I *will get* (get) a bonus. (conditional I)</li><li>If the sales were good, I *would get* (get) a bonus. (conditional II)</li><li>If the sales had been good, I *would have gotten* (get) a bonus. (conditional III)</li><li>If anyone calls, say I *am* (be) in a meeting.</li><li>If we increased our prices, we *would get* (get) more money.</li><li>If you *speak* (speak) louder, then I *can* (can) hear you.</li><li>If we don’t reach an agreement, they *will cancel* (cancel) the contract.</li><li>If we *had answered* (answer) the complaint sooner, we would not have lost the customer.&nbsp;</li><li>If we all agree with this decision, then we *will end* (end) this meeting.</li><li>If I agreed with you, what *would you give* (you give) me in return?</li><li>We *could have saved* (save) the deal, if we had known about this earlier.</li><li>If you had applied for the job, I *would have given* (give) it to you.&nbsp;</li><li>If we did a customer survey, we *would have* (have) more answers.</li></ol> </div></div>"
@@ -4304,12 +4202,8 @@ export const countable_and_uncountable_nouns = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -4332,18 +4226,20 @@ export const countable_and_uncountable_nouns = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681310438132X24392359332261204"
+            "key": "countable_and_uncountable_nouns"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><span>In English some nouns are “countable” while others are “uncountable”.&nbsp;</span></p><p> <span> Countable nouns are those that have both a singular and plural form. These include people, objects, and measurements, e.g. 5 students, 12 books, and 150 kilometers.&nbsp; Uncountable nouns are materials, substances, ideas, activities, feelings, or things that cannot be counted, e.g. water, progress, air, or money. In order to count these nouns, they must be divided into units, e.g. water is measured in liters, progress in terms of goals, and money in euros or other monetary units. Therefore, uncountable nouns require a singular verb, e.g. progress on the project is quite slow.&nbsp; </span> </p><p> <span>When referring to countable and uncountable nouns </span><em>determiners</em> <span> are used.&nbsp; Countable nouns can be referred to using: a, the, some, many, a lot, few or a few. Uncountable nouns are referred to with: some, much, little, a little, or a lot.</span> </p></div><div class=\"entry-description-fill\"> <p><strong>Fill in the blank with the one word in the brackets that is correct.&nbsp;</strong></p><ol> <li>The coffee machine is making *a* (a/the) strange noise.</li><li>We have had too *many* (many/much) products returned.</li><li>We have done *a little* (a few/a little) advertising.</li><li>This course has been *much* (many/much) work.</li><li>We need *the* (a/the) customer’s telephone number.</li><li>The new machine is *much* (many/much) faster.</li><li>*Some* (Some/any) countries in Africa have plentiful supplies of precious metals.</li><li>There is not *much* (much/few) space in my office.</li><li>We have to finish *the* (the/a) Q3 sales report this afternoon.</li><li>We have done *much* (much/a few) research about market availability.&nbsp;</li><li>I just got *an* (an/the) email from someone I do not know.&nbsp;</li><li>Fortunately, I just got *the* (an/the) email I have been waiting for.</li><li>Sorry, but we need *some* (a/some) more time to finish this.</li><li>Our company does not have *many* (much/many) employees.</li><li>The customer gave me *a few* (a few/a little) tips.&nbsp;</li><li>We only have *a few* (a few/a little) candidates left so we had better find someone for the position.</li><li>I gave the customer *a little* (a few/a little) advice.&nbsp;</li><li>There is *a lot* (many/a lot) of information on their website.</li><li>&nbsp;Did they ask *many* (much/many) ask questions after your presentation?</li><li>The company is in *much* (much/many) financial trouble.</li><li>There are *many* (much/many) problems that need to be solved.</li><li>There are *a few* (a little/a few) new energy providers.</li><li>We only have *a little* (a little/not many) time left, so we had better hurry.</li><li>Japan does not have *many* (much/many) natural resources.</li><li>Our product quality is excellent. We have not had *many* (many/ much) complaints about it.&nbsp;</li></ol> </div></div>"
@@ -4363,31 +4259,20 @@ export const assignment_cv = {
 `
 };
 export const writing_dates_exercise = {
-    "onfinish": {
-        "alert": "Saved!",
-            "login": true,
-            "store": true
-    },
     "data": {
-        "login": true,
-            "store": [
+        "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
-            "user": true,
-            "key": "1681310768970X48396677405282396"
+        "login": true,
+        "user": true,
+        "key": "writing_dates_exercise",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "questions": [
         {
             "text": "What is the correct format?",
@@ -4592,17 +4477,21 @@ export const writing_dates_exercise = {
     },
 };
 export const personal_details = {
-        "data": {
-        "key": "1681311649987X0782086657813943",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "personal_details",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -4837,17 +4726,13 @@ export const personal_details = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "Previous",
             "submit": "Submit",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -4859,12 +4744,8 @@ export const education_section = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -4887,35 +4768,41 @@ export const education_section = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681311741394X9688238291903235"
+            "key": "education_section"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><strong>Fill in the correct word from the brackets.</strong></p><ol> <li>Presenting your education on your CV or resume properly is important. During studies or directly after graduation the Education section is placed *before* (before/after) the Experience section.</li><li>After studies have been completed or you have been working for a while, the Education section is placed *after* (before/after) the Experience section.&nbsp;</li><li>The Education section of a CV or a resume, lists degrees according to a reverse chronological order with the *most recent* (oldest/most recent) degree listed first.</li><li>It is *unnecessary* (necessary/unnecessary) to list all schools attended once you have advanced to the level beyond that school.</li><li>In listing your university/college include: degree, name of institution, location, *year* (complete date/year) of graduation, special studies such as major or thesis, honors.&nbsp;</li><li>In listing your university or college degree you *may* (may/may not) add a link to special items, such as: institution’s website, link to thesis…</li><li>Special activities, awards, internships, exchange programs *should* (should/should not) be included in the educational section.</li><li>Grade point average and honors (cum laude, etc.) *may* (may/must) be included.&nbsp;</li><li>If you have not yet graduated, you *may* (may/may not) list your current education with an intended date of graduation.</li><li>If you attended courses for a degree but did not complete it you *may* (may/may not) list the coursework done.&nbsp;</li><li>If attending foreign programs, it is *advisable* (advisable/unadvisable) to provide a brief equivalent of a term in brackets, e.g., current grade 1,4 (equivalent to an “A”).</li></ol> </div></div>"
     }
 };
 export const verbs_and_prepositions = {
-        "data": {
-        "key": "1681311810098X5003242669490071",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "verbs_and_prepositions",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -5388,34 +5275,34 @@ export const verbs_and_prepositions = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
     ]
 };
 export const experience_and_skill_section = {
-        "data": {
-        "key": "1681311946334X9991391341993723",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "experience_and_skill_section",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -5633,17 +5520,13 @@ export const experience_and_skill_section = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "Previous",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -5655,12 +5538,8 @@ export const adjectives_and_prepositions = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -5683,18 +5562,20 @@ export const adjectives_and_prepositions = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681312042321X061179369233872016"
+            "key": "adjectives_and_prepositions"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p><span>In English adjectives sometimes have certain prepositions following them. This is done to convey specific meaning.&nbsp;</span></p><p> <span> Like verb + prepositions, the rules and reasons for which preposition follows an adjective can be puzzling. For example, when actions are toward another person, the preposition “to” follows the adjective, e.g. “nice to meet you”. When an adjective + preposition is followed by a verb, the -ing form of the verb is used, e.g. “Are you serious about transferring to a different office?” Therefore, it is best to learn these combinations as you encounter them. Reading is a good way to learn these as is listening and repeating aloud the combination you hear and then practicing it until it is part of your skills. </span> </p></div><div class=\"entry-description-fill\"> <p><strong>Fill in the blank with the correct word in brackets</strong></p><ol> <li>As a Human Resources manager, I was very good *at* (at/with) handling conflicts.</li><li>I am responsible *for* (to/for) all company transportation and logistics activities.</li><li>I am proud *of* (about/of) my ability to balance my work and private life.&nbsp;</li><li>As a customer service representative, I was used *to* (with/to) hearing complaints.</li><li>I am not afraid *of* (of/for) problems, I see them as merely challenges.</li><li>Personally, I am skilled *at* (with/at) coaching new employees.</li><li>Our results were different *from* (to/from) those of others in our sector.</li><li>Our company is famous *for* (for/with) its cutting edge technology.</li><li>This information is relevant *to* (about/to) understanding my employment history.</li><li>She is very enthusiastic *about* (with/about) finishing projects ahead of deadline and under budget.</li><li>The company is very involved *in* (with/in) finding viable sustainable energy solutions.</li><li>My boss would say that he is very satisfied *with* (with/about) my work.&nbsp;</li><li>Colleagues are rarely disappointed *by* (at/by) my performance.</li><li>Having thought *about* (about/after) your offer, I will gladly accept.</li><li>If I am angry *about* (about/with) something, it never lasts long.</li><li>Networking is very useful *for* (for/to) finding new jobs.</li><li>My strong point is that I am always up *for* (with/for) facing new challenges.</li><li>As a well-known team player, I am very popular *with* (to/with) colleagues.</li><li>Our new online shop has been very helpful *in* (at/in) obtaining customer metrics.</li><li>I have always been fascinated *by* (by/about) your company’s history.</li><li>Actually, you will find that I am someone who is full *of* (with/of) energy in the morning.</li><li>This candidate is rich *in* (in/with) experience, but not in credentials.</li><li>We should be serious *about* (about/to) hiring this candidate.</li><li>The many languages this candidate speaks can be useful *for* (for/in) greeting foreign customers.</li><li>I am very curious *to* (in/to) know about the benefits you offer.</li></ol> </div></div>"
@@ -5736,12 +5617,8 @@ export const questions_in_interviews = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -5764,18 +5641,20 @@ export const questions_in_interviews = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681312204623X3386710155801156"
+            "key": "questions_in_interviews"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <p class=\"entry-title\"><strong class=\"title-strong\">Section VIII INTERVIEWING – QUESTIONS</strong></p><div class=\"entry-description\"> <p><span>There are several types of questions used in English, which might also be used in an interview.&nbsp;</span></p><p><strong>Yes or No</strong><span> – used to elicit positive or negative answers: “Are you here for the interview?” </span></p><p><u>Answer: Yes or No.</u></p><p><strong>Closed Questions</strong><span> – used to elicit very specific information: “What is your name?” </span></p><p><u>Answer: information.</u></p><p><strong>Open Ended Questions</strong><span> – used to encourage informative answers and discussion: “Tell me about yourself.” </span></p><p><u>Answer: details</u><span> (sample answer: First, I will you tell me about myself professionally and then personally).</span></p><p><strong>Question Tags </strong><span>-used to</span><strong> </strong><span>suggest an answer or often to begin a conversation: “It is a bit noisy in here, isn’t it?” </span></p><p><u>Answer: Yes, it is.</u><span> (Note: to disagree with this type of question start with “Actually,…”)</span></p><p><strong>Reply Questions- </strong><span>A short question used as a reply to what has been said to signal interest or encourage the speaker to continue: “I am from Toronto.” “</span><em>Toronto</em><span>?” </span></p><p><u>Answer: Yes… and more information</u></p><p><strong>Indirect Questions</strong><span> – A more polite and indirect way of asking: “Could I ask you why you are looking for a new job?” </span></p><p><u>Answer: reply to the indirect part</u><span> “could I ask” with yes and then provide information. (sample answer: “Of course, I am looking because…)</span></p><p><strong>With Prepositions</strong><span> – A less formal type of question where a preposition occurs at the end of the sentence. “What other companies are you applying to?” </span></p><p><u>Answer: information</u></p></div><div class=\"entry-description-fill\"> <p><strong>Identify the type of question and the correct type of response to it.&nbsp;</strong></p><p><strong>Note: Use the answers from the box to complete the response section below.&nbsp; </strong></p><p><br/></p><p>1. Q: Are you here for the engineering position?&nbsp;</p><p>Type:* yes or no*</p><p>Response: *yes or no*</p><p>2. Q: May I ask your name?</p><p>Type: *indirect closed question*</p><p>Response: *name*&nbsp;</p><p>3. Q: Mr. Johnson is expecting you, isn’t he?&nbsp;</p><p>Type: *question tag*</p><p>Response: *yes or no*</p><p>4. Q: Tell me more about yourself.</p><p>Type: *open ended question*</p><p>Response: *information*</p><p>5. Q: May I ask you what attracted you to this company?</p><p>Type: *open ended question*</p><p>Response: *reason*</p><p>6. Q: Why do you feel that we should hire you?</p><p>Type: *open ended question*</p><p>Response: *reason*</p><p>7. Q: Why are you leaving your current position?</p><p>Type: *open ended question*&nbsp;</p><p>Response: *reason*</p><p>8. Q: Can you tell me about a time when you overcame a challenge in your position?</p><p>Type: *indirect question*</p><p>Response: *example*</p><p>9. Q: What would your boss say about you?</p><p>Type: *closed question*</p><p>Response: *example*</p><p>10. Q: What three adjectives would you use to describe yourself?</p><p>Type: *closed question*</p><p>Response: *example*</p><p>11. Q: Do you have any questions for me?</p><p>Type: *yes or no*</p><p>Response: *questions*</p></div></div>"
@@ -5787,12 +5666,8 @@ export const present_tenses_in_interviews = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -5815,18 +5690,20 @@ export const present_tenses_in_interviews = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681312305058X09438643464573904"
+            "key": "present_tenses_in_interviews"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Instructions: Fill in the blank with correct form of the word in brackets.</strong></h4> <p><strong>Introducing yourself, giving your details </strong><span>and saying when you are available is done in the simple present, e.g. I am from Germany.</span></p><p>1. I *have* (have) a Bachelor’s degree.&nbsp;</p><p>2. Actually, I *come* (come) from Germany.</p><p>3. My current company *produces* (produce) IT equipment.&nbsp;</p><p>4. My employer *knows* (know) that I am interviewing here.&nbsp;</p><p>5. I *am* (be) very interested in this position.</p><p><strong>Speaking about future events</strong><span> that are certain, such as timetables or schedules e.g. Our appointment is at 17:00.&nbsp;</span></p><p>6. The interview *is* (be) set for 23 July.</p><p>7. The train *arrives* (arrive) at 16:45.</p><p>8. Initial interviews *last* (last) one hour.</p><p>9. My train *leaves* (leave) in 20 minutes.</p><p>10. Let’s *meet* (meet) each other on Tuesday, 24 July at 17:00.&nbsp;</p><p><strong>Talk about an event in progress / uncompleted</strong><span> is done in the present continuous</span></p><p><span>e.g. I am currently living in student housing.&nbsp;</span></p><p><span>11. I *am studying* (study) macro-economics.</span></p><p><span>12. We *are looking* (look) for someone who can travel extensively.</span></p><p><span>13. Actually, we *are interviewing* (interview) 3 other candidates for this position.</span></p><p><span>14. I speak German, English, French and I *am learning* (learn) Spanish.</span></p><p><span>15. I *am participating* (participate) in a work-study program. </span></p><p><br/></p><p><br/></p></div></div>"
@@ -5838,12 +5715,8 @@ export const past_tenses_in_interviews = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -5866,18 +5739,20 @@ export const past_tenses_in_interviews = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681312433184X9905091408742746"
+            "key": "past_tenses_in_interviews"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"><h4><strong>Fill in the blank with correct form of the word in brackets.</strong></h4><p><strong>Talking about past experiences or events</strong><span> is done in the simple past.</span></p><p><span>e.g. I went to school in Munich.&nbsp;</span></p><p>1. I *completed* (complete) my degree last year.&nbsp;</p><p>2. From 2010-2016, I *did*(do) an internship in a bank.</p><p>3. I *majored* (major) in Chemistry.&nbsp;</p><p>4. I *began* (begin) as an intern then *received* (receive) a full-time position after 1 year.&nbsp;</p><p>5. Actually, I *left* (leave) the position for personal reasons.</p><p><strong>Talk about things that started in the past, continue to now</strong><span>, or finished recently and effect the present by using the present perfect, e.g. I have just heard from the employer.&nbsp;&nbsp;</span></p><p>6. I *have* just *sent* (sent) in my application.&nbsp;</p><p>7. I *have interviewed* (interview) at three companies so far.&nbsp;</p><p>8. Happily, I *have* already *received* (receive) two job offers.</p><p>9. *Have* you ever *worked* (work) with this program before?</p><p>10. I *have worked* (work) in online marketing ever since leaving the university.</p><p><strong>Talk about things you are doing now</strong><span> that started sometime in the past by using the present perfect continuous, e.g. I have been interviewing for three months.&nbsp;</span></p><p>11. I *have been having* (have) a stressful time.&nbsp;&nbsp;</p><p>12. We *have been looking* (look) for someone with just your experience.</p><p>13. I *have been writing* (write) a travel blog for the past 3 years.</p><p>14. She *has been working* (work) on this report all week.</p><p>15. *Have* you *been waiting* (wait) long?</p></div></div>"
@@ -5889,12 +5764,8 @@ export const future_tenses_in_interviews = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -5917,49 +5788,40 @@ export const future_tenses_in_interviews = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681312508567X7860604276329193"
+            "key": "future_tenses_in_interviews"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Fill in the blank with correct form of the word in brackets.</strong></h4><p><strong>To talk about future facts</strong><span>, things that are 100% certain, or to make certain predictions use the will future, e.g. We will notify you about our decision. Used the qualified will form (I think, he says) to talk about things that are probable but not 100% certain, e.g. I think that I will be done in an hour.&nbsp;</span></p><p><span>1. </span>They say that they *will contact* (contact) me.&nbsp;</p><p>2. He *will want* (want) to contact your references.</p><p>3. They *will* probably *ask* (ask) when you can start.</p><p>4. I think we *will* most likely *be* (be) finished this afternoon.</p><p>5. In July, I *will receive* (receive) my degree.</p><p><strong>To make an offer or make a spontaneous decision</strong><span>, use the shortened “__ 'll “ form of will, e.g. I’ll do that for you. Note: I’ll, you’ll, we’ll, etc. are said in the shortened form (el) and not the longer I will, you will, we will, etc. form. The shortened form is often used in spoken English.</span></p><p><span>6. Thank you for your offer, I think *I'll* (I will) accept it!</span></p><p><span>7. *I'll* (I will) meet you when I am done.</span></p><p><span>8. Here, *I'll* (I will) help you with that.&nbsp;</span></p><p><span>9. *We'll* (we will) call you as soon as we have made a decision.</span></p><p><span>10. *She'll* (she will) help you with whatever you need.</span></p><p><strong>To discuss arrangements</strong><span> that have been made or are ongoing the future continuous is used, e.g. I am meeting with the VP on Monday.&nbsp;&nbsp;</span></p><p>11. I *am travelling/'m travelling/am traveling/'m traveling* (travel) over the next two weeks.&nbsp;</p><p>12. We *are asking/'re asking* (ask) three candidates to return for a second round of interviews.</p><p>13. We *are testing/'re testing* (test) the prototype next month.&nbsp;</p><p>14. I *am finishing/'m finishing* (finish) my degree in two weeks.</p><p>15. I *am meeting/'m meeting* (meet) with her at 10:00am.</p><p><strong>Discuss plans</strong><span>, or things someone wants to do using the going to future, e.g. I am going to write them an email if I don’t hear from them soon. This form is also used to make a sure prediction about something based on evidence that can be seen at the time of speaking, e.g. I see dark clouds, it’s going to rain.&nbsp;</span></p><p>16. I *am going to leave/'m going to leave* (leave) early today.</p><p>17. It’s late. I *am going to finish/'m going to finish* (finish) this tomorrow.</p><p>18. They seem interested. I think they *are going to offer/'re going to offer* (offer) me the position.</p><p>19. If traffic doesn’t pick up we *are going to be late/'re going to be late* (late) for the meeting.</p><p>20. After this I *am going to take/'m going to take* (take) a break.</p></div></div>"
     }
 };
 export const mixed_tenses_in_interviews = {
-    "onfinish": {
-        "alert": "Saved!",
-            "login": true,
-            "store": true
-    },
     "data": {
-        "login": true,
-            "store": [
+        "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
-            "user": true,
-            "key": "1681312667834X8922700844681346"
+        "login": true,
+        "user": true,
+        "key": "mixed_tenses_in_interviews",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "questions": [
         {
             "text": "Click on the sentence that is used for the given purpose. future fact",
@@ -6246,12 +6108,8 @@ export const personal_profile = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -6274,18 +6132,20 @@ export const personal_profile = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681315015192X5454385532577541"
+            "key": "personal_profile"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> A personal profile is a short, but impactful document used to present yourself. This can be an introductory part of a resume, a marketing document used as a quick but impressive overview, or as one element of an online application.&nbsp; Regardless of the use, a profile needs to be well-written, concise, and impressive. </span> </p></div><div class=\"entry-description-fill\"> <h4><span>Fill in the blanks with the correct tense of the indicated verb to complete the sentences.</span></h4> <p class=\"ql-align-center\"> <strong><em>Johann Schmidt</em></strong> </p><p> <span> Johann *is* (be) the founder and CEO of the “TreeFresh” company. This is an online sustainable business that *plants* (plant) 10 trees for every 10 orders *received* (receive). Since its founding in 2010, the company *has grown* (grow) into a global business.&nbsp; Johann *has* also *been featured* (feature) in Forbes and Fortune magazines and *named* (name) “top entrepreneur under 30” in 2017. He is a frequent guest speaker at Fortune 500 companies and *has written* (write) two top-selling books on entrepreneurship.&nbsp; </span> </p><p><span>Johann *holds* (hold) a BS degree in Business and a Masters in Marketing from Hochschule Bonn Rhein Sieg (Sankt Augustin Germany). He *is* (be) currently a lecturer at the University.</span></p><p> <span> Johann *was born* (born) in Wiesbaden, Germany and *grew* (grow) up in Bonn. When not busy travelling, Johann *enjoys* (enjoy) skiing, sailing, playing jazz piano, and can often *be found* (find) walking his dog, Barney. </span> </p></div></div>"
@@ -6297,12 +6157,8 @@ export const relative_clauses = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -6325,18 +6181,20 @@ export const relative_clauses = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681315132941X3943100632725727"
+            "key": "relative_clauses"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span> Relative clauses are short phrases that are used to talk about people and things. They start with relative pronouns: who, whom, that, or which – otherwise – with relative adverbs: where, when, or why. There are two types defining and non-defining clauses. Defining relative clauses provide information that is essential to the sentence. Non-defining relative clauses add additional information to the main sentence and are surrounded by commas. </span> </p><p><span>Defining: The person who is speaking is my English professor.&nbsp;</span></p><p><span>Non-defining: The mobile phone, which I bought yesterday, is 2 years old.&nbsp;</span></p></div><div class=\"entry-description-fill\"> <p><strong>Fill in the blank with the correct word in brackets.</strong><span style=\"color: rgb(102, 102, 102);\"> </span></p><ol> <li>I know the man *who* (who, which) is watching us.</li><li>This is a question *that* (that, what) I have been asking myself for years.</li><li>I look forward to meeting the person *who* (who, what) gets this job next.</li><li>Honestly, I didn’t know the step *that* (that, what) I should take next.</li><li>Do you know the date *when* (when, which) we have to hand in the report?</li><li>This is the place *where* (what, where) we are supposed to meet.</li><li>I am certain this is the time and date *that* (that, what) we scheduled.</li><li>The train *that* (that, who) travels to Amsterdam leaves from Gate 3.</li><li>Excuse me, do you know *who* (who, what) to ask about my ID badge?</li><li>The colleagues *that* (that, what) I contacted were very helpful</li><li>The report says *that* (what, that) the IT industry is the fastest growing business sector.</li><li>Do you know to *whom* (whom, who) this book belongs?</li><li>The travel agency we use, *which* (that, which) is inhouse, books everything for us.</li><li>These are the points *that* (that, what) we must focus on in the seminar.</li><li>This is the position *that* (that, what) I applied for.</li><li>Berlin, *which* (which, that) is Germany’s largest city, has a population of over 3 million inhabitants.</li><li>This is the colleague *who* (whom, who) helped while I was on holiday.</li><li>There are times *when* (that, when) everyone feels unsure.</li><li>The customer *who/that* (that, who) we visited yesterday just placed an order.</li><li>The lecture *that* (that, what) she gave was very good.</li></ol> </div></div>"
@@ -6354,17 +6212,21 @@ export const elevator_pitch = {
 `
 };
 export const elevator_pitch_quiz = {
-        "data": {
-        "key": "1681315269340X7455448666272961",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "elevator_pitch_quiz",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -6514,17 +6376,13 @@ export const elevator_pitch_quiz = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -6554,12 +6412,8 @@ export const reported_speech_exercise = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -6582,18 +6436,20 @@ export const reported_speech_exercise = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681315353465X12926870702719517"
+            "key": "reported_speech_exercise"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <p><strong>Fill in the blank with the opposite type of reported speech, i.e., write indirect reported speech when direct is given -or- write direct quotes when indirect is given.&nbsp;</strong></p><p><span>Note: Use capitalization and punctuation as appropriate. Avoid using contractions/short forms.&nbsp;</span></p><p>1. David declares, “I always walk to work.”</p><p><span>*David declares that he always walks to work.*</span></p><p>2. She asked me, “Where have you been?”</p><p><span>*She asked me where I had been.*</span></p><p>3. “You should revise your expense report,” he advised me.</p><p><span>*He advised me to revise my expense report.*</span></p><p>4. He explained, “I cannot start the position until January.”</p><p><span>*He explained that he could not start the position until January.*</span></p><p>5. She said, “You are right, that is not a good idea.”</p><p><span>*She said that I was right, that it was not a good idea.*</span></p><p>6. She inquired, “When will you be back?”</p><p><span>*She inquired when I would be back.*</span></p><p>7. They asked, “What is the problem?”</p><p><span>*They asked what the problem was.*</span></p><p>8. She argued, “Paul is the best candidate.”</p><p><span>*She argued that Paul is the best candidate./She argued that Paul was the best candidate.*</span></p><p>9. She informed us, “The board is meeting to review the case.”</p><p><span>*She informed us that the board was meeting to review the case.*</span></p><p>10. He said, “I will be flying to Barcelona on the 10th.</p><p><span>*He said that he would be flying to Barcelona on the 10th./He said that he will be flying to Barcelona on the 10th.*</span></p><p>11. You said that you had been talking on the telephone when you had been interrupted.&nbsp;</p><p><span>*I said, \"I had been talking on the telephone when I was interrupted.\"*</span></p><p><span>*I said, \"I was talking on the telephone when I was interrupted.\"*</span></p><p>12. They said that they had finished the work before she had arrived.</p><p><span>*They said, \"We had finished the work before she arrived.\"*</span></p><p>13. The customer said that they would email me the next day about the sales conference.</p><p><span>*The customer said, \"I will email you tomorrow about the sales conference.\"*</span></p><p>14. The manager informed us that in their company, their technology is very advanced.</p><p><span>*The manager informed us, \"In our company our technology is very advanced.\"*</span></p><p>15. The IT technician said that he did not think that that computer could be repaired.&nbsp;</p><p><span>*The IT technician said, \"I do not think that this computer can be repaired.\"*</span></p><p>16. The student asked if there would be a written final exam.</p><p><span>*The student asked, \"Will there be a written final exam?\"*</span></p><p>17. The customer asked if we could renegotiate the contract.</p><p><span>*The customer asked, \"Can we renegotiate the contract?\"*</span></p><p>18. The boss asked me if I was hoping for a salary increase.</p><p><span>*The boss asked me, \"Are you hoping for a salary increase?\"*</span></p><p>19.&nbsp;The customers complained that they had been waiting a long time for their refunds.</p><p><span>*The customers complained, \"We have been waiting a long time for our refunds.\"*</span></p><p>20. She explained that the course had been cancelled after she had paid for it.&nbsp;</p><p><span>*She explained, \"The course was cancelled after I paid for it.\"*</span></p></div></div>"
@@ -6605,12 +6461,8 @@ export const following_up = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -6633,18 +6485,20 @@ export const following_up = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681315459869X12496321282482281"
+            "key": "following_up"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description\"> <p> <span>Writing some type of follow-up correspondence to people you meet at a job fair is essential. This will express gratitude, show initiative, and strengthen the connections in your network of companies and professionals. </span> </p></div><div class=\"entry-description-fill\"> <h4>Fill in the correct word from the box in the blanks below. Pay attention to the correct grammatical form.</h4> <p><span>Hello Mr/Ms ____,</span></p><p> <span>I really *</span><strong>enjoyed* *talking* </strong><span>&nbsp;with you yesterday at the XXX job fair and found our *</span><strong>discussion*</strong> <span> on XXX topic to be very *</span><strong>enlightening*</strong><span>.</span> </p><p> <span>The *</span><strong>insights*</strong><span> </span><span>you gave me about your company were *</span> <strong>appreciated*</strong><span>. In fact, I have *</span><strong>officially* *applied*</strong><span> </span> <span>for the position, as you *</span><strong>recommended*</strong><span>. Furthermore, I have *</span><strong>attached* </strong> <span>a copy of my resume to this email, for your reference.</span> </p><p><span>Again, I appreciate your time and advice. I look forward to *</span><strong style=\"color: rgb(0, 176, 80);\">hearing*</strong><span> from you soon.</span></p><p><span>Kind regards</span></p></div></div>"
@@ -6693,31 +6547,20 @@ export const overview_final_exam = {
 `
 };
 export const a_introductions = {
-    "onfinish": {
-        "alert": "Saved!",
-            "login": true,
-            "store": true
-    },
     "data": {
-        "login": true,
-            "store": [
+        "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
-            "user": true,
-            "key": "1681315741085X0952100627206589"
+        "login": true,
+        "user": true,
+        "key": "a_introductions",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "questions": [
         {
             "text": "Choose the appropriate response for the statement given. How do you do?",
@@ -6941,12 +6784,8 @@ export const describing_what_you_do = {
         "retry": "",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -6969,18 +6808,20 @@ export const describing_what_you_do = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681316703761X8383340600681899"
+            "key": "describing_what_you_do"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"><h4><strong>Fill in the appropriate tense of the word given.</strong></h4><ol><li>What *do* (do) you do for work?</li><li>What line of business *are* (be) you in?</li><li>How long *have you been working/have you worked* (work) in Sales?&nbsp;</li><li>How long *will you stay/are you staying* (stay) in Berlin this week?</li><li>What else *do you wish* (wish) to accomplish while you are here?</li><li>Who else *are you visiting/are you going to visit/will you visit* (you visit) this week?</li><li>Please tell me what you *are doing* (do) here.</li><li>Currently, I *am working* (work) on an audit of the company’s finances.</li><li>Normally, I work in Budapest, but this week I *am stationed* (station) in Berlin.</li><li>&nbsp;I *am specializing/have specialized/am specialized* (specialize) in the use of R Programming for statistical analytics.</li></ol></div>"
@@ -6992,12 +6833,8 @@ export const telephoning = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -7020,35 +6857,41 @@ export const telephoning = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681316786394X041011874841944795"
+            "key": "telephoning"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Use the correct form of the given word to complete the sentence.</strong></h4><ol><li>I *am calling/'m calling* (call) to talk to Katharina.</li><li>She *'s/is* (be) in a meeting right now.&nbsp;</li><li>Can I *take* (take) a message?</li><li>No, thanks. I *'ll/will* (be) call her back.</li><li>Do you know when she *'ll be available/will be available* (available)?</li><li>The meeting *is expected* (expect) to end at 16:00.</li><li>However, it usually *lasts* (last) until at least 17:00.</li><li>Maybe I *'ll try/will try/should try/could try* (try) again at 17:30.</li><li>*Could/May* I tell her who *'s calling/is calling* (call)?</li><li class=\"ql-align-justify\">Sure, *it's/this is* (is) her brother.</li></ol> </div></div>"
     }
 };
 export const emailing = {
-        "data": {
-        "key": "1681316847989X3327487803567102",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "emailing",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -7232,34 +7075,35 @@ export const emailing = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
     ]
 };
 export const report_writing = {
-        "data": {
-        "key": "1681316923381X24740521476163413",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "report_writing",
     },
+
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -7443,34 +7287,34 @@ export const report_writing = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
     ]
 };
 export const presentations = {
-        "data": {
-        "key": "1681316983416X8572093364067639",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "presentations",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -7654,17 +7498,13 @@ export const presentations = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"
@@ -7676,12 +7516,8 @@ export const meetings = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -7704,49 +7540,40 @@ export const meetings = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681317041270X06431796804731471"
+            "key": "meetings"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"> <h4><strong>Complete the sentences with the appropriate form of the given word.</strong><span>&nbsp;If needed, more than one word can be used per blank.</span></h4><ol><li>Are you *attending* (attend) the conference today?</li><li>How *is* your new job *going* (go)?</li><li>When *are* you *presenting* (present)?</li><li class=\"ql-align-justify\">How *have* you *been* (be) since I last saw you?</li><li class=\"ql-align-justify\">*Is* anyone *sitting* (sit) in that seat?</li><li>I&nbsp; *am inclined* (incline) to agree with you.</li><li class=\"ql-align-justify\">I’m sorry, but I *don't/can't/cannot/do not* (not) agree with you.</li><li>If we reach an agreement, they *will sign* (sign) the contract.</li><li>If you *don't/do not* (not) speak louder, then the people in the back won’t hear you.</li><li class=\"ql-align-justify\">If I had done a summer semester, I *would have finished* (finish) my degree already.</li></ol> </div></div>"
     }
 };
 export const cv_resumes = {
-    "onfinish": {
-        "alert": "Saved!",
-            "login": true,
-            "store": true
-    },
     "data": {
-        "login": true,
-            "store": [
+        "store": [
             "ccm.store",
-            {
-                "name": "ws_result_data",
-                "url": "https://ccm2.inf.h-brs.de"
-            }
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
-            "user": true,
-            "key": "1681317214581X43714094938468384"
+        "login": true,
+        "user": true,
+        "key": "cv_resumes",
     },
-    "user": [
-        "ccm.instance",
-        "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.0.0.js",
-        {
-            "realm": "guest",
-            "title": "Guest Mode: Please enter any username"
-        }
-    ],
+    "onfinish": {
+        "store": true,
+        "alert": "Saved!"
+    },
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "questions": [
         {
             "text": "Click on the correct answer.",
@@ -7778,11 +7605,11 @@ export const cv_resumes = {
             "text": "Click on the correct answer.",
             "answers": [
                 {
-                    "text": "To node a position which began in 2000 and continuing \\\"2000-present\\\" is used.",
+                    "text": "To node a position which began in 2000 and continuing --2000-present-- is used.",
                     "correct": true
                 },
                 {
-                    "text": "To node a position which began in 2000 and is continuing \\\"2000 on\\\" is used.",
+                    "text": "To node a position which began in 2000 and is continuing --2000 on-- is used.",
                     "correct": false
                 }
             ]
@@ -7930,12 +7757,8 @@ export const interviews = {
         "retry": "Retry",
             "submit": "Check",
             "start": "Start",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-        "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/cloze/resources/templates.html"
@@ -7958,35 +7781,41 @@ export const interviews = {
         "mark": "*",
         "data": {
         "store": [
-            "ccm.store"
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
         ],
             "login": true,
             "user": true,
-            "key": "1681317964876X034624488741019865"
+            "key": "interviews"
     },
-    "user": null,
+    "user": [ "ccm.instance", "components/ccm.user.js" ],
         "onfinish": {
+        "store": true,
         "restart": true,
-            "confirm": "",
-            "clear": false,
-            "alert": ""
+        "confirm": "",
+        "clear": false,
+        "alert": "Saved!"
     },
     "text": {
         "inner": "<div class=\"entry-content\"> <div class=\"entry-description-fill\"><h4><strong>Complete the sentences with the appropriate answer.</strong></h4><ol><li>Respond to the question tag, “It’s almost over isn’t it?” with *Yes/yes/yes, it is/Yes, it is*.</li><li>Respond to the indirect question, “Do you mind if I ask your name?” with *no/No/No, I don't mind*.</li><li>Closed and yes/no questions are used to obtain *specific/concrete* information.</li><li>I *am* (be) very interested in this position.</li><li>I *am studying* (study) marketing.</li><li>The interview *is* (be) scheduled for 15:30.</li><li>I *am* currently *attending* (attend) university.</li><li>My degree studies *will be finished* (finish) next spring.</li><li>I *completed* (complete) an internship in 2012.</li><li>From 2016-2018, I *was employed* (employed) by Amazon.</li></ol> </div></div>"
     }
 };
 export const job_fair = {
-        "data": {
-        "key": "1681318031617X37029191861328603",
-            "store": [
-            "ccm.store"
-        ]
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+        ],
+        "login": true,
+        "user": true,
+        "key": "job_fair",
     },
     "onfinish": {
+        "store": true,
         "restart": true,
             "confirm": "",
             "clear": false,
-            "alert": ""
+            "alert": "Saved!"
     },
     "questions": [
         {
@@ -8170,17 +7999,13 @@ export const job_fair = {
         "shuffle": false,
         "random": false,
         "escape": false,
-        "user": null,
+        "user": [ "ccm.instance", "components/ccm.user.js" ],
         "placeholder": {
         "prev": "",
             "submit": "Check",
             "next": "Next",
-            "finish": "Restart"
+            "finish": "Finish"
     },
-    "helper": [
-        "ccm.load",
-        "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs"
-    ],
         "html": [
         "ccm.load",
         "https://ccmjs.github.io/akless-components/quiz/resources/templates.html"

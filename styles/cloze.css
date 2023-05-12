@@ -112,6 +112,7 @@ button:disabled {
   border: 1px solid #a0a0a0;
   white-space: nowrap;
   letter-spacing: 1px;
+  color: white;
 }
 
 .gap input:disabled {

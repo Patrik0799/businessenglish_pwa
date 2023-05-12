@@ -28,7 +28,7 @@
 
     name: 'quiz', version: [ 4, 0, 3 ],
 
-    ccm: 'https://ccmjs.github.io/ccm/versions/ccm-25.0.0.js',
+    ccm: 'https://ccmjs.github.io/ccm/versions/ccm-25.5.2.js',
 
     config: {
 //    "answers": [],
@@ -40,7 +40,7 @@
 //    "data": { "store": [ "ccm.store" ] },
 //    "escape": true,
 //    "feedback": true,
-      "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-4.0.2.mjs" ],
+      "helper": [ "ccm.load", "./components/helper-5.1.0.mjs" ],
       "html": [ "ccm.load", "./templates/templates_quiz.html" ],
 //    "input": 'radio',
 //    "logger": [ "ccm.instance", "https://ccmjs.github.io/akless-components/log/versions/ccm.log-4.0.2.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/log/resources/configs.js", "greedy" ] ],

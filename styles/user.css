@@ -72,10 +72,18 @@
 
 #btn-abort {
   float: right;
-  background-color: orangered;
+  background-color: red;
   border-radius: 7px;
   padding: 5px 15px;
+  transition: background-color 0.4s;
 }
+
+#btn-abort:hover {
+  cursor: pointer;
+  background-color: orangered;
+  border-color: orangered;
+}
+
 #btn-login {
   background-color: #00559b;
   color: white;
@@ -83,8 +91,15 @@
   border-radius: 7px;
   padding: 8px 17px;
   font-size: 15px;
-
+  transition: background-color 0.4s;
 }
+
+#btn-login:hover{
+  cursor: pointer;
+  background-color: #228BE6;
+  border-color: #00559b;
+}
+
 .well-sm {
   padding: 3px !important;
 }

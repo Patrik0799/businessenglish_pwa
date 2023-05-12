@@ -38,12 +38,20 @@
 
 #send {
   background-color: #00559b;
+  transition: background-color 0.4s;
   color: white;
   border: none;
   border-radius: 7px;
   padding: 5px 15px;
   margin-top: 10px;
 }
+
+#send:hover {
+  cursor: pointer;
+  background-color: #228BE6;
+  border-color: #00559b;
+}
+
 .message {
   display: flex;
   padding: 0.25em 0.5em 0.25em 1.5em;
