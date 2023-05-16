@@ -1,0 +1,34 @@
+{
+  "files": [
+    "/index.html",
+    "/components/ccm.app_collection.js",
+    "/components/ccm.chat.js",
+    "/components/ccm.cloze-7.0.2.js",
+    "/components/ccm.content.js",
+    "/components/ccm.live_poll.js",
+    "/components/ccm.menu-2.4.4.js",
+    "/components/ccm.quick_decide.js",
+    "/components/ccm.quiz-4.0.3.js",
+    "/components/ccm.result.js",
+    "/components/ccm.table-4.1.0.js",
+    "/components/ccm.user.js",
+    "/components/helper-5.1.0.mjs",
+    "/demo_resources/resources.mjs",
+    "/styles/app_collection.css",
+    "/styles/chat.css",
+    "/styles/cloze.css",
+    "/styles/content.css",
+    "/styles/live_poll.css",
+    "/styles/menu.css",
+    "/styles/quick_decide.css",
+    "/styles/quiz.css",
+    "/styles/result.css",
+    "/styles/user.css",
+    "/templates/templates.mjs",
+    "/templates/templates_chat.html",
+    "/templates/templates_login.js",
+    "/templates/templates_quiz.html",
+    "/templates/templates_result.html"
+  ]
+}
+

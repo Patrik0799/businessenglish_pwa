@@ -552,11 +552,11 @@ export const live_poll = {
     },
 }
 export const result = {
-    store: [ "ccm.store" , {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}],
+    store: [ "ccm.store" , {name: "pzelen2s_results", url: "http://localhost:8080"}],
 }
 export const chat_config = {
     data: {
-        store: [ "ccm.store", {name: "pzelen2s_chat", url: 'wss://ccm2.inf.h-brs.de'}],
+        store: [ "ccm.store", {name: "pzelen2s_chat", url: 'http://localhost:8080'}],
         key: "general_chat",
         permissions: {
             "access": {
@@ -614,7 +614,7 @@ export const present_simple = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
