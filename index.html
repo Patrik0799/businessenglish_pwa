@@ -1,26 +1,58 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<title>Demo | Business English</title>
-<style>
-    body {
-        margin: 0;
-        background-color: #282828;
-    }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo | Business English</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #282828;
+        }
+    </style>
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+</head>
 <body>
+<script src="https://ccmjs.github.io/ccm/versions/ccm-21.1.3.js"></script>
 <script>
+    const publicVapidKey =
+        "BOSbPFmncQ-3pGsgf_1fRVs_5WDSJtul87zLTU6c1emrGiI4nHcHCuN-vTwpPsNjgdbpzPmHYs9U61qhLz0ysZk";
+
     if('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('./service-worker.js')
-                .then(function (registration) {
-                    console.log('Service Worker registered with scope: ', registration.scope);
-                })
-                .catch(function (error) {
-                    console.log('Service Worker registration failed: ', error);
-                })
+        send().catch(err => console.log('Service Worker registration failed: ', err));
+    }
+    async function send() {
+        //Register Service Worker
+        const register = await navigator.serviceWorker.register('./service-worker.js')
+        console.log('Service worker registered');
+
+        //Register Push
+        const subscription = await register.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: publicVapidKey
         })
+        console.log('Sending push...');
+
+        const store = await ccm.store({
+            name: "push_subs",
+            url: "http://localhost:8080"
+        })
+
+        const existing = await store.get("push_notification")
+
+        console.log(existing.value);
+
+        if(subscription.endpoint !== existing.value.endpoint) {
+            await store.set({
+                key: "push_notification",
+                value: subscription
+            });
+        }
+
+        console.log("Push sent");
+
     }
 </script>
 <script src="components/ccm.app_collection.js"></script>
 <ccm-app_collection src='["ccm.load", "./demo_resources/resources.mjs#app_collection_config"]'></ccm-app_collection>
+</body>
 

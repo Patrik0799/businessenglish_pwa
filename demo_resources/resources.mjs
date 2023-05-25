@@ -661,7 +661,7 @@ export const present_progressive = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -680,7 +680,7 @@ export const presentsimple_vs_presentprogressive_quiz = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -891,7 +891,7 @@ export const mixed_exercise = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1112,7 +1112,7 @@ export const listening_and_writing = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1161,7 +1161,7 @@ export const pronounciation_in_introductions = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1286,7 +1286,7 @@ export const what_do_you_do = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1384,7 +1384,7 @@ export const what_are_you_doing = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1509,7 +1509,7 @@ export const presentsimple_vs_presentprogressive_cloze = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1531,7 +1531,7 @@ export const tenses_quick_quiz = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1756,7 +1756,7 @@ export const pastsimple_vs_continuous = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1778,7 +1778,7 @@ export const quick_decision_quiz = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -1997,7 +1997,7 @@ export const present_perfect_fill_in = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2046,7 +2046,7 @@ export const conversation = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2114,7 +2114,7 @@ export const opening_and_closing_quick_decision = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2359,7 +2359,7 @@ export const punctuation = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2408,7 +2408,7 @@ export const capitalization = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2430,7 +2430,7 @@ export const modals = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2736,7 +2736,7 @@ export const softening_phrases = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -2784,7 +2784,7 @@ export const sections_of_a_report = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -3043,7 +3043,7 @@ export const formal_vs_informal_english = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -3066,7 +3066,7 @@ export const active_vs_passive_voice = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -3321,7 +3321,7 @@ export const linking_words = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -3391,7 +3391,7 @@ export const word_order = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -3445,7 +3445,7 @@ export const preview = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -3690,7 +3690,7 @@ export const body_of_the_presentation = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -3739,7 +3739,7 @@ export const adjectives_and_adverbs = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -3788,7 +3788,7 @@ export const review = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -3837,7 +3837,7 @@ export const closing = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -3910,7 +3910,7 @@ export const small_talk_questions = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -3932,7 +3932,7 @@ export const agreeing_and_disagreeing = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -4136,7 +4136,7 @@ export const conditionals = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -4227,7 +4227,7 @@ export const countable_and_uncountable_nouns = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -4262,7 +4262,7 @@ export const writing_dates_exercise = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -4480,7 +4480,7 @@ export const personal_details = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -4769,7 +4769,7 @@ export const education_section = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -4791,7 +4791,7 @@ export const verbs_and_prepositions = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -5291,7 +5291,7 @@ export const experience_and_skill_section = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -5563,7 +5563,7 @@ export const adjectives_and_prepositions = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -5642,7 +5642,7 @@ export const questions_in_interviews = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -5691,7 +5691,7 @@ export const present_tenses_in_interviews = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -5740,7 +5740,7 @@ export const past_tenses_in_interviews = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -5789,7 +5789,7 @@ export const future_tenses_in_interviews = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -5811,7 +5811,7 @@ export const mixed_tenses_in_interviews = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -6133,7 +6133,7 @@ export const personal_profile = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -6182,7 +6182,7 @@ export const relative_clauses = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -6215,7 +6215,7 @@ export const elevator_pitch_quiz = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -6437,7 +6437,7 @@ export const reported_speech_exercise = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -6486,7 +6486,7 @@ export const following_up = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -6550,7 +6550,7 @@ export const a_introductions = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -6809,7 +6809,7 @@ export const describing_what_you_do = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -6858,7 +6858,7 @@ export const telephoning = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -6880,7 +6880,7 @@ export const emailing = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -7091,7 +7091,7 @@ export const report_writing = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -7303,7 +7303,7 @@ export const presentations = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -7541,7 +7541,7 @@ export const meetings = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -7563,7 +7563,7 @@ export const cv_resumes = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
@@ -7782,7 +7782,7 @@ export const interviews = {
         "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
             "login": true,
             "user": true,
@@ -7804,7 +7804,7 @@ export const job_fair = {
     "data": {
         "store": [
             "ccm.store",
-            {name: "pzelen2s_results", url: "https://ccm2.inf.h-brs.de"}
+            {name: "pzelen2s_results", url: "http://localhost:8080"}
         ],
         "login": true,
         "user": true,
