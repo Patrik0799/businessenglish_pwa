@@ -1,0 +1,198 @@
+/**
+ * @overview default layout of ccmjs-based web component for commentary
+ * @author André Kless <andre.kless@web.de.de> 2021-2022
+ * @license The MIT License (MIT)
+ */
+
+#element {
+  background-color: #333333;
+  color: white;
+  font-family: /*system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,*/ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > div {
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+header > section:first-child {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0;
+}
+
+header > section:first-child > span {
+  padding-right: 1em;
+}
+
+header > section:last-child,
+header > section:last-child > * {
+  padding-left: 1em;
+}
+
+header + article {
+  margin-bottom: 2em;
+}
+
+.button {
+  font-size: medium;
+  background-color: #00559b;
+  border-radius: 7px;
+  margin-top: 0.5em;
+  border: none;
+}
+
+.button:hover {
+  background-color: #228BE6;
+}
+
+.btn {
+  background-color: #00559b;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #228BE6;
+  color: white;
+  border: none;
+}
+
+.btn-link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-left: -0.5em;
+}
+
+.picture {
+  margin-right: 1em;
+}
+
+article,
+.picture + div {
+  width: 100%;
+}
+
+.picture img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+article article .picture {
+  margin-right: 0.5em;
+}
+
+article article .picture img {
+  width: 24px;
+  height: 24px;
+}
+
+textarea {
+  width: 100%;
+}
+
+article {
+  display: flex;
+  margin: 0.5em 0;
+}
+
+article a,
+article button {
+  margin-top: 0.2em;
+}
+
+main > article {
+  margin-bottom: 1em;
+}
+
+main > article > div:last-child {
+  flex: 1;
+  text-align: right;
+}
+
+.text {
+  white-space: pre-wrap;
+}
+
+textarea + div {
+  position: relative;
+}
+
+textarea + div > button {
+  position: absolute;
+  right: 0;
+}
+
+small {
+  color: gray;
+}
+
+small span:last-child {
+  padding-left: 0.2em;
+}
+
+small i:hover {
+  color: var( --color );
+  cursor: pointer;
+}
+
+*[data-report] {
+  background-color: rgba( 255, 0, 0, 0.2 );
+}
+
+*[data-hidden] {
+  display: none !important;
+}
+
+input[type="checkbox"]:not(:checked) + label i:first-child,
+input[type="checkbox"]:checked + label i:last-child,
+input[type="checkbox"]:not(:checked) + label + div {
+  display: none;
+}
+
+/* Dark Mode */
+
+#element.dark_mode {
+  background-color: black;
+  color: white;
+}
+
+#element.dark_mode small {
+  color: #b1b1b1;
+}
+
+#element.dark_mode .btn-link {
+  color: #0d6efd !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  #element.dark_auto {
+    background-color: black;
+    color: white;
+  }
+
+  #element.dark_auto small {
+    color: #b1b1b1;
+  }
+
+  #element.dark_auto .btn-link {
+    color: #0d6efd !important;
+  }
+}

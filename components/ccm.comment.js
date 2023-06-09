@@ -22,8 +22,8 @@
       "css": [ "ccm.load",
         [  // serial
           "https://ccmjs.github.io/tkless-components/libs/bootstrap-5/css/bootstrap.min.css",
-          "https://ccmjs.github.io/tkless-components/libs/bootstrap-5/css/bootstrap-dark.min.css",
-          "https://ccmjs.github.io/tkless-components/comment/resources/styles.min.css"
+          "./styles/comment.css",
+          "https://ccmjs.github.io/tkless-components/libs/bootstrap-5/css/bootstrap-dark.min.css"
         ],
         "https://ccmjs.github.io/tkless-components/libs/bootstrap-5/css/bootstrap-icons.min.css",
         { "url": "https://ccmjs.github.io/tkless-components/libs/bootstrap-5/css/bootstrap-fonts.min.css", "context": "head" },
@@ -31,7 +31,7 @@
       "dark": false,
       "data": { "store": [ "ccm.store" ] },
       "helper": [ "ccm.load", "https://ccmjs.github.io/akless-components/modules/versions/helper-8.0.0.min.mjs" ],
-      "html": [ "ccm.load", "https://ccmjs.github.io/tkless-components/comment/resources/templates.mjs" ],
+      "html": [ "ccm.load", "./templates/templates_comment.mjs" ],
 //    "lang": [ "ccm.start", "https://ccmjs.github.io/akless-components/lang/versions/ccm.lang-1.1.0.min.js" ],
       "libs": [ "ccm.load", [
         "https://ccmjs.github.io/tkless-components/libs/dayjs/dayjs.min.js",
