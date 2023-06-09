@@ -40,7 +40,7 @@
 //    "icon": [ "ccm.load", "https://ccmjs.github.io/tkless-components/app_collection/resources/app.svg" ],
 //    "lang": [ "ccm.start", "https://ccmjs.github.io/akless-components/lang/versions/ccm.lang-1.1.0.min.js" ],
 //    "logger": [ "ccm.instance", "https://ccmjs.github.io/akless-components/log/versions/ccm.log-5.0.1.min.js", [ "ccm.get", "https://ccmjs.github.io/akless-components/log/resources/configs.min.js", "greedy" ] ],
-//    "routing": [ "ccm.instance", "https://ccmjs.github.io/akless-components/routing/versions/ccm.routing-3.0.0.min.js" ],
+      "routing": [ "ccm.instance", "./components/ccm.routing.js" ],
       "sections": [],
 //    "title": "",
 //    "user": [ "ccm.start", "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.7.2.min.js" ]

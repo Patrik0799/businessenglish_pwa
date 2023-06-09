@@ -34,19 +34,22 @@
         console.log('Sending push...');
 
         const store = await ccm.store({
-            name: "push_subs",
+            name: "pzelen2s_push_subs",
             url: "http://localhost:8080"
         })
 
-        const existing = await store.get("push_notification")
+        //const existing = await store.get("push_notification")
 
-        console.log(existing.value);
+        //console.log(existing.value);
 
-        if(subscription.endpoint !== existing.value.endpoint) {
-            await store.set({
-                key: "push_notification",
+        if(subscription.endpoint !== localStorage.getItem("endpoint")) {
+            const result = await store.set({
+                store: "pzelen2s_push_subs",
+                query: {},
                 value: subscription
             });
+
+            localStorage.setItem("endpoint", subscription.endpoint);
         }
 
         console.log("Push sent");

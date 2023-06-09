@@ -23,18 +23,22 @@ export function main( app, onClick ) {
   return html`
     <header>
       <div class="header-app-name">
-          <img src="./icons/b.png" alt="B">
-          <img class="e" src="./icons/e.png" alt="E">
-          <div id="headline">${ headline( app.title || '' ) }</div>
+<!--          <img src="./icons/b.png" alt="B">-->
+<!--          <img class="e" src="./icons/e.png" alt="E">-->
+              <!--         <div id="headline">${ headline( app.title || '' ) }</div>-->
           <div class="home-button" @click=${ () => onClick() }>
               <img class="business-english-icon" src="./icons/home_button.png" alt="home-button">
           </div>
+          <div class="title-of-app">
+              <p>Business English</p>
+          </div>
       </div>
-      <div class="login-section">
-        <div id="nav">
+        <div class="login-section">
+            <div id="nav">
             </div>
             <img class="business-english-icon" src="./icons/business_english.png" alt="business-english-icon">
-     </div>
+        </div>
+
     </header>
     <main></main>
     <footer class="sticky_footer" ?data-hidden=${ !app.footer.length }>
@@ -69,7 +73,7 @@ export function home( app, onClick ) {
           ${ section.entries.map( ( entry, j ) => app.routing ? html`
             <a class="entry" href="?ccm-${ app.routing.app }=home-${ i + 1 }-${ j + 1 }" @click=${ event => { event.preventDefault(); onClick( i + 1, j + 1 ); } }>
               <img src="${ entry.icon || app.icon || '' }" ?data-invisible=${ !entry.icon && !app.icon }>
-              <span>${ entry.title }</span>
+              <span>${ unsafeHTML(entry.title) }</span>
             </a>
           ` : html`
             <div class="entry" @click=${ () => onClick( i + 1, j + 1 ) }>

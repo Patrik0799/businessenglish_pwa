@@ -518,7 +518,7 @@ export const app_collection_config = {
             {
                 "title": `<p>Chat</p>`,
                 "icon": "icons/chat.png",
-                "ignore": [ "ccm.start", "components/ccm.chat.js", ["ccm.load", "./demo_resources/resources.mjs#chat_config"]]
+                "ignore": [ "ccm.start", "components/ccm.comment.js", ["ccm.load", "./demo_resources/resources.mjs#comment_config"]]
             },
             {
                 "title": `<p>Results</p>`,
@@ -554,7 +554,7 @@ export const live_poll = {
 export const result = {
     store: [ "ccm.store" , {name: "pzelen2s_results", url: "http://localhost:8080"}],
 }
-export const chat_config = {
+/*export const chat_config = {
     data: {
         store: [ "ccm.store", {name: "pzelen2s_chat", url: 'http://localhost:8080'}],
         key: "general_chat",
@@ -567,6 +567,16 @@ export const chat_config = {
         }
     },
     user: [ "ccm.instance", "components/ccm.user.js" ]
+};*/
+
+export const comment_config = {
+    "data": {
+        "store": [
+            "ccm.store",
+            {name: "pzelen2s_comments", url: "http://localhost:8080"}
+        ],
+    },
+    "user": [ "ccm.instance", "./components/ccm.user.js" ]
 };
 export const introduction = {
     "inner" : `
@@ -626,7 +636,10 @@ export const present_simple = {
         "restart": true,
         "confirm": "",
         "clear": false,
-        "alert": "Saved!"
+        "alert": "Saved!",
+            callback: (results) => {
+
+            }
     },
     "text": "<div class=\"entry-content\"> <p class=\"entry-title\"><strong class=\"title-strong\">Section I - Introductions and the Present Simple</strong></p><div class=\"entry-description\"> <p> <span> Being able to introduce yourself well is a key skill in business. In fact, how you introduce yourself will influence how others think of and interact with you. To introduce yourself in English you use the present tenses. These tenses are the present simple and the present progressive. </span> </p><p><strong>Most often the present simple (also called simple present) is used to introduce yourself and to talk about what you do</strong><em style=\"color: #000;\">.</em></p><p> <em><span class=\"ql-cursor\"></span></em><span>This is because the present simple is used to talk about permanent states and facts, such as what your name is, where you live or where are from, plus what you do for work, e.g.,</span> <em>My name is John. I am a systems analyst. I live in Sankt Augustin, Germany</em><span>The present simple is also used to talk about thoughts, feelings, habits, e.g.,</span> <em>I am happy to meet you in person. I feel a little tired. I drink coffee. We speak English and German at the office.</em> </p></div><div class=\"entry-description-fill\"> <h4><strong>Fill in the blank with the correct form of the words from the box above.</strong></h4> <ol> <li><span>My name *is* Judith.</span></li><li><span>I *am* called Judy.</span></li><li><span>I *work* for Ford.</span></li><li><span>I *live* in Germany.</span></li><li><span>We *work* together.</span></li><li><span>The company *produces*</span><span></span><span>computers.</span></li><li><span>The firm *is* in London.</span></li><li><span>I *like* my work.</span></li><li><span>I *go* to work by train.</span></li><li><span>She *drinks* tea, not coffee.</span></li><li><span>I *speak*</span><span></span><span>English well.</span></li><li><span>He *does* accounting.</span></li></ol> </div></div>"
 };

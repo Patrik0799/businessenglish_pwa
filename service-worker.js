@@ -78,4 +78,22 @@ self.addEventListener('push', event => {
     })
 })
 
+/*self.addEventListener('sync', e => {
+    if(e.tag === 'post-message') {
+        e.waitUntil(addData());
+    }
+})
+
+function addData() {
+    //indexDB
+    //
+    //
+    //do the fetch call here
+}
+// Background registration in component that I need
+function backgroundSync() {
+    navigator.serviceWorker.ready.then( swRegistration => swRegistration.sync.register('post-data')).catch(err => console.log(err))
+}
+
+//When you make a post call, if there is an error (like offline) you call backgroundSync()*/
 
